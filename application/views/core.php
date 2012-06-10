@@ -38,7 +38,7 @@
         <div class="row">
         <div class="span4">
           <p>Bring a youngling to GeekcampSG this year!</p>
-          <p>Page generated in {elapsed_time}s</p>
+          <p>Page generated in <?php echo $this->benchmark->elapsed_time();?>s</p>
         </div>
         </div>
       </footer>

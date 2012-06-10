@@ -7,6 +7,10 @@
   <p class="subtitle">The geek scene's average age has been growing year by year over the past few years, and we believe that the time is now right to get more younglings in again :) So, bring a young geek along with you when you come to GeekcampSG this year.</p>
   <h2 class="about">Topics up for voting!</h2>
   <p class="subtitle">Sign up to talk <a href="<?php echo site_url('pages/submit_talk') ?>">here</a>!</p>
+  <?php if($talks->count() == 0){ ?>
+  <p class="subtitle">No talks submitted for this year yet.</p>
+  <?php }
+  else{?>
   <table class="table table-bordered table-striped">
     <thead>
       <tr>
@@ -27,6 +31,7 @@
       
     </tbody>
   </table>
+  <?php } ?>
 </div>
 <div class="span5">
   <h2 class="about">Partners</h2>
@@ -35,7 +40,7 @@
   <h3 class="about">Silver Sponsors</h2>
   <h3 class="about">Media Partners</h2>
   <span class="info">
-    <a href="http://e27.sg" target="_blank"><img class="partner-images" src="<?php echo base_url()?>static/images/e27-logo.png"></a>
-    <a href="http://sgentrepreneurs.com/" target="_blank"><img class="partner-images" src="<?php echo base_url()?>static/images/sge-logo.jpeg"></a>
+    <a href="http://e27.sg" target="_blank"><img class="partner-images" src="<?php echo base_url('static/images/e27-logo.png')?>"></a>
+    <a href="http://sgentrepreneurs.com/" target="_blank"><img class="partner-images" src="<?php echo base_url('static/images/sge-logo.jpeg')?>"></a>
   </span>
 </div>

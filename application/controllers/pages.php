@@ -25,8 +25,9 @@ class Pages extends CI_Controller {
 		$this->output->cache(1);
 	}
 
-	public function schedule(){
-
+	public function schedule($year = NULL){
+		$data['content'] = $this->load->view('pages/schedule'.$year, '', TRUE);
+		$this->load->view('core', $data);
 	}
 
 	public function submit_talk(){

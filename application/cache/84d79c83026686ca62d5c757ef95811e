@@ -1,4 +1,4 @@
-1339322679TS---><!DOCTYPE html>
+1339325413TS---><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -40,7 +40,7 @@
   <p class="subtitle">The geek scene's average age has been growing year by year over the past few years, and we believe that the time is now right to get more younglings in again :) So, bring a young geek along with you when you come to GeekcampSG this year.</p>
   <h2 class="about">Topics up for voting!</h2>
   <p class="subtitle">Sign up to talk <a href="http://localhost/~laurence/geekcamp.sg/pages/submit_talk">here</a>!</p>
-  <table class="table table-bordered table-striped">
+    <table class="table table-bordered table-striped">
     <thead>
       <tr>
         <th>Topic</th>
@@ -50,22 +50,16 @@
     <tbody>
             <tr>
         <td>
-          <b>Awesome talk</b><br />Awesome stuff<br />
-          <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fgeekcamp.sg%2F%232012-Awesome+talk-laurenceputra&amp;send=false&amp;layout=button_count&amp;width=95&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=segoe+ui&amp;height=21&amp;appId=275526672542963" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:95px; height:21px;" allowTransparency="true"></iframe>
+          <b>Zhng your Vim!</b><br />Zhng your vim lor. What else you want? Haiz :(
+&lt;img src=&quot;http://localhost/~laurence/geekcamp.sg/static/images/e27-logo.png&quot;&gt;<br />
+          <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fgeekcamp.sg%2F%232012-Zhng+your+Vim%21-Calvin+Cheng&amp;send=false&amp;layout=button_count&amp;width=95&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=segoe+ui&amp;height=21&amp;appId=275526672542963" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:95px; height:21px;" allowTransparency="true"></iframe>
         </td>
-        <td>laurenceputra<br /><a href="http://twitter.com/laurenceputra" target="_blank">@laurenceputra</a></td>
-      </tr>
-            <tr>
-        <td>
-          <b>Talk Number 2</b><br />This is going to be an awesome talk :)<br />
-          <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fgeekcamp.sg%2F%232012-Talk+Number+2-Laurence+Putra+Franslay&amp;send=false&amp;layout=button_count&amp;width=95&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=segoe+ui&amp;height=21&amp;appId=275526672542963" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:95px; height:21px;" allowTransparency="true"></iframe>
-        </td>
-        <td>Laurence Putra Franslay<br /><a href="http://twitter.com/laurenceputra" target="_blank">@laurenceputra</a></td>
+        <td>Calvin Cheng<br /><a href="http://twitter.com/laurenceputra" target="_blank">@laurenceputra</a></td>
       </tr>
             
     </tbody>
   </table>
-</div>
+  </div>
 <div class="span5">
   <h2 class="about">Partners</h2>
   <h3 class="about">Platinum Sponsors</h2>
