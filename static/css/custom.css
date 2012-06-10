@@ -1,0 +1,22 @@
+.partner-images{
+    vertical-align:top;
+}
+.subtitle{
+    font-size:18px;
+    line-height:23px;
+}
+.sublabel{
+    padding-left:5px;
+}
+.twitter-input{
+    background:url('../img/@sign.gif') no-repeat left center #FFFFFF;
+    padding-left:15px;
+}
+.padded-element{
+    padding: 20px 0px 40px 20px;
+}
+#talk-description{
+    max-width:400px;
+    min-width:400px;
+    min-height:150px;
+}
