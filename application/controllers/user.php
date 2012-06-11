@@ -9,7 +9,7 @@ class User extends CI_Controller {
 	/****************************
      * renders the page for account creation
     ****************************/
-	public function signup(){
+	public function _signup(){
 		if(!$this->user_lib->is_logged_in()){
 			$this->load->library('form_validation');
 

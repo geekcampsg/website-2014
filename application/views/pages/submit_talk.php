@@ -60,7 +60,7 @@
                 </div>
             </div>
             <?php 
-            if ($this->user_lib->is_logged_in()){
+            if (isset($edit)){
                 if(isset($talk['published'])){
                     if($talk['published']){
                         //link to unpublish talk
@@ -72,7 +72,7 @@
             }
             ?>
         </fieldset>
-        <button type="submit" class="btn">Register talk now!</button>
+        <button type="submit" class="btn"><?php if(isset($edit)){?>Update talk now!<?php }else{?>Register talk now! <?php }?></button>
         </form>
     </div>
 </div>

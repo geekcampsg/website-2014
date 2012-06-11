@@ -17,6 +17,12 @@ class Pages extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
+	/*******************
+     * Index page
+     * Displays list of proposed talks in current year with voting buttons
+     * Uses Facebook Likes and Google +1's for voting
+     * Output is cached for 1 minute
+    *******************/
 	public function index(){
 		$this->load->model('talk_model');
 		$data['talks'] = $this->talk_model->get_all_published_talks_for_current_year();
@@ -25,6 +31,13 @@ class Pages extends CI_Controller {
 		$this->output->cache(1);
 	}
 
+	/*******************
+     * Schedule page
+     * Displays schedule for the year passed into $year
+     * Admin sets $min_year in this function
+     * Admin creates a new view/schedules/schedule2012.php for every new year
+     * Output is cached for 1 hour
+    *******************/
 	public function schedule($year = -1){
 		$min_year = 2012;
 		if($year == -1 || $year < $min_year){
@@ -32,9 +45,15 @@ class Pages extends CI_Controller {
 		}
 		$data['content'] = $this->load->view('schedules/schedule'.$year, '', TRUE);
 		$this->load->view('core', $data);
-		$this->output->cache(1);
+		$this->output->cache(60);
 	}
 
+	/*******************
+     * Talk submission page
+     * Allows users to submit talk with fields title, talk-description, speaker-name, email-address, website, and twitter-handle
+     * Validates the talk details, throw an error if condition fails
+     * Shows talk success page on success
+    *******************/
 	public function submit_talk(){
 		$this->load->library('form_validation');
 
@@ -58,6 +77,11 @@ class Pages extends CI_Controller {
 		}	
 	}
 
+	/*******************
+     * Email page
+     * Allows users to email the organisers
+     * Shows email success page on success
+    *******************/
 	public function email(){
 		$this->load->library('form_validation');
 
@@ -87,6 +111,10 @@ Sending Script: $_SERVER[HTTP_HOST]$_SERVER[PHP_SELF]";
 
 		}
 	}
+
+	/*******************
+     * 404 page
+    *******************/
 	public function four_o_four(){
 		$data['content'] = $this->load->view('pages/four_o_four', '', TRUE);
 		$this->load->view('core', $data);

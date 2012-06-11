@@ -17,10 +17,12 @@ class Admin extends CI_Controller {
      * map to /index.php/welcome/<method_name>
      * @see http://codeigniter.com/user_guide/general/urls.html
      */
-    public function unmoderated_talks(){
-        
-    }
-
+    /*******************
+     * Displays all talks. 
+     * Paginated in pages of 50 in order of the talks in the most recent year. 
+     * Generally, $count is not used at all.
+     * Requires: Logged in User
+    *******************/
     public function view_all_talks($page = 0, $count = 50){
         if($this->user_lib->is_logged_in()){
             $this->load->library('pagination');
@@ -43,6 +45,10 @@ class Admin extends CI_Controller {
         }
     }
 
+    /*******************
+     * Edits talk with id as argument
+     * Requires: Logged in User
+    *******************/
     public function edit_talk($id = -1){
         if($this->user_lib->is_logged_in()){
             $this->load->library('form_validation');
@@ -62,8 +68,14 @@ class Admin extends CI_Controller {
                 $this->load->view('core', $data);
             }
             else{
-                $data['talk'] = $this->talk_model->get_talk_by__id($id);
-                $data['content'] = $this->load->view('pages/submit_talk', $data, TRUE);
+                if($id == -1){
+                    $data['content'] = $this->load->view('pages/four_o_four', '', TRUE);
+                }
+                else{
+                    $data['talk'] = $this->talk_model->get_talk_by__id($id);
+                    $data['edit'] = TRUE;
+                    $data['content'] = $this->load->view('pages/submit_talk', $data, TRUE);
+                }
                 $this->load->view('core', $data);
             }
             
