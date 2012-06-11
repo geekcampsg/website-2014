@@ -22,7 +22,7 @@ class Pages extends CI_Controller {
 		$data['talks'] = $this->talk_model->get_all_published_talks_for_current_year();
 		$data['content'] = $this->load->view('pages/index', $data, TRUE);
 		$this->load->view('core', $data);
-		//$this->output->cache(1);
+		$this->output->cache(1);
 	}
 
 	public function schedule($year = NULL){
@@ -54,24 +54,33 @@ class Pages extends CI_Controller {
 	}
 
 	public function email(){
-		//declare our assets 
-		$name = stripcslashes($_POST['name']);
-		$emailAddr = stripcslashes($_POST['email']);
-		$comment = stripcslashes($_POST['message']);
-		$subject = stripcslashes($_POST['subject']);	
-		$contactMessage =  
-			"Message:
-			$comment 
+		$this->load->library('form_validation');
 
-			Name: $name
-			E-mail: $emailAddr
+		$this->form_validation->set_rules('name', 'Name', 'trim|required|stripcslashes');
+		$this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email|strtolower|stripcslashes');
+		$this->form_validation->set_rules('subject', 'Subject', 'trim|required|stripcslashes');
+		$this->form_validation->set_rules('msg', 'Message', 'trim|required|stripcslashes');
+		
+		if($this->form_validation->run()){
+			$contactMessage =  
+"Message:
+".set_value('msg')."
 
-			Sending IP:$_SERVER[REMOTE_ADDR]
-			Sending Script: $_SERVER[HTTP_HOST]$_SERVER[PHP_SELF]";
-			
-		//send the email 
-		mail('geekcampsg@googlegroups.com', $subject, $contactMessage);
-		echo('success'); //return success callback
+Name: ".set_value('name')."
+E-mail: ".set_value('email')."
+
+Sending IP:$_SERVER[REMOTE_ADDR]
+Sending Script: $_SERVER[HTTP_HOST]$_SERVER[PHP_SELF]";
+			 
+			mail('geekcampsg@googlegroups.com', set_value('subject'), $contactMessage);
+			$data['content'] = $this->load->view('pages/email_success', '', TRUE);
+			$this->load->view('core', $data);
+		}
+		else{
+			$data['content'] = $this->load->view('pages/email', '', TRUE);
+			$this->load->view('core', $data);
+
+		}
 	}
 	public function four_o_four(){
 		$data['content'] = $this->load->view('pages/four_o_four', '', TRUE);

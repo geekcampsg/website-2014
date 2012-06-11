@@ -9,7 +9,7 @@
             <div class="control-group<?php echo ($str == NULL)?'':' error'?>">
                 <div class="controls">
                     <label for="title">Title *</label>
-                    <input type="title" class="input-xlarge" id="title" name="title" placeholder="Enter the talk's title here" value="<?php echo set_value('title', isset($talk['title'])?$talk['title']:''); ?>" tabindex="1"><br />
+                    <input type="text" class="input-xlarge" id="title" name="title" placeholder="Enter the talk's title here" value="<?php echo set_value('title', isset($talk['title'])?$talk['title']:''); ?>" tabindex="1"><br />
                     <?php echo ($str == NULL)?'':'<span class="help-inline">'.$str.'</span>'?>
                 </div>
             </div>
@@ -27,7 +27,7 @@
             <div class="control-group<?php echo ($str == NULL)?'':' error'?>">
                 <div class="controls">
                     <label for="speaker-name">Speaker Name *</label>
-                    <input type="speaker-name" class="input-xlarge" id="speaker-name" name="speaker-name" placeholder="Enter your real name here" value="<?php echo set_value('speaker-name', isset($talk['speaker_name'])?$talk['speaker_name']:''); ?>" tabindex="3"><br />
+                    <input type="text" class="input-xlarge" id="speaker-name" name="speaker-name" placeholder="Enter your real name here" value="<?php echo set_value('speaker-name', isset($talk['speaker_name'])?$talk['speaker_name']:''); ?>" tabindex="3"><br />
                     <?php echo ($str == NULL)?'':'<span class="help-inline">'.$str.'</span>'?>
                 </div>
             </div>
@@ -37,7 +37,7 @@
                 <div class="controls">
                     <label for="email-address">Email Address *</label>
                     <p class="sublabel">(Note! Your email address is collected to arrange the schedules when the vote results are out.<br />It will not be released to public without your permission)</p>
-                    <input type="email-address" class="input-xlarge" id="email-address" name="email-address" placeholder="Enter your email address here" value="<?php echo set_value('email-address', isset($talk['email'])?$talk['email']:''); ?>" tabindex="4"><br />
+                    <input type="text" class="input-xlarge" id="email-address" name="email-address" placeholder="Enter your email address here" value="<?php echo set_value('email-address', isset($talk['email'])?$talk['email']:''); ?>" tabindex="4"><br />
                     <?php echo ($str == NULL)?'':'<span class="help-inline">'.$str.'</span>'?>
                 </div>
             </div>
@@ -46,7 +46,7 @@
             <div class="control-group<?php echo ($str == NULL)?'':' error'?>">
                 <div class="controls">
                     <label for="website">Website</label>
-                    <input type="website" class="input-xlarge" id="website" name="website" placeholder="Enter your website here" value="<?php echo set_value('website', isset($talk['website'])?$talk['website']:''); ?>" tabindex="5"><br />
+                    <input type="text" class="input-xlarge" id="website" name="website" placeholder="Enter your website here" value="<?php echo set_value('website', isset($talk['website'])?$talk['website']:''); ?>" tabindex="5"><br />
                     <?php echo ($str == NULL)?'':'<span class="help-inline">'.$str.'</span>'?>
                 </div>
             </div>
@@ -55,7 +55,7 @@
             <div class="control-group<?php echo ($str == NULL)?'':' error'?>">
                 <div class="controls">
                     <label for="twitter-handle">Twitter handle</label>
-                    <input type="twitter-handle" class="twitter-input input-xlarge" id="twitter-handle" name="twitter-handle" placeholder="geekcamp" value="<?php echo set_value('twitter-handle', isset($talk['twitter_handle'])?$talk['twitter_handle']:''); ?>" tabindex="6"><br />
+                    <input type="text" class="twitter-input input-xlarge" id="twitter-handle" name="twitter-handle" placeholder="geekcamp" value="<?php echo set_value('twitter-handle', isset($talk['twitter_handle'])?$talk['twitter_handle']:''); ?>" tabindex="6"><br />
                     <?php echo ($str == NULL)?'':'<span class="help-inline">'.$str.'</span>'?>
                 </div>
             </div>
