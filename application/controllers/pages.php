@@ -22,7 +22,7 @@ class Pages extends CI_Controller {
 		$data['talks'] = $this->talk_model->get_all_published_talks_for_current_year();
 		$data['content'] = $this->load->view('pages/index', $data, TRUE);
 		$this->load->view('core', $data);
-		$this->output->cache(1);
+		//$this->output->cache(1);
 	}
 
 	public function schedule($year = NULL){
@@ -37,11 +37,12 @@ class Pages extends CI_Controller {
 		$this->form_validation->set_rules('talk-description', 'Description', 'trim|required');
 		$this->form_validation->set_rules('speaker-name', 'Name', 'trim|required');
 		$this->form_validation->set_rules('email-address', 'Email', 'trim|required|valid_email|strtolower');
+		$this->form_validation->set_rules('website', 'Website', 'trim');
 		$this->form_validation->set_rules('twitter-handle', 'Twitter', 'trim');
 
 		if($this->form_validation->run()){
 			$this->load->model('talk_model');
-			$this->talk_model->create_talk(set_value('title'), set_value('talk-description'), set_value('speaker-name'), set_value('email-address'), set_value('twitter-handle'));
+			$this->talk_model->create_talk(set_value('title'), set_value('talk-description'), set_value('speaker-name'), set_value('email-address'), set_value('website'), set_value('twitter-handle'));
 			$data['msg'] = 'Your talk has been updated. It will be shown on the front page soon.';
 			$data['content'] = $this->load->view('pages/submit_talk_success', $data, TRUE);
 			$this->load->view('core', $data);	
@@ -52,6 +53,26 @@ class Pages extends CI_Controller {
 		}	
 	}
 
+	public function email(){
+		//declare our assets 
+		$name = stripcslashes($_POST['name']);
+		$emailAddr = stripcslashes($_POST['email']);
+		$comment = stripcslashes($_POST['message']);
+		$subject = stripcslashes($_POST['subject']);	
+		$contactMessage =  
+			"Message:
+			$comment 
+
+			Name: $name
+			E-mail: $emailAddr
+
+			Sending IP:$_SERVER[REMOTE_ADDR]
+			Sending Script: $_SERVER[HTTP_HOST]$_SERVER[PHP_SELF]";
+			
+		//send the email 
+		mail('geekcampsg@googlegroups.com', $subject, $contactMessage);
+		echo('success'); //return success callback
+	}
 	public function four_o_four(){
 		$data['content'] = $this->load->view('pages/four_o_four', '', TRUE);
 		$this->load->view('core', $data);

@@ -1,9 +1,14 @@
+body{
+
+}
 .partner-images{
     vertical-align:top;
+    width:180px;
+    padding-bottom:5px;
 }
 .subtitle{
-    font-size:18px;
-    line-height:23px;
+    font-size:16px;
+    line-height:20px;
 }
 .sublabel{
     padding-left:5px;
@@ -13,7 +18,7 @@
     padding-left:15px;
 }
 .padded-element{
-    padding: 20px 0px 40px 20px;
+    padding: 20px 20px 40px 20px;
 }
 #talk-description{
     max-width:400px;

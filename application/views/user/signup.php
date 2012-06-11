@@ -2,7 +2,7 @@
     <div class="padded-element">
         <h2>Creating an account</h2>
         <?php 
-        echo form_open('user/create_account_form', array('class'=>'form-vertical')); 
+        echo form_open('user/signup', array('class'=>'form-vertical')); 
         ?>
         <fieldset>
             <?php $str = form_error('email'); ?>

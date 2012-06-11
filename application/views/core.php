@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Geekcamp.SG</title>
-    <meta name="description" content="Littlespark Coming soon page">
-    <meta name="author" content="littlespark VT">
+    <meta name="description" content="Geekcamp.SG webpage">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -27,7 +26,12 @@
         </div>
         <div class="span6">
           <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fgeekcampsg&amp;send=false&amp;layout=button_count&amp;width=95&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=segoe+ui&amp;height=21&amp;appId=275526672542963" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:95px; height:21px;" allowTransparency="true"></iframe>
-          <a href="https://twitter.com/geekcamp" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @GeekcampSG</a>
+          | <a href="https://twitter.com/geekcamp" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @GeekcampSG</a>
+          | <a href="https://twitter.com/">#geekcampsg</a>
+          <?php if($this->user_lib->is_logged_in()){ ?>
+          | <a href="<?php echo site_url('admin/view_all_talks')?>">View all talks</a>
+          | <a href="<?php echo site_url('user/logout')?>">Logout</a>
+          <?php } ?>
         </div>
       </div>
       <div class="row">
@@ -38,7 +42,7 @@
         <div class="row">
         <div class="span4">
           <p>Bring a youngling to GeekcampSG this year!</p>
-          <p>Page generated in <?php echo $this->benchmark->elapsed_time();?>s</p>
+          <p>Page generated in {elapsed_time}s</p>
         </div>
         </div>
       </footer>

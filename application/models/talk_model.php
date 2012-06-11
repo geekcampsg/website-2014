@@ -15,21 +15,37 @@ class Talk_model extends CI_Model {
         return $collection->find($query);
     }
 
-    public function get_all_talks_for_current_year(){
+    public function get_all_talks($page, $count){
         $collection = $this->choose_collection();
-        $query = array(
-            'year' => (int)date('Y'),
-        );
-        return $collection->find($query);
+        $query = array();
+        return $collection->find($query)
+                            ->sort(array('year' => -1))
+                            ->skip($page * $count)
+                            ->limit($count);
+    }
+    public function get_number_of_talks(){
+        $collection = $this->choose_collection();
+        return $collection->find()->count();
     }
 
-    public function create_talk($title, $description, $speaker_name, $email, $twitter){
+    public function get_talk_by__id($id){
+        $id = new MongoID($id);
         $collection = $this->choose_collection();
+        $query = array('_id' => $id);
+        return $collection->findOne($query);
+    }
+
+    public function create_talk($title, $description, $speaker_name, $email, $website, $twitter){
+        $collection = $this->choose_collection();
+        if($website && strpos($website,'https://') === FALSE && strpos($website,'http://') === FALSE){
+            $website = 'http://'.$website;
+        }
         $talk = array(
             'title' => (string)$title,
             'description' => (string)$description,
             'speaker_name' => (string)$speaker_name,
             'email' => (string)$email,
+            'website' => (string)$website,
             'twitter_handle' => (string)$twitter,
             'published' => TRUE,
             'year' => (int)date('Y'),
@@ -38,15 +54,18 @@ class Talk_model extends CI_Model {
         $collection->insert($talk, $settings);
     }
 
-    public function edit_talk($title, $description, $speaker_name, $twitter){
+    public function edit_talk($_id, $title, $description, $speaker_name, $email, $website, $twitter){
         $collection = $this->choose_collection();
-        $query = array('title' => (string)$title);
+        $query = array('_id' => new MongoID($_id));
         $update = array('$set' => array(
+            'title' => (string)$title,
             'description' => (string)$description,
             'speaker_name' => (string)$speaker_name,
-            'twitter_handle' => (string)$twitter_handle,
+            'email' => (string)$email,
+            'website' => (string)$website,
+            'twitter_handle' => (string)$twitter,
         ));
-        $settings = array('fsync' => TRUE, 'upsert' => TRUE);
+        $settings = array('fsync' => TRUE);
         $collection->update($query, $update, $settings);
     }
 

@@ -2,7 +2,7 @@
     <div class="padded-element">
         <h2>Login</h2>
         <?php 
-        echo form_open('user/login_form', array('class'=>'form-vertical')); 
+        echo form_open('user/login', array('class'=>'form-vertical')); 
         ?>
         <fieldset> 
             <?php if($error){ ?>

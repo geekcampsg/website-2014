@@ -9,19 +9,17 @@ class User extends CI_Controller {
 	/****************************
      * renders the page for account creation
     ****************************/
-	public function create_account_form(){
-		$this->load->library('user_lib');
+	public function signup(){
 		if(!$this->user_lib->is_logged_in()){
-			$this->load->helper('security');
 			$this->load->library('form_validation');
 
 			$this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email|strtolower|callback__check_email');
-			$this->form_validation->set_rules('password', 'Password', 'required|min_length[7]|matches[password_conf]|do_hash');
+			$this->form_validation->set_rules('password', 'Password', 'required|min_length[7]|matches[password_conf]');
 			$this->form_validation->set_rules('password_conf', 'Password Confirmation', 'required');
 
 			if($this->form_validation->run() == FALSE){
 				$data['create_account'] = true;
-				$data['content'] = $this->load->view('user/create_account_form', '', true);
+				$data['content'] = $this->load->view('user/signup', '', true);
 				$this->load->view('core', $data);
 			}
 			else{
@@ -30,25 +28,24 @@ class User extends CI_Controller {
 				$this->session->set_userdata('email', set_value('email'));
 				$this->session->set_userdata('id', $_id);
 				$this->session->set_userdata('type', 'user');
-				redirect('/user/instagram_auth');
+				redirect('admin/view_all_talks');
 			}
 		}
 		else{
-			redirect('user/dashboard');
+			redirect('admin/view_all_talks');
 		}
 	}
 
 	/****************************
      * renders the page for login
     ****************************/
-	public function login_form(){
-		$this->load->library('user_lib');
+	public function login(){
 		if(!$this->user_lib->is_logged_in()){
 			$this->load->helper('security');
 			$this->load->library('form_validation');
 
 			$this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email|strtolower');
-			$this->form_validation->set_rules('password', 'Password', 'required|min_length[7]|do_hash');
+			$this->form_validation->set_rules('password', 'Password', 'required|min_length[7]');
 
 			$this->load->model('user_model');
 			$valid = $this->form_validation->run();
@@ -63,7 +60,7 @@ class User extends CI_Controller {
 			if(!$valid || !$user){
 				$data['error'] = !$user;
 				$data['login'] = true;
-				$data['content'] = $this->load->view('user/login_form', $data, true);
+				$data['content'] = $this->load->view('user/login', $data, true);
 				$this->load->view('core', $data);
 			}
 			else{
@@ -71,12 +68,12 @@ class User extends CI_Controller {
 				$this->session->set_userdata('id', $user['_id']);
 				$this->session->set_userdata('type', $user['type']);
 
-				redirect('admin/dashboard');
+				redirect('admin/view_all_talks');
 				
 			}
 		}
 		else{
-			redirect('admin/dashboard');
+			redirect('admin/view_all_talks');
 		}	
 	}
 
@@ -119,9 +116,8 @@ GeekBot';
      * resets the password if within 10 minutes
     ****************************/
 	public function password_reset_form($key){
-		$this->load->helper('security');
 		$this->load->library('form_validation');
-		$this->form_validation->set_rules('password', 'Password', 'required|min_length[7]|matches[password_conf]|do_hash');
+		$this->form_validation->set_rules('password', 'Password', 'required|min_length[7]|matches[password_conf]');
 		$this->form_validation->set_rules('password_conf', 'Password Confirmation', 'required');
 
 		if($this->form_validation->run()){
