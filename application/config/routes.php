@@ -41,13 +41,6 @@
 $route['default_controller'] = "pages";
 $route['404_override'] = 'pages/four_o_four';
 
-$route['contact'] = 'pages/email';
-$route['talks'] = 'pages/index';
-
-$route['signup'] = 'user/signup';
-$route['login'] = 'user/login';
-$route['logout'] = 'user/logout';
-
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
