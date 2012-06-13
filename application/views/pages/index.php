@@ -9,7 +9,7 @@
   <p class="subtitle">The geek scene's average age has been growing year by year over the past few years, and we believe that the time is now right to get more younglings in again :) So, bring a young geek along with you when you come to GeekcampSG this year. <pre>Youngling: A geek who's still in school, be it Primary, Secondary, ITE/Poly/JC, or Uni.</pre></p>
   <h2 class="about">Topics up for voting!</h2>
   <p class="subtitle"><b>Like or +1 the topics that you want to hear to vote.</b> Voting will close 1 week before the event. Top 15 talks (depending on venue) will be scheduled.</p>
-  <p class="subtitle">Sign up for the event <a href="http://geekcampsg12.eventbrite.com">here</a>. Register your talk <a href="<?php echo site_url('pages/submit_talk') ?>">here</a>.</p>
+  <p class="subtitle">Sign up for the event <a href="http://geekcampsg12.eventbrite.com" target="_blank">here</a>. Register your talk <a href="<?php echo site_url('pages/submit_talk') ?>">here</a>.</p>
   <?php if($talks->count() == 0){ ?>
   <p class="subtitle">No talks submitted for this year yet.</p>
   <?php }
