@@ -26,11 +26,11 @@
         </div>
         <div class="span6">
           <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fgeekcampsg&amp;send=false&amp;layout=button_count&amp;width=95&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=segoe+ui&amp;height=21&amp;appId=275526672542963" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:95px; height:21px;" allowTransparency="true"></iframe>
-          | <a href="https://twitter.com/geekcamp" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @GeekcampSG</a>
-          | <a href="https://twitter.com/">#geekcampsg</a>
+          <a href="https://twitter.com/geekcamp" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @GeekcampSG</a>
+          <a href="https://twitter.com/">#geekcampsg</a>
           <?php if($this->user_lib->is_logged_in()){ ?>
           | <a href="<?php echo site_url('admin/view_all_talks')?>">View all talks</a>
-          | <a href="<?php echo site_url('user/logout')?>">Logout</a>
+          <a href="<?php echo site_url('user/logout')?>">Logout</a>
           <?php } ?>
         </div>
       </div>
