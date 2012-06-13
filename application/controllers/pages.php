@@ -43,7 +43,7 @@ class Pages extends CI_Controller {
 			$year = date('Y');
 		}
 		$this->load->model('schedule_model');
-		$data['schedule'] = $this->schedule_model->get_schedule($year)
+		$data['schedule'] = $this->schedule_model->get_schedule($year);
 		$data['content'] = $this->load->view('schedules/schedule', $data, TRUE);
 		$this->load->view('core', $data);
 		//$this->output->cache(60);
