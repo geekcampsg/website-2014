@@ -1,4 +1,4 @@
-1339598316TS---><!DOCTYPE html>
+1339598755TS---><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -117,7 +117,7 @@
       <li>Justin Lee</li>
       <li><a href="http://geeksphere.net" target="_blank">Laurence Putra</a></li>
       <li>Luther Goh (elfgoh)</li>
-      <li>Shanmugam Mpl</li>
+      <li><a href="https://twitter.com/shannietron" target="_blank">Shanmugam Mpl</a></li>
       <li>Sneha Menon</li>
       <li>Vishnu Prem</li>
     </ul>
@@ -127,8 +127,8 @@
   <p class="sublabel">Drop us an email <a href="http://localhost/~laurence/geekcamp.sg/pages/email">here</a>.</p>
   <h3 class="about">Media Partners</h2>
   <span class="info">
-    <a href="http://e27.sg" target="_blank"><img class="partner-images" src="http://localhost/~laurence/geekcamp.sg/static/images/e27-logo.png"></a>
-    <a href="http://sgentrepreneurs.com/" target="_blank"><img class="partner-images" src="http://localhost/~laurence/geekcamp.sg/static/images/sge-logo.jpeg"></a>
+    <a href="http://e27.sg" target="_blank"><img class="media-partner-images" src="http://localhost/~laurence/geekcamp.sg/static/images/e27-logo.png"></a>
+    <a href="http://sgentrepreneurs.com/" target="_blank"><img class="media-partner-images" src="http://localhost/~laurence/geekcamp.sg/static/images/sge-logo.jpeg"></a>
   </span>
 </div>
 <script type="text/javascript">
