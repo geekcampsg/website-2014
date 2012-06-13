@@ -39,13 +39,14 @@ class Pages extends CI_Controller {
      * Output is cached for 1 hour
     *******************/
 	public function schedule($year = -1){
-		$min_year = 2012;
-		if($year == -1 || $year < $min_year){
+		if($year == -1){
 			$year = date('Y');
 		}
-		$data['content'] = $this->load->view('schedules/schedule'.$year, '', TRUE);
+		$this->load->model('schedule_model');
+		$data['schedule'] = $this->schedule_model->get_schedule($year)
+		$data['content'] = $this->load->view('schedules/schedule', $data, TRUE);
 		$this->load->view('core', $data);
-		$this->output->cache(60);
+		//$this->output->cache(60);
 	}
 
 	/*******************

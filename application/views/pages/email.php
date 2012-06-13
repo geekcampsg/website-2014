@@ -1,9 +1,9 @@
 <div class="span12">
     <div class="padded-element">
-        <h2>Submit a talk!</h2>
-        <p class="subtitle">(Talk about a technology you are really passionate about. Can be anything.)</p>
+        <h2>Email Us!</h2>
+        <p class="subtitle">(Are you interested in sponsoring us?<br />Or do you want to host our event at your location?<br />Drop us an email using the form below and we'll do our best to respond asap.)</p>
 
-        <?php echo form_open(current_url().(isset($talk['_id'])?'/'.$talk['_id']:''), array('class'=>'form-vertical')) ?>
+        <?php echo form_open(current_url(), array('class'=>'form-vertical')) ?>
         <fieldset>
             <?php $str = form_error('name'); ?>
             <div class="control-group<?php echo ($str == NULL)?'':' error'?>">
@@ -36,7 +36,7 @@
             <div class="control-group<?php echo ($str == NULL)?'':' error'?>">
                 <div class="controls">
                     <label for="msg">Message *</label>
-                    <textarea name="msg" id="msg" tabindex="4"><?php echo set_value('msg'); ?></textarea><br />
+                    <textarea name="msg" id="msg" class="textarea-half" tabindex="4"><?php echo set_value('msg'); ?></textarea><br />
                     <?php echo ($str == NULL)?'':'<span class="help-inline">'.$str.'</span>'?>
                 </div>
             </div>

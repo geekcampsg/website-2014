@@ -20,7 +20,7 @@ body{
 .padded-element{
     padding: 20px 20px 40px 20px;
 }
-#talk-description{
+.textarea-half{
     max-width:400px;
     min-width:400px;
     min-height:150px;
