@@ -62,8 +62,8 @@
   <p class="sublabel">Drop us an email <a href="<?php echo site_url('pages/email')?>">here</a>.</p>
   <h3 class="about">Media Partners</h2>
   <span class="info">
-    <a href="http://e27.sg" target="_blank"><img class="partner-images" src="<?php echo base_url('static/images/e27-logo.png')?>"></a>
-    <a href="http://sgentrepreneurs.com/" target="_blank"><img class="partner-images" src="<?php echo base_url('static/images/sge-logo.jpeg')?>"></a>
+    <a href="http://e27.sg" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/e27-logo.png')?>"></a>
+    <a href="http://sgentrepreneurs.com/" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/sge-logo.jpeg')?>"></a>
   </span>
 </div>
 <script type="text/javascript">
