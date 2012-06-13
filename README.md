@@ -25,7 +25,6 @@ If you are using mongodb with username and passwords and replica sets. Edit corr
 *  define('MONGO_USERNAME',    'your mongo username');
 *  define('MONGO_PASSWORD',    'your mongo password for your mongo db');
 *  define('MONGO_CONNECTION', 'connect to your mongo instance');
-*  define('MONGO_OPTIONS', array('db' => MONGO_DB_NAME, 'replicaSet' => MONGO_REPLICA_SET));
 
 **applications/models/core_model.php**
 
