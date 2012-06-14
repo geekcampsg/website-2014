@@ -100,7 +100,7 @@ body {
   font-size: 13px;
   line-height: 18px;
   color: #333333;
-  background-color: #cccccc;
+  background-color: #eee;
   padding-top:40px;
 }
 a {
@@ -606,10 +606,10 @@ table {
 }
 .table-striped tbody tr:nth-child(even) td,
 .table-striped tbody tr:nth-child(even) th {
-  background-color: #eeeeee;
+  background-color: #ddd;
 }
 .table thead{
-  background: #eeeeee;
+  background: #ddd;
 }
 .table tbody tr:hover td,
 .table tbody tr:hover th {
