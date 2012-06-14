@@ -564,7 +564,7 @@ table {
   padding: 4px 5px;
 }
 .table-bordered {
-  border: 1px solid #ddd;
+  border: 1px solid #bbb;
   border-collapse: separate;
   *border-collapse: collapsed;
   -webkit-border-radius: 4px;
@@ -575,7 +575,7 @@ table {
 .table-bordered td + td,
 .table-bordered th + td,
 .table-bordered td + th {
-  border-left: 1px solid #ddd;
+  border-left: 1px solid #bbb;
 }
 .table-bordered thead:first-child tr:first-child th, .table-bordered tbody:first-child tr:first-child th, .table-bordered tbody:first-child tr:first-child td {
   border-top: 0;
