@@ -64,6 +64,7 @@
   <span class="info">
     <a href="http://e27.sg" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/e27-logo.png')?>"></a>
     <a href="http://sgentrepreneurs.com/" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/sge-logo.jpeg')?>"></a>
+    <a href="http://www.techinasia.com/" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/techinasia-logo.jpg')?>"></a>
   </span>
 </div>
 <script type="text/javascript">
