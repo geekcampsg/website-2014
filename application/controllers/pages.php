@@ -68,7 +68,6 @@ class Pages extends CI_Controller {
 		if($this->form_validation->run()){
 			$this->load->model('talk_model');
 			$this->talk_model->create_talk(set_value('title'), set_value('talk-description'), set_value('speaker-name'), set_value('email-address'), set_value('website'), set_value('twitter-handle'));
-			$data['msg'] = 'Your talk has been updated. It will be shown on the front page soon.';
 			$data['content'] = $this->load->view('pages/submit_talk_success', $data, TRUE);
 			$this->load->view('core', $data);	
 		}
