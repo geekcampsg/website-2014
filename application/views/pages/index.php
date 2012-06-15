@@ -66,6 +66,10 @@
     <a href="http://sgentrepreneurs.com/" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/sge-logo.jpeg')?>"></a>
     <a href="http://www.techinasia.com/" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/techinasia-logo.jpg')?>"></a>
   </span>
+  <h3 class="about">Community Partners</h2>
+  <span class="info">
+    <a href="http://hackerspace.sg/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/hackerspace-logo.jpg')?>"></a>
+  </span>
 </div>
 <script type="text/javascript">
   (function() {

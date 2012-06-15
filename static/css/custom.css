@@ -1,6 +1,11 @@
 .media-partner-images{
     vertical-align:top;
-    width:180px;
+    width:120px;
+    padding-bottom:5px;
+}
+.community-partner-images{
+    vertical-align:top;
+    width:120px;
     padding-bottom:5px;
 }
 .subtitle{
