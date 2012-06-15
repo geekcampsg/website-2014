@@ -68,7 +68,7 @@ class Pages extends CI_Controller {
 		if($this->form_validation->run()){
 			$this->load->model('talk_model');
 			$this->talk_model->create_talk(set_value('title'), set_value('talk-description'), set_value('speaker-name'), set_value('email-address'), set_value('website'), set_value('twitter-handle'));
-			$data['content'] = $this->load->view('pages/submit_talk_success', $data, TRUE);
+			$data['content'] = $this->load->view('pages/submit_talk_success', '', TRUE);
 			$this->load->view('core', $data);	
 		}
 		else{
