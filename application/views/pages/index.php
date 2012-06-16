@@ -4,6 +4,7 @@
   <p class="subtitle">Conference for the geeks.</p>
   <p class="subtitle">No startup talks. No how to get rich talks. This is purely a tech conference.</p> 
   <p class="subtitle"><b>For geeks. By geeks.</b></p>
+  <p class="subtitle">Hashtag: <b>#geekcampsg</b></p>
   <h2 class="about">Theme</h2>
   <p class="subtitle">This year, our theme is</p>
   <pre>Bring a youngling to GeekcampSG!</pre> 
@@ -64,18 +65,18 @@
   <p class="sublabel">Interested to work with us?</p>
   <p class="sublabel">Drop us an email <a href="<?php echo site_url('pages/email')?>">here</a>.</p>
   <h3 class="about">Media Partners</h3>
-  <span class="info">
+  <div class="info">
     <a href="http://e27.sg" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/e27-logo.png')?>"></a>
     <a href="http://sgentrepreneurs.com/" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/sge-logo.jpeg')?>"></a>
     <a href="http://www.techinasia.com/" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/techinasia-logo.jpg')?>"></a>
-  </span>
+  </div>
   <h3 class="about">Community Partners</h3>
-  <span class="info">
+  <div class="info">
     <a href="http://hackerspace.sg/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/hackerspace-logo.jpg')?>"></a>
     <a href="https://www.facebook.com/groups/sghypertextpreprocessors/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/singapore-php-logo.jpg')?>"></a>
     <a href="http://www.nushackers.org" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/nushackers-logo.jpg')?>"></a>
     <a href="https://groups.google.com/forum/#!forum/singapore-rb" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/srb-logo.jpg')?>"></a>
-  </span>
+  </div>
 </div>
 <script type="text/javascript">
   (function() {
