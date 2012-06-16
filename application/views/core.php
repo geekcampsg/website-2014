@@ -5,7 +5,7 @@
     <title>Geekcamp.SG</title>
     <meta name="description" content="Join us for GeekcampSG this year, with tons of geeky talks and what not!">
     <meta property="og:title" content="Geekcamp.SG">
-    <meta property="og:description" content="Join us for GeekcampSG this year, with tons of geeky talks and what not!">
+    <meta property="og:description" content="Vote for your favourite talk here!">
     <meta property="og:image" content="http://geekcamp.pbworks.com/f/1314843253/geekcamp2011_website.png" />
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
