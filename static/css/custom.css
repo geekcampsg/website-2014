@@ -1,11 +1,26 @@
-.media-partner-images{
+.platinum-sponsor-images{
+    vertical-align:top;
+    width:360px;
+    padding-bottom:5px;
+}
+.gold-sponsor-images{
+    vertical-align:top;
+    width:180px;
+    padding-bottom:5px;
+}
+.silver-sponsor-images{
     vertical-align:top;
     width:120px;
     padding-bottom:5px;
 }
+.media-partner-images{
+    vertical-align:top;
+    width:90px;
+    padding-bottom:5px;
+}
 .community-partner-images{
     vertical-align:top;
-    width:120px;
+    width:90px;
     padding-bottom:5px;
 }
 .subtitle{
