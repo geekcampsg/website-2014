@@ -69,6 +69,7 @@
   <h3 class="about">Community Partners</h2>
   <span class="info">
     <a href="http://hackerspace.sg/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/hackerspace-logo.jpg')?>"></a>
+    <a href="https://www.facebook.com/groups/sghypertextpreprocessors/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/singapore-php-logo.jpg')?>"></a>
   </span>
 </div>
 <script type="text/javascript">
