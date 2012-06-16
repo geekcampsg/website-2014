@@ -5,8 +5,10 @@
   <p class="subtitle">No startup talks. No how to get rich talks. This is purely a tech conference.</p> 
   <p class="subtitle"><b>For geeks. By geeks.</b></p>
   <h2 class="about">Theme</h2>
-  <p class="subtitle">This year, our theme is <pre>Bring a youngling to GeekcampSG!</pre></p> 
-  <p class="subtitle">The geek scene's average age has been growing year by year over the past few years, and we believe that the time is now right to get more younglings in again :) So, bring a young geek along with you when you come to GeekcampSG this year. <pre>Youngling: A geek who's still in school, be it Primary, Secondary, ITE/Poly/JC, or Uni.</pre></p>
+  <p class="subtitle">This year, our theme is</p>
+  <pre>Bring a youngling to GeekcampSG!</pre> 
+  <p class="subtitle">The geek scene's average age has been growing year by year over the past few years, and we believe that the time is now right to get more younglings in again :) So, bring a young geek along with you when you come to GeekcampSG this year.</p>
+  <pre>Youngling: A geek who's still in school, be it Primary, Secondary, ITE/Poly/JC, or Uni.</pre>
   <h2 class="about">Topics up for voting!</h2>
   <p class="subtitle"><b>Like or +1 the topics that you want to hear to vote.</b> Voting will close 1 week before the event. Top 15 talks (depending on venue) will be scheduled.</p>
   <p class="subtitle">Sign up for the event <a href="http://geekcampsg12.eventbrite.com" target="_blank">here</a>. Register your talk <a href="<?php echo site_url('pages/submit_talk') ?>">here</a>.</p>
@@ -48,28 +50,26 @@
 </div>
 <div class="span5">
   <h2 class="about">Brought to you by</h2>
-  <p class="subtitle">
-    <ul>
-      <li>Chua Ruiwen</li>
-      <li>Joyce Huang</li>
-      <li>Justin Lee</li>
-      <li><a href="http://geeksphere.net" target="_blank">Laurence Putra</a></li>
-      <li>Luther Goh (elfgoh)</li>
-      <li><a href="https://twitter.com/shannietron" target="_blank">Shanmugam Mpl</a></li>
-      <li>Sneha Menon</li>
-      <li>Vishnu Prem</li>
-    </ul>
-  </p>
+  <ul class="subtitle">
+    <li>Chua Ruiwen</li>
+    <li>Joyce Huang</li>
+    <li>Justin Lee</li>
+    <li><a href="http://geeksphere.net" target="_blank">Laurence Putra</a></li>
+    <li>Luther Goh (elfgoh)</li>
+    <li><a href="https://twitter.com/shannietron" target="_blank">Shanmugam Mpl</a></li>
+    <li>Sneha Menon</li>
+    <li>Vishnu Prem</li>
+  </ul>
   <h2 class="about">Partners</h2>
   <p class="sublabel">Interested to work with us?</p>
   <p class="sublabel">Drop us an email <a href="<?php echo site_url('pages/email')?>">here</a>.</p>
-  <h3 class="about">Media Partners</h2>
+  <h3 class="about">Media Partners</h3>
   <span class="info">
     <a href="http://e27.sg" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/e27-logo.png')?>"></a>
     <a href="http://sgentrepreneurs.com/" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/sge-logo.jpeg')?>"></a>
     <a href="http://www.techinasia.com/" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/techinasia-logo.jpg')?>"></a>
   </span>
-  <h3 class="about">Community Partners</h2>
+  <h3 class="about">Community Partners</h3>
   <span class="info">
     <a href="http://hackerspace.sg/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/hackerspace-logo.jpg')?>"></a>
     <a href="https://www.facebook.com/groups/sghypertextpreprocessors/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/singapore-php-logo.jpg')?>"></a>
