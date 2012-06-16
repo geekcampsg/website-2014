@@ -71,6 +71,7 @@
     <a href="http://hackerspace.sg/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/hackerspace-logo.jpg')?>"></a>
     <a href="https://www.facebook.com/groups/sghypertextpreprocessors/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/singapore-php-logo.jpg')?>"></a>
     <a href="http://www.nushackers.org" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/nushackers-logo.jpg')?>"></a>
+    <a href="https://groups.google.com/forum/#!forum/singapore-rb" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/srb-logo.jpg')?>"></a>
   </span>
 </div>
 <script type="text/javascript">
