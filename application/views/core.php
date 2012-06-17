@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Geekcamp.SG</title>
     <meta name="description" content="Join us for GeekcampSG this year, with tons of geeky talks and what not!">
-    <meta property="og:app_id" content="458924617453783">
+    <meta property="fb:app_id" content="458924617453783">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Geekcamp.SG">
     <meta property="og:description" content="Vote for your favourite talks here!">
