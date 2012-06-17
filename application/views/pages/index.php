@@ -53,7 +53,7 @@
   <h2 class="about">Brought to you by</h2>
   <ul class="subtitle">
     <li>Chua Ruiwen</li>
-    <li>Joyce Huang</li>
+    <li><a href="http://flavors.me/joycehliting" target="_blank">Joyce Huang</a></li>
     <li>Justin Lee</li>
     <li><a href="http://geeksphere.net" target="_blank">Laurence Putra</a></li>
     <li>Luther Goh (elfgoh)</li>
