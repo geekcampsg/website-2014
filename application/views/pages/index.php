@@ -13,6 +13,7 @@
   <pre>Youngling: A geek who's still in school, be it Primary, Secondary, ITE/Poly/JC, or Uni.</pre>
   <h2 class="about">Topics up for voting!</h2>
   <p class="subtitle"><b>Like or +1 the topics that you want to hear to vote.</b> Voting will close 1 week before the event. Top 15 talks (depending on venue) will be scheduled.</p>
+  <p class="subtitle">Each talk should last around 30 minutes.</p>
   <p class="subtitle"></p>
   <?php if($talks->count() == 0){ ?>
   <p class="subtitle">No talks submitted for this year yet.</p>
