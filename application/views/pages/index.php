@@ -4,7 +4,7 @@
   <p class="subtitle">Conference for the geeks.</p>
   <p class="subtitle">No startup talks. No how to get rich talks. This is purely a tech conference.</p> 
   <p class="subtitle"><b>For geeks. By geeks.</b></p>
-  <p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>18th August 2012</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>TBC</b></p>
+  <p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>18th August 2012</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>TBC</b> | Sign up for the event <a href="http://geekcampsg12.eventbrite.com" target="_blank">here</a></p>
   <h2 class="about">Theme</h2>
   <p class="subtitle">This year, our theme is</p>
   <pre>Bring a youngling to GeekcampSG!</pre> 
@@ -12,7 +12,7 @@
   <pre>Youngling: A geek who's still in school, be it Primary, Secondary, ITE/Poly/JC, or Uni.</pre>
   <h2 class="about">Topics up for voting!</h2>
   <p class="subtitle"><b>Like or +1 the topics that you want to hear to vote.</b> Voting will close 1 week before the event. Top 15 talks (depending on venue) will be scheduled.</p>
-  <p class="subtitle">Sign up for the event <a href="http://geekcampsg12.eventbrite.com" target="_blank">here</a>. Register your talk <a href="<?php echo site_url('pages/submit_talk') ?>">here</a>.</p>
+  <p class="subtitle">Register your talk <a href="<?php echo site_url('pages/submit_talk') ?>">here</a>.</p>
   <?php if($talks->count() == 0){ ?>
   <p class="subtitle">No talks submitted for this year yet.</p>
   <?php }
