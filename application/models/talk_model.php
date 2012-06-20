@@ -16,7 +16,8 @@ class Talk_model extends CI_Model {
             'year' => (int)date('Y'),
             'published' => TRUE,
         );
-        return $collection->find($query);
+        return $collection->find($query)
+                            ->sort(array('_id' => 1));
     }
 
     /*******************
