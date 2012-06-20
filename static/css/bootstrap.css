@@ -3415,6 +3415,9 @@ a.thumbnail:hover {
   .nav-collapse {
     -webkit-transform: translate3d(0, 0, 0);
   }
+  .logo{
+    font-size:400%;
+  }
   .slideshow{display: none;}
     body{margin-top:60px;}
     .email{font-size:260%; padding-top: 40px;}
@@ -3492,6 +3495,9 @@ a.thumbnail:hover {
   .slideshow{display: none;}
     body{margin-top:60px;}
     .email{font-size:260%; padding-top: 40px;}
+  .logo{
+    font-size:500%;
+  }
   .container {
     width: auto;
     padding: 0 20px;
@@ -3513,6 +3519,9 @@ a.thumbnail:hover {
     .slideshow{display: none;}
     body{margin-top:60px;}
     .email{font-size:260%; padding-top: 40px;}
+  .logo{
+    font-size:500%;
+  }
   .row {
     margin-left: -20px;
     *zoom: 1;
