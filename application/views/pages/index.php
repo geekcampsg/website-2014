@@ -4,7 +4,7 @@
   <p class="subtitle">Conference for the geeks.</p>
   <p class="subtitle">No startup talks. No how to get rich talks. This is purely a tech conference.</p> 
   <p class="subtitle"><b>For geeks. By geeks.</b></p>
-  <p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>18th August 2012</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>TBC</b></p>
+  <p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>18th August 2012</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>Microsoft</b></p>
   <p class="subtitle"><b>Sign up for the event <a href="http://geekcampsg12.eventbrite.com" target="_blank">here</a>.</b> <b>Register your talk <a href="<?php echo site_url('pages/submit_talk') ?>">here</a>.</b></p>
   <h2 class="about">Theme</h2>
   <p class="subtitle">This year, our theme is</p>
