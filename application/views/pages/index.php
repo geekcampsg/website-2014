@@ -38,7 +38,7 @@
           $url_share_normal = site_url('pages/index/'.$talk['year'].'/'.preg_replace("/[^a-zA-Z0-9]/", "", $talk['title']).'/'.preg_replace("/[^a-zA-Z0-9]/", "", $talk['speaker_name']).'#'.preg_replace("/[^a-zA-Z0-9]/", "", $talk['year'].'-'.$talk['title'].'-'.$talk['speaker_name']));
           ?>
           <br />
-          <div class="fb-like" data-href="<?php echo $url_share_normal ?>" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+          <div class="fb-like" data-href="<?php echo $url_share_normal ?>" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
         </td>
         <td><?php echo $talk['speaker_name'] ?><br />
           <?php if($talk['twitter_handle']){ ?>
