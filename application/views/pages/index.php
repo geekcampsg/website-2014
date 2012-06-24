@@ -37,7 +37,7 @@
           <?php $url_facebook = urlencode(site_url('pages/index/'.$talk['year'].'/'.preg_replace("/[^a-zA-Z0-9]/", "", $talk['title']).'/'.preg_replace("/[^a-zA-Z0-9]/", "", $talk['speaker_name']).'#'.preg_replace("/[^a-zA-Z0-9]/", "", $talk['year'].'-'.$talk['title'].'-'.$talk['speaker_name'])));
           //$url_gplus = site_url('pages/index/'.$talk['year'].'/'.preg_replace("/[^a-zA-Z0-9]/", "", $talk['title']).'/'.preg_replace("/[^a-zA-Z0-9]/", "", $talk['speaker_name']).'#'.preg_replace("/[^a-zA-Z0-9]/", "", $talk['year'].'-'.$talk['title'].'-'.$talk['speaker_name']));
           ?>
-          <iframe src="//www.facebook.com/plugins/like.php?href=<?php echo $url_facebook ?>&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=segoe+ui&amp;height=21&amp;appId=458924617453783" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>
+          <iframe src="//www.facebook.com/plugins/like.php?href=<?php echo $url_facebook ?>&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=segoe+ui&amp;height=21&amp;appId=458924617453783" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>
 
         </td>
         <td><?php echo $talk['speaker_name'] ?><br />
