@@ -14,7 +14,10 @@
   <h2 class="about">Topics up for voting!</h2>
   <p class="subtitle"><b>Like the topics that you want to hear to vote.</b> Voting will close 1 week before the event. Top 15 talks (depending on venue) will be scheduled.</p>
   <p class="subtitle">Each talk should last around 30 minutes.</p>
-  <h3>Announcement</h3>
+  <h3>Announcements</h3>
+  <h4>25/06/2012</h4>
+  <p class="subsubtitle">+1 seems to gotten back all the votes today, so we are adding it back. For now. <em>- Laurence</em></p>
+  <h4>24/06/2012</h4>
   <p class="subsubtitle">+1 voting disabled. We have recorded down existing votes as part of our daily backups, but the +1 mechanism seems to reset randomly, so we will not be accepting any more votes from +1. For those already with votes from +1's, we will add it to your total votes later. <em>- Laurence</em></p>
   <p class="subtitle"></p>
   <?php if($talks->count() == 0){ ?>
@@ -39,6 +42,7 @@
           ?>
           <br />
           <div class="fb-like" data-href="<?php echo $url_share_normal ?>" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+          <div class="g-plusone" data-href="<?php echo $url_share_normal ?>" data-width="90"></div>
         </td>
         <td><?php echo $talk['speaker_name'] ?><br />
           <?php if($talk['twitter_handle']){ ?>
@@ -92,3 +96,10 @@
   js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=458924617453783";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
