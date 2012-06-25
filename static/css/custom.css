@@ -1,3 +1,10 @@
+div .plusone, .twitter, .fb-like {
+    font-size: 1px;
+    display: inline-block;
+}
+div .fb_reset {
+    display: inline;
+}
 .platinum-sponsor-images{
     vertical-align:top;
     width:360px;
