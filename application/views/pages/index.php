@@ -35,7 +35,7 @@
       <?php foreach ($talks as $talk) { ?>
       <tr>
         <td>
-          <a name="<?php echo preg_replace("/[^a-zA-Z0-9]/", "", $talk['year'].'-'.$talk['title'].'-'.$talk['speaker_name']) ?>"></a>
+          <a name="<?php echo preg_replace("/[^a-zA-Z0-9]/", "", $talk['year'].'-'.$talk['title'].'-'.$talk['speaker_name']) ?>" id="<?php echo preg_replace("/[^a-zA-Z0-9]/", "", $talk['year'].'-'.$talk['title'].'-'.$talk['speaker_name']) ?>"></a>
           <b><?php echo $talk['title']?></b><br /><?php echo str_replace(PHP_EOL, '<br />', html_entity_decode($talk['description'])) ?><br />
           <?php 
           $url_share_normal = site_url('pages/index/'.$talk['year'].'/'.preg_replace("/[^a-zA-Z0-9]/", "", $talk['title']).'/'.preg_replace("/[^a-zA-Z0-9]/", "", $talk['speaker_name']).'#'.preg_replace("/[^a-zA-Z0-9]/", "", $talk['year'].'-'.$talk['title'].'-'.$talk['speaker_name']));
@@ -73,9 +73,9 @@
   <p class="sublabel">Drop us an email <a href="<?php echo site_url('pages/email')?>">here</a>.</p>
   <h3 class="about">Media Partners</h3>
   <div class="info">
-    <a href="http://e27.sg" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/e27-logo.jpg')?>"></a>
-    <a href="http://sgentrepreneurs.com/" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/sge-logo.jpg')?>"></a>
-    <a href="http://www.techinasia.com/" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/techinasia-logo.jpg')?>"></a>
+    <a href="http://e27.sg" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/e27-logo.jpg')?>" alt="e27"></a>
+    <a href="http://sgentrepreneurs.com/" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/sge-logo.jpg')?>" alt="sge"></a>
+    <a href="http://www.techinasia.com/" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/techinasia-logo.jpg')?>" alt="Tech In Asia"></a>
   </div>
   <h3 class="about">Community Partners</h3>
   <div class="info">
