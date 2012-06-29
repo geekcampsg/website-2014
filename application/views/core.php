@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Geekcamp.SG</title>
+    <meta name="keywords" content="geek, geekcamp, geekcampsg, tech, technology, conference, barcamp"> 
     <meta name="description" content="Join us for GeekcampSG this year, with tons of geeky talks and what not!">
     <meta property="fb:app_id" content="458924617453783">
     <meta property="og:type" content="website">
@@ -29,7 +30,7 @@
           <a href="<?php echo base_url() ?>"><h1 class="logo">Geekcamp.SG</h1></a>
         </div>
         <div class="span6">
-          <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fgeekcampsg&amp;send=false&amp;layout=button_count&amp;width=95&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=segoe+ui&amp;height=21&amp;appId=275526672542963" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:95px; height:21px;" allowTransparency="true"></iframe>
+          <div class="fb-like" data-href="https://www.facebook.com/geekcampsg" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
           <a href="https://twitter.com/geekcamp" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @GeekcampSG</a>
           <?php if($this->user_lib->is_logged_in()){ ?>
           | <a href="<?php echo site_url('admin/view_all_talks')?>">View all talks</a>
@@ -63,5 +64,12 @@
       })();
 
     </script>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=458924617453783";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
   </body>
 </html>
