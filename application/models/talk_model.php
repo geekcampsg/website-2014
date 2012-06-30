@@ -70,7 +70,7 @@ class Talk_model extends CI_Model {
             'published' => TRUE,
             'year' => (int)date('Y'),
         );
-        $settings = array('fsync' => TRUE);
+        $settings = array('safe' => MONGO_SAFE_LEVEL);
         $collection->insert($talk, $settings);
     }
 
@@ -89,7 +89,7 @@ class Talk_model extends CI_Model {
             'website' => (string)$website,
             'twitter_handle' => (string)$twitter,
         ));
-        $settings = array('fsync' => TRUE);
+        $settings = array('safe' => MONGO_SAFE_LEVEL);
         $collection->update($query, $update, $settings);
     }
 
@@ -103,7 +103,7 @@ class Talk_model extends CI_Model {
             '_id' => new Mongo($id),
             'published' => FALSE,
         );
-        $settings = array('fsync' => TRUE);
+        $settings = array('safe' => MONGO_SAFE_LEVEL);
         $collection->remove($query, $settings);
     }
 }

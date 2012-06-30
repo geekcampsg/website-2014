@@ -18,7 +18,7 @@ class User_model extends CI_Model {
                 'password' => (string)'$'.$salt.'$'.do_hash($salt.$password),
                 'type' => 'user',
             );
-            $settings = array('fsync' => true);
+            $settings = array('safe' => MONGO_SAFE_LEVEL);
             $collection->insert($user, $settings);
             return $user['_id'];
         }
@@ -34,7 +34,7 @@ class User_model extends CI_Model {
         $query = array('email' => (string)$email);
         $update = array('$set' => array('password_reset_time' => new MongoDate($ts),
             'password_reset_key' => $key));
-        $settings = array('fsync' => TRUE);
+        $settings = array('safe' => MONGO_SAFE_LEVEL);
         $collection->update($query, $update, $settings);
         return $key;
     }
@@ -85,7 +85,7 @@ class User_model extends CI_Model {
         $query = array('password_reset_key' => (string)$key, 'password_reset_time' => array('$gte' => $time));
         $update = array('$set' => array('password' => (string)'$'.$salt.'$'.do_hash($salt.$password)),
             '$unset' => array('password_reset_key' => 1, 'password_reset_time' => 1));
-        $settings = array('fsync' => true);
+        $settings = array('safe' => MONGO_SAFE_LEVEL);
         $collection->update($query, $update, $settings);
     }
 
