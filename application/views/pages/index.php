@@ -6,7 +6,7 @@
   <p class="subtitle"><b>For geeks. By geeks.</b></p>
   <p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>18th August 2012</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>Microsoft</b></p>
   <p class="subtitle"><b>Sign up for the event <a href="http://geekcampsg12.eventbrite.com" target="_blank">here</a>.</b> <b>Register your talk <a href="<?php echo site_url('pages/submit_talk') ?>">here</a>.</b></p>
-  <p class="subsubtitle">*This is a free event for geeks! So join us today!</p>
+  <p class="subsubtitle">*This event is free for geeks! So join us today!</p>
   <h2 class="about">Theme</h2>
   <p class="subtitle">This year, our theme is</p>
   <pre>Bring a youngling to GeekcampSG!</pre> 
