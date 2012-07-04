@@ -1,0 +1,245 @@
+1341387255TS---><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Geekcamp.SG</title>
+    <meta name="keywords" content="geek, geekcamp, geekcampsg, tech, technology, conference, barcamp"> 
+    <meta name="description" content="Join us for GeekcampSG this year, with tons of geeky talks and what not!">
+    <meta property="fb:app_id" content="458924617453783">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Geekcamp.SG">
+    <meta property="og:description" content="Vote for your favourite talks here!">
+    <meta property="og:image" content="http://geekcamp.pbworks.com/f/1314843253/geekcamp2011_website.png" />
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="http://localhost/~laurence/geekcamp.sg/static/css/bootstrap.css" rel="stylesheet">
+    <link href="http://localhost/~laurence/geekcamp.sg/static/css/custom.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="span6">
+          <a href="http://localhost/~laurence/geekcamp.sg/"><h1 class="logo">Geekcamp.SG</h1></a>
+        </div>
+        <div class="span6">
+          <div class="fb-like" data-href="https://www.facebook.com/geekcampsg" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+          <a href="https://twitter.com/geekcamp" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @GeekcampSG</a>
+                  </div>
+      </div>
+      <div class="row">
+        <a href="https://github.com/laurenceputra/Geekcamp.SG/" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+<div class="span7">
+  <h2 class="about">What is it?</h2>
+  <p class="subtitle">Conference for the geeks.</p>
+  <p class="subtitle">No startup talks. No how to get rich talks. This is purely a tech conference.</p> 
+  <p class="subtitle"><b>For geeks. By geeks.</b></p>
+  <p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>18th August 2012</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>Microsoft</b></p>
+  <p class="subtitle"><b>Sign up for the event <a href="http://geekcampsg12.eventbrite.com" target="_blank">here</a>.</b> <b>Register your talk <a href="http://localhost/~laurence/geekcamp.sg/pages/submit_talk">here</a>.</b></p>
+  <p class="subsubtitle">*This event is free for geeks! So join us today!</p>
+  <h2 class="about">Theme</h2>
+  <p class="subtitle">This year, our theme is</p>
+  <pre>Bring a youngling to GeekcampSG!</pre> 
+  <p class="subtitle">The geek scene's average age has been growing year by year over the past few years, and we believe that the time is now right to get more younglings in again :) So, bring a young geek along with you when you come to GeekcampSG this year.</p>
+  <pre>Youngling: A geek who's still in school, be it Primary, Secondary, ITE/Poly/JC, or Uni.</pre>
+  <h2 class="about">Topics up for voting!</h2>
+  <p class="subtitle"><b>Like or +1 the topics that you want to hear to vote.</b> Voting will close 1 week before the event. Top 15 talks (depending on venue) will be scheduled.</p>
+  <p class="subtitle">Each talk should last around 30 minutes.</p>
+  <h3>Announcements</h3>
+  <h4>25/06/2012</h4>
+  <p class="subsubtitle">+1 seems to gotten back all the votes today, so we are adding it back. For now. <em>- Laurence</em></p>
+  <h4>24/06/2012</h4>
+  <p class="subsubtitle">+1 voting disabled. We have recorded down existing votes as part of our daily backups, but the +1 mechanism seems to reset randomly, so we will not be accepting any more votes from +1. For those already with votes from +1's, we will add it to your total votes later. <em>- Laurence</em></p>
+  <p class="subtitle"></p>
+    <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>Topic</th>
+        <th>Speaker</th>
+      </tr>
+    </thead>
+    <tbody>
+            <tr>
+        <td>
+          <a id="2012talknumber1laurenceputra"></a>
+          <b>talk number 1</b><br />this is going to be an awesome talk!<br /><br /><><br />
+                    <br />
+          <div class="fb-like" data-href="http://localhost/~laurence/geekcamp.sg/pages/index/2012/talknumber1/laurenceputra#2012talknumber1laurenceputra" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+          <div class="g-plusone" data-href="http://localhost/~laurence/geekcamp.sg/pages/index/2012/talknumber1/laurenceputra#2012talknumber1laurenceputra" data-width="90" data-size="medium"></div>
+        </td>
+        <td>laurenceputra<br />
+                            </td>
+      </tr>
+            <tr>
+        <td>
+          <a id="2012lalalaurenceputea"></a>
+          <b>lala</b><br />lasldals<br />
+                    <br />
+          <div class="fb-like" data-href="http://localhost/~laurence/geekcamp.sg/pages/index/2012/lala/laurenceputea#2012lalalaurenceputea" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+          <div class="g-plusone" data-href="http://localhost/~laurence/geekcamp.sg/pages/index/2012/lala/laurenceputea#2012lalalaurenceputea" data-width="90" data-size="medium"></div>
+        </td>
+        <td>laurenceputea<br />
+                    <a href="http://twitter.com/laurenceputra" target="_blank">@laurenceputra</a><br />                    <a href="http://laa.com" target="_blank">Link</a><br />        </td>
+      </tr>
+            <tr>
+        <td>
+          <a id="2012lasldalslalal"></a>
+          <b>lasldals</b><br />this <br />is<br /><br />a<br /><br />damn<br /><br /><br />awesome<br /><br /><br /><br />talk<br /><br /><br /><img src="http://lala.com/img.png"><br />
+                    <br />
+          <div class="fb-like" data-href="http://localhost/~laurence/geekcamp.sg/pages/index/2012/lasldals/lalal#2012lasldalslalal" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+          <div class="g-plusone" data-href="http://localhost/~laurence/geekcamp.sg/pages/index/2012/lasldals/lalal#2012lasldalslalal" data-width="90" data-size="medium"></div>
+        </td>
+        <td>lalal<br />
+                    <a href="http://twitter.com/asdas" target="_blank">@asdas</a><br />                    <a href="http://asd.com" target="_blank">Link</a><br />        </td>
+      </tr>
+            <tr>
+        <td>
+          <a id="2012xssexamplellll"></a>
+          <b>xss example</b><br />lalalla<br /><br />[removed]alert&#40;1&#41;[removed]<br />
+                    <br />
+          <div class="fb-like" data-href="http://localhost/~laurence/geekcamp.sg/pages/index/2012/xssexample/llll#2012xssexamplellll" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+          <div class="g-plusone" data-href="http://localhost/~laurence/geekcamp.sg/pages/index/2012/xssexample/llll#2012xssexamplellll" data-width="90" data-size="medium"></div>
+        </td>
+        <td>llll<br />
+                              <a href="http://bubu.com" target="_blank">Link</a><br />        </td>
+      </tr>
+            <tr>
+        <td>
+          <a id="2012CSRFenableddiv"></a>
+          <b>CSRF-enabled</b><br />la di fucking do<br />
+                    <br />
+          <div class="fb-like" data-href="http://localhost/~laurence/geekcamp.sg/pages/index/2012/CSRFenabled/div#2012CSRFenableddiv" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+          <div class="g-plusone" data-href="http://localhost/~laurence/geekcamp.sg/pages/index/2012/CSRFenabled/div#2012CSRFenableddiv" data-width="90" data-size="medium"></div>
+        </td>
+        <td>div<br />
+                    <a href="http://twitter.com/div :)" target="_blank">@div :)</a><br />                  </td>
+      </tr>
+            <tr>
+        <td>
+          <a id="2012ThisisgoingtobeadamnawesometalkLaurence"></a>
+          <b>This is going to be a damn awesome talk!</b><br />lalal~ lalal !<br />
+                    <br />
+          <div class="fb-like" data-href="http://localhost/~laurence/geekcamp.sg/pages/index/2012/Thisisgoingtobeadamnawesometalk/Laurence#2012ThisisgoingtobeadamnawesometalkLaurence" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+          <div class="g-plusone" data-href="http://localhost/~laurence/geekcamp.sg/pages/index/2012/Thisisgoingtobeadamnawesometalk/Laurence#2012ThisisgoingtobeadamnawesometalkLaurence" data-width="90" data-size="medium"></div>
+        </td>
+        <td>Laurence<br />
+                            </td>
+      </tr>
+            <tr>
+        <td>
+          <a id="2012tonsofillegalcharactershereampamp"></a>
+          <b>tons of illegal characters here!@#$%^&amp;*()_</b><br />lalala !@#$%^&*()<br />
+                    <br />
+          <div class="fb-like" data-href="http://localhost/~laurence/geekcamp.sg/pages/index/2012/tonsofillegalcharactershereamp/amp#2012tonsofillegalcharactershereampamp" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+          <div class="g-plusone" data-href="http://localhost/~laurence/geekcamp.sg/pages/index/2012/tonsofillegalcharactershereamp/amp#2012tonsofillegalcharactershereampamp" data-width="90" data-size="medium"></div>
+        </td>
+        <td>!@#$%^&amp;*()<br />
+                            </td>
+      </tr>
+            <tr>
+        <td>
+          <a id="2012amplalalaampkaka"></a>
+          <b>!@#$%^&amp;*()lalala</b><br />!@#$%^&*(lala<br />
+                    <br />
+          <div class="fb-like" data-href="http://localhost/~laurence/geekcamp.sg/pages/index/2012/amplalala/ampkaka#2012amplalalaampkaka" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+          <div class="g-plusone" data-href="http://localhost/~laurence/geekcamp.sg/pages/index/2012/amplalala/ampkaka#2012amplalalaampkaka" data-width="90" data-size="medium"></div>
+        </td>
+        <td>!@#$%^&amp;*(kaka<br />
+                            </td>
+      </tr>
+            <tr>
+        <td>
+          <a id="2012ampaskjhjkaampasdas"></a>
+          <b>!@#$%^&amp;*(askjhjka</b><br />!@#$%^&*asdk<br />
+                    <br />
+          <div class="fb-like" data-href="http://localhost/~laurence/geekcamp.sg/pages/index/2012/ampaskjhjka/ampasdas#2012ampaskjhjkaampasdas" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+          <div class="g-plusone" data-href="http://localhost/~laurence/geekcamp.sg/pages/index/2012/ampaskjhjka/ampasdas#2012ampaskjhjkaampasdas" data-width="90" data-size="medium"></div>
+        </td>
+        <td>@#$%^&amp;*(asdas<br />
+                            </td>
+      </tr>
+          </tbody>
+  </table>
+  </div>
+<div class="span5">
+  <h2 class="about">Brought to you by</h2>
+  <ul class="subtitle">
+    <li>Chua Ruiwen</li>
+    <li><a href="http://flavors.me/joycehliting" target="_blank">Joyce Huang</a></li>
+    <li>Justin Lee</li>
+    <li><a href="http://geeksphere.net" target="_blank">Laurence Putra</a></li>
+    <li>Luther Goh (elfgoh)</li>
+    <li><a href="https://twitter.com/shannietron" target="_blank">Shanmugam Mpl</a></li>
+    <li>Sneha Menon</li>
+    <li>Vishnu Prem</li>
+  </ul>
+  <h2 class="about">Partners</h2>
+  <p class="sublabel">Interested to work with us?</p>
+  <p class="sublabel">Drop us an email <a href="http://localhost/~laurence/geekcamp.sg/pages/email">here</a>.</p>
+  <h3 class="about">Platinum Sponsors</h3>
+    <a href="http://www.windowsazure.com/" target="_blank"><img class="platinum-sponsor-images" src="http://localhost/~laurence/geekcamp.sg/static/images/winazure-logo.png" alt="Windows Azure"></a>
+  <h3 class="about">Gold Sponsors</h3>
+    <a href="http://www.softlayer.com/cloudcash" target="_blank"><img class="gold-sponsor-images" src="http://localhost/~laurence/geekcamp.sg/static/images/softlayer-logo.png" alt="Softlayer"><p>Promo Code: SNGCLOUD01</p></a>
+  <h3 class="about">Media Partners</h3>
+  <div class="info">
+    <a href="http://e27.sg" target="_blank"><img class="media-partner-images" src="http://localhost/~laurence/geekcamp.sg/static/images/e27-logo.jpg" alt="e27"></a>
+    <a href="http://sgentrepreneurs.com/" target="_blank"><img class="media-partner-images" src="http://localhost/~laurence/geekcamp.sg/static/images/sge-logo.jpg" alt="sge"></a>
+    <a href="http://www.techinasia.com/" target="_blank"><img class="media-partner-images" src="http://localhost/~laurence/geekcamp.sg/static/images/techinasia-logo.jpg" alt="Tech In Asia"></a>
+  </div>
+  <h3 class="about">Community Partners</h3>
+  <div class="info">
+    <a href="http://hackerspace.sg" target="_blank"><img class="community-partner-images" src="http://localhost/~laurence/geekcamp.sg/static/images/hackerspace-logo.jpg" alt="HackerspaceSG"></a>
+    <a href="https://www.facebook.com/groups/sghypertextpreprocessors" target="_blank"><img class="community-partner-images" src="http://localhost/~laurence/geekcamp.sg/static/images/singapore-php-logo.jpg" alt="SG PHP Meetup Group"></a>
+    <a href="http://www.nushackers.org" target="_blank"><img class="community-partner-images" src="http://localhost/~laurence/geekcamp.sg/static/images/nushackers-logo.jpg" alt="NUSHackers"></a>
+    <a href="https://groups.google.com/forum/#!forum/singapore-rb" target="_blank"><img class="community-partner-images" src="http://localhost/~laurence/geekcamp.sg/static/images/srb-logo.jpg" alt="Singapore Ruby Brigade"></a>
+    <a href="http://www.sggeekgirls.com" target="_blank"><img class="community-partner-images" src="http://localhost/~laurence/geekcamp.sg/static/images/sg-geek-girls-logo.jpg" alt="SG Geek Girls"></a>
+    <a href="http://www.meetup.com/devops-singapore" target="_blank"><img class="community-partner-images" src="http://localhost/~laurence/geekcamp.sg/static/images/devops-logo.png" alt="DevOps Singapore"></a>
+    <a href="http://iosdevscout.com" target="_blank"><img class="community-partner-images" src="http://localhost/~laurence/geekcamp.sg/static/images/ios-dev-scout-logo.png" alt="IOS Dev Scout"></a>
+  </div>
+</div>
+<div id="fb-root"></div>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>      </div>
+      <hr>     
+      <footer>
+        <div class="row">
+        <div class="span4">
+          <p>Bring a youngling to GeekcampSG this year!</p>
+        </div>
+        </div>
+      </footer>
+    </div> <!-- /container -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-32625634-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=458924617453783";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+  </body>
+</html>
