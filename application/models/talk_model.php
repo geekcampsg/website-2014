@@ -17,7 +17,7 @@ class Talk_model extends CI_Model {
             'published' => TRUE,
         );
         return $collection->find($query)
-                            ->sort(array('_id' => 1));
+                            ->sort(array('_id' => -1));
     }
 
     /*******************
