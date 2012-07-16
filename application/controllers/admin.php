@@ -65,7 +65,7 @@ class Admin extends CI_Controller {
             if($this->form_validation->run()){
                 $this->talk_model->edit_talk_admin($id, set_value('title'), set_value('talk-description'), set_value('speaker-name'), set_value('email-address'), set_value('website'), set_value('twitter-handle'), (set_value('publish_status') === 'TRUE')?TRUE:FALSE);
                 $data['edit'] = TRUE;
-                $data['content'] = $this->load->view('pages/submit_talk', '', TRUE);
+                $data['content'] = $this->load->view('pages/submit_talk', $data, TRUE);
                 $this->load->view('core', $data);
             }
             else{
