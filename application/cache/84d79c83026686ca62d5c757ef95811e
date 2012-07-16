@@ -1,4 +1,4 @@
-1342449656TS---><!DOCTYPE HTML>
+1342450538TS---><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -145,17 +145,6 @@
       </tr>
             <tr>
         <td>
-          <a id="2012lalalaurenceputea"></a>
-          <b>lala</b><br />lasldals<br />
-                    <br />
-          <div class="fb-like" data-href="http://localhost/~laurence/geekcamp.sg/pages/index/2012/lala/laurenceputea#2012lalalaurenceputea" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
-          <div class="g-plusone" data-href="http://localhost/~laurence/geekcamp.sg/pages/index/2012/lala/laurenceputea#2012lalalaurenceputea" data-width="90" data-size="medium"></div>
-        </td>
-        <td>laurenceputea<br />
-                    <a href="http://twitter.com/laurenceputra" target="_blank">@laurenceputra</a><br />                    <a href="http://laa.com" target="_blank">Link</a><br />        </td>
-      </tr>
-            <tr>
-        <td>
           <a id="2012talknumber1laurenceputra"></a>
           <b>talk number 1</b><br />this is going to be an awesome talk!<br /><br /><><br />
                     <br />
@@ -234,6 +223,7 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
+
     </script>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
