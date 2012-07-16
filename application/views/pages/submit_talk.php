@@ -59,20 +59,37 @@
                     <?php echo ($str == NULL)?'':'<span class="help-inline">'.$str.'</span>'?>
                 </div>
             </div>
-            <?php 
-            if (isset($edit)){
-                if(isset($talk['published'])){
-                    if($talk['published']){
-                        //link to unpublish talk
-                    }
-                    else{
-                        //link to publish talk
-                    }
-                }
-            }
-            ?>
+            <?php if (isset($edit) && $edit){ ?>
+            <div class="control-group">
+                <div class="controls">
+                    <label for="twitter-handle">Twitter handle</label>
+                    <div class="btn-group" data-toggle="buttons-radio">
+                        <button type="button" id="published" class="btn btn-primary<?php echo set_value('publish_status',isset($talk['published'])?$talk['published']:FALSE)?' active':'' ?>">Publish</button>
+                        <button type="button" id="unpublished" class="btn btn-primary<?php echo set_value('publish_status',isset($talk['published'])?$talk['published']:FALSE)?'':' active' ?>">Unpublished</button>
+                    </div>
+                    <input type="hidden" id="publish_status" name="publish_status" value="<?php echo set_value('publish_status',isset($talk['published'])?$talk['published']:FALSE)?'TRUE':'FALSE'?>">
+                </div>
+            </div>
+                    
+            <?php } ?>
         </fieldset>
         <button type="submit" class="btn"><?php if(isset($edit)){?>Update talk now!<?php }else{?>Register talk now! <?php }?></button>
         </form>
     </div>
 </div>
+<script type="text/javascript" src="<?php echo base_url() ?>static/js/jquery-1.7.2.min.js"></script>
+
+<script type="text/javascript" src="<?php echo base_url() ?>static/js/bootstrap-button.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+        $('.btn-group').button();
+        $('#published').click(function(){
+            $('#publish_status').val('TRUE');
+        });
+        $('#unpublished').click(function(){
+            $('#publish_status').val('FALSE');
+        });
+
+    }
+);
+</script>

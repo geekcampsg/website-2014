@@ -94,6 +94,26 @@ class Talk_model extends CI_Model {
     }
 
     /*******************
+     * Updates an already existing talk
+     * $id is an int, NOT MongoID
+    *******************/
+    public function edit_talk_admin($_id, $title, $description, $speaker_name, $email, $website, $twitter, $published){
+        $collection = $this->choose_collection();
+        $query = array('_id' => new MongoID($_id));
+        $update = array('$set' => array(
+            'title' => (string)$title,
+            'description' => (string)$description,
+            'speaker_name' => (string)$speaker_name,
+            'email' => (string)$email,
+            'website' => (string)$website,
+            'twitter_handle' => (string)$twitter,
+            'published' => (bool)$published
+        ));
+        $settings = array('safe' => MONGO_SAFE_LEVEL);
+        $collection->update($query, $update, $settings);
+    }
+
+    /*******************
      * Deletes an existing talk with $id
      * $id is an int, NOT MongoID
     *******************/

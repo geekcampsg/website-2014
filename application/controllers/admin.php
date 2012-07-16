@@ -59,10 +59,11 @@ class Admin extends CI_Controller {
             $this->form_validation->set_rules('email-address', 'Email', 'trim|required|valid_email|strtolower');
             $this->form_validation->set_rules('website', 'Website', 'trim');
             $this->form_validation->set_rules('twitter-handle', 'Twitter', 'trim');
+            $this->form_validation->set_rules('publish_status', 'Publish Status', 'required');
 
             $this->load->model('talk_model');
             if($this->form_validation->run()){
-                $this->talk_model->edit_talk($id, set_value('title'), set_value('talk-description'), set_value('speaker-name'), set_value('email-address'), set_value('website'), set_value('twitter-handle'));
+                $this->talk_model->edit_talk_admin($id, set_value('title'), set_value('talk-description'), set_value('speaker-name'), set_value('email-address'), set_value('website'), set_value('twitter-handle'), (set_value('publish_status') === 'TRUE')?TRUE:FALSE);
 
                 $data['content'] = $this->load->view('pages/submit_talk', '', TRUE);
                 $this->load->view('core', $data);
