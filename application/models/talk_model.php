@@ -28,7 +28,7 @@ class Talk_model extends CI_Model {
         $collection = $this->choose_collection();
         $query = array();
         return $collection->find($query)
-                            ->sort(array('year' => -1))
+                            ->sort(array('year' => -1,'_id' => -1))
                             ->skip($page * $count)
                             ->limit($count);
     }
