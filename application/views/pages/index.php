@@ -93,6 +93,9 @@
     <a href="http://www.sggeekgirls.com" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/sg-geek-girls-logo.jpg')?>" alt="SG Geek Girls"></a>
     <a href="http://www.meetup.com/devops-singapore" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/devops-logo.png')?>" alt="DevOps Singapore"></a>
     <a href="http://iosdevscout.com" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/ios-dev-scout-logo.png')?>" alt="IOS Dev Scout"></a>
+    <a href="http://LittleHackers.com"  title="parent-and-child bonding through creative and techie projects"><img class="community-partner-images" src="<?php echo base_url('static/images/little-hackers-logo.png')?>" alt="A place for creative and techie kids to showcase their projects"></a>
+
+    
   </div>
 </div>
 <div id="fb-root"></div>
