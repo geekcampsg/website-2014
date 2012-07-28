@@ -16,10 +16,8 @@
   <p class="subtitle"><b>Like or +1 the topics that you want to hear to vote.</b> Voting will close 1 week before the event. Top 15 talks (depending on venue) will be scheduled.</p>
   <p class="subtitle">Each talk should last around 30 minutes.</p>
   <h3>Announcements</h3>
-  <h4>25/06/2012</h4>
-  <p class="subsubtitle">+1 seems to gotten back all the votes today, so we are adding it back. For now. <em>- Laurence</em></p>
-  <h4>24/06/2012</h4>
-  <p class="subsubtitle">+1 voting disabled. We have recorded down existing votes as part of our daily backups, but the +1 mechanism seems to reset randomly, so we will not be accepting any more votes from +1. For those already with votes from +1's, we will add it to your total votes later. <em>- Laurence</em></p>
+  <h4>28/07/2012</h4>
+  <p class="subsubtitle">We will be closing talks submission on Aug 1, so do register your talk by then if you want to volunteer a talk. Thanks!<em>- Laurence</em></p>
   <p class="subtitle"></p>
   <?php if($talks->count() == 0){ ?>
   <p class="subtitle">No talks submitted for this year yet.</p>
