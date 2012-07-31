@@ -55,7 +55,7 @@ class Pages extends CI_Controller {
      * Validates the talk details, throw an error if condition fails
      * Shows talk success page on success
     *******************/
-	public function submit_talk(){
+	public function _submit_talk(){
 		$this->load->library('form_validation');
 
 		$this->form_validation->set_rules('title', 'Title', 'trim|required');
