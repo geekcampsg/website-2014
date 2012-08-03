@@ -1,4 +1,4 @@
-1343663781TS---><!DOCTYPE html>
+1343909348TS---><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -42,7 +42,7 @@
   <p class="subtitle">No startup talks. No how to get rich talks. This is purely a tech conference.</p> 
   <p class="subtitle"><b>For geeks. By geeks.</b></p>
   <p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>18th August 2012</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>Microsoft</b></p>
-  <p class="subtitle"><b>Sign up for the event <a href="http://geekcampsg12.eventbrite.com" target="_blank">here</a>.</b> <b>Register your talk <a href="http://localhost/~laurence/geekcamp.sg/pages/submit_talk">here</a>.</b></p>
+  <p class="subtitle"><b>Sign up for the event <a href="http://geekcampsg12.eventbrite.com" target="_blank">here</a>.</b> <b>Talk registration closed.</b></p>
   <p class="subsubtitle">*This event is free for geeks! So join us today!</p>
   <h2 class="about">Theme</h2>
   <p class="subtitle">This year, our theme is</p>
@@ -182,7 +182,7 @@
   <p class="sublabel">Interested to work with us?</p>
   <p class="sublabel">Drop us an email <a href="http://localhost/~laurence/geekcamp.sg/pages/email">here</a>.</p>
   <h3 class="about">Platinum Sponsors</h3>
-    <a href="http://www.windowsazure.com/" target="_blank"><img class="platinum-sponsor-images" src="http://localhost/~laurence/geekcamp.sg/static/images/winazure-logo.png" alt="Windows Azure"></a>
+    <a href="https://www.windowsazure.com/en-us/pricing/free-trial/?WT.mc_id=AB39D46DE" target="_blank"><img class="platinum-sponsor-images" src="http://localhost/~laurence/geekcamp.sg/static/images/winazure-logo.png" alt="Windows Azure"></a>
   <h3 class="about">Gold Sponsors</h3>
     <a href="http://www.softlayer.com/cloudcash" target="_blank"><img class="gold-sponsor-images" src="http://localhost/~laurence/geekcamp.sg/static/images/softlayer-logo.png" alt="Softlayer"><p>Promo Code: SNGCLOUD01</p></a>
   <h3 class="about">Supported By</h3>
@@ -205,7 +205,7 @@
     <a href="http://www.meetup.com/devops-singapore" target="_blank"><img class="community-partner-images" src="http://localhost/~laurence/geekcamp.sg/static/images/devops-logo.png" alt="DevOps Singapore"></a>
     <a href="http://iosdevscout.com" target="_blank"><img class="community-partner-images" src="http://localhost/~laurence/geekcamp.sg/static/images/ios-dev-scout-logo.png" alt="IOS Dev Scout"></a>
     <a href="https://www.facebook.com/groups/littlehackers/" target="_blank" title="parent-and-child bonding through creative and techie projects"><img class="community-partner-images" src="http://localhost/~laurence/geekcamp.sg/static/images/little-hackers-logo.png" alt="A place for creative and techie kids to showcase their projects"></a>
-    <a href="http://iosdevscout.com" target="_blank"><img class="community-partner-images" src="http://localhost/~laurence/geekcamp.sg/static/images/pugs-logo.jpg" alt="PUGS"></a>
+    <a href="https://www.facebook.com/groups/pythonsg/" target="_blank"><img class="community-partner-images" src="http://localhost/~laurence/geekcamp.sg/static/images/pugs-logo.jpg" alt="PUGS"></a>
 
     
   </div>
