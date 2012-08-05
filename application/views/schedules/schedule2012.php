@@ -41,7 +41,7 @@
         		<tr>
         			<td>2:15 - 3:00</td>
         			<td>Hardware is not BORING by Dave Appleton</td>
-        			<td>Windows Phone 8 App Development by Chris Ismael</td>
+        			<td>Azure workshop</td>
         		</tr>
         		<tr>
         			<td>3:00 - 3:45</td>
@@ -61,7 +61,7 @@
         		<tr>
         			<td>5:15 - 6:00</td>
         			<td>Graph databases for fun and profit by Vivek Prahlad</td>
-        			<td>Azure workshop</td>
+                    <td>Windows Phone 8 App Development by Chris Ismael</td>
         		</tr>
         		<tr>
         			<td>6:00 till late</td>
