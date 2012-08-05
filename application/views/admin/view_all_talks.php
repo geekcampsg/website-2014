@@ -23,6 +23,7 @@
           <div class="g-plusone" data-href="<?php echo $url_gplus ?>" data-width="450" data-annotation="inline"></div>
           </td>
           <td><?php echo $talk['speaker_name'] ?><br />
+            <?php echo $talk['email'] ?><br />
             <?php if($talk['twitter_handle']){ ?>
             <a href="http://twitter.com/<?php echo $talk['twitter_handle']?>" target="_blank">@<?php echo $talk['twitter_handle']?></a><br /><?php } ?>
             <?php if($talk['website']){ ?>
