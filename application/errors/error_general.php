@@ -1,62 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Error</title>
-<style type="text/css">
+  <head>
+    <meta charset="utf-8">
+    <title>Geekcamp.SG</title>
+    <meta name="keywords" content="geek, geekcamp, geekcampsg, tech, technology, conference, barcamp"> 
+    <meta name="description" content="Join us for GeekcampSG this year, with tons of geeky talks and what not!">
+    <meta property="fb:app_id" content="458924617453783">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Geekcamp.SG">
+    <meta property="og:description" content="Vote for your favourite talks here!">
+    <meta property="og:image" content="http://geekcamp.pbworks.com/f/1314843253/geekcamp2011_website.png" />
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-::selection{ background-color: #E13300; color: white; }
-::moz-selection{ background-color: #E13300; color: white; }
-::webkit-selection{ background-color: #E13300; color: white; }
+    <!-- Le styles -->
+    <link href="<?php echo base_url()?>static/css/bootstrap.css" rel="stylesheet">
+    <link href="<?php echo base_url()?>static/css/custom.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+  </head>
 
-body {
-	background-color: #fff;
-	margin: 40px;
-	font: 13px/20px normal Helvetica, Arial, sans-serif;
-	color: #4F5155;
-}
+  <body>
 
-a {
-	color: #003399;
-	background-color: transparent;
-	font-weight: normal;
-}
+    <div class="container">
+      <div class="row">
 
-h1 {
-	color: #444;
-	background-color: transparent;
-	border-bottom: 1px solid #D0D0D0;
-	font-size: 19px;
-	font-weight: normal;
-	margin: 0 0 14px 0;
-	padding: 14px 15px 10px 15px;
-}
+        <div class="span6">
+          <a href="<?php echo base_url() ?>"><h1 class="logo">Geekcamp.SG</h1></a>
+        </div>
+        <div class="span6">
+          <div class="fb-like" data-href="https://www.facebook.com/geekcampsg" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+          <a href="https://twitter.com/geekcamp" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @GeekcampSG</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span12">
+		    <div class="padded-element">
+		        <h2 class="about"><?php echo $heading ?></h2>
+		        <?php echo $message ?>
+            <p class="info">If you are very sure this page exists, drop us an email <a href="<?php echo site_url('contact') ?>">here</a>.</p>
+            <p class="info">Else you can head over to <a href="<?php echo base_url() ?>"><?php echo base_url() ?></a> and submit a talk, or vote for your favourite talks :)</p>
+		    </div>
+		</div> 
+      </div>
+      <hr>     
+      <footer>
+        <div class="row">
+        <div class="span4">
+          <p>Bring a youngling to GeekcampSG this year!</p>
+        </div>
+        </div>
+      </footer>
+    </div> <!-- /container -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-32625634-1']);
+      _gaq.push(['_trackPageview']);
 
-code {
-	font-family: Consolas, Monaco, Courier New, Courier, monospace;
-	font-size: 12px;
-	background-color: #f9f9f9;
-	border: 1px solid #D0D0D0;
-	color: #002166;
-	display: block;
-	margin: 14px 0 14px 0;
-	padding: 12px 10px 12px 10px;
-}
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
 
-#container {
-	margin: 10px;
-	border: 1px solid #D0D0D0;
-	-webkit-box-shadow: 0 0 8px #D0D0D0;
-}
-
-p {
-	margin: 12px 15px 12px 15px;
-}
-</style>
-</head>
-<body>
-	<div id="container">
-		<h1><?php echo $heading; ?></h1>
-		<?php echo $message; ?>
-	</div>
-</body>
+    </script>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=458924617453783";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+  </body>
 </html>
