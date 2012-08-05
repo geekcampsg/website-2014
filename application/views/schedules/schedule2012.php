@@ -31,8 +31,7 @@
         		</tr>
         		<tr>
         			<td>12:30 - 1:30</td>
-        			<td>Lunch</td>
-        			<td></td>
+        			<td colspan="2">Lunch</td>
         		</tr>
         		<tr>
         			<td>1:30 - 2:15</td>
@@ -66,8 +65,7 @@
         		</tr>
         		<tr>
         			<td>6:00 till late</td>
-        			<td></td>
-        			<td></td>
+        			<td colspan="2">After party @ Nueva Cuba</td>
         		</tr>
         	</tbody>
         </table>
