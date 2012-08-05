@@ -56,12 +56,12 @@
         		<tr>
         			<td>4:30 - 5:15</td>
         			<td>How to stay up when your server goes down (that includes AWS too) by Laurence Putra</td>
-        			<td>FPGAs - Embedded Protoyping Made Easier by Aashish Mehta</td>
+        			<td>What's this thing called Scala by Raymond Tay</td>
         		</tr>
         		<tr>
         			<td>5:15 - 6:00</td>
         			<td>Graph databases for fun and profit by Vivek Prahlad</td>
-        			<td>What's this thing called Scala by Raymond Tay</td>
+        			<td>Azure workshop</td>
         		</tr>
         		<tr>
         			<td>6:00 till late</td>
