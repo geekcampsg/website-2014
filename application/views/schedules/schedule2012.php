@@ -41,7 +41,7 @@
         		<tr>
         			<td>2:15 - 3:00</td>
         			<td>Hardware is not BORING by Dave Appleton (Confirmed)</td>
-        			<td>Azure workshop</td>
+        			<td>Why you should date Windows Azure by Yap Neng Ginn (Confirmed)</td>
         		</tr>
         		<tr>
         			<td>3:00 - 3:45</td>
