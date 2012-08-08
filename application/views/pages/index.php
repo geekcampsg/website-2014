@@ -5,7 +5,8 @@
   <p class="subtitle">No startup talks. No how to get rich talks. This is purely a tech conference.</p> 
   <p class="subtitle"><b>For geeks. By geeks.</b></p>
   <p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>18th August 2012</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>Microsoft</b></p>
-  <p class="subtitle">Talks confirmed! Schedule can be found over <a href="<?php echo site_url('schedule/view_schedule') ?>">here</a></p>
+  <p class="subtitle">Talks confirmed! Schedule can be found over <a href="<?php echo site_url('schedule/view_schedule') ?>">here</a>.</p>
+  <p class="subtitle">Tickets are <span style="color:#FF0000;font-weight:bold">SOLD OUT</span>!</p>
   <h2 class="about">Theme</h2>
   <p class="subtitle">This year, our theme is</p>
   <pre>Bring a youngling to GeekcampSG!</pre> 
