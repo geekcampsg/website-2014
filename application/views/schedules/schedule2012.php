@@ -10,7 +10,7 @@
         	</thead>
         	<tbody>
         		<tr>
-        			<td>10:00 - 10:45</td>
+        			<td>10:00 - 10:15</td>
         			<td>Opening</td>
         			<td></td>
         		</tr>
