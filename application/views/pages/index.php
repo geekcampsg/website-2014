@@ -1,12 +1,19 @@
 <a href="https://github.com/laurenceputra/Geekcamp.SG/" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
 <div class="span7">
-  <h2 class="about">What is it?</h2>
-  <p class="subtitle">Conference for the geeks.</p>
-  <p class="subtitle">No startup talks. No how to get rich talks. This is purely a tech conference.</p> 
-  <p class="subtitle"><b>For geeks. By geeks.</b></p>
-  <p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>18th August 2012</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>Microsoft</b></p>
-  <p class="subtitle">Talks confirmed! Schedule can be found over <a href="<?php echo site_url('schedule/view_schedule') ?>">here</a>.</p>
-  <p class="subtitle">Tickets are <span style="color:#FF0000;font-weight:bold">SOLD OUT</span>!</p>
+  <div class="row">
+    <div class="span4">
+      <h2 class="about">What is it?</h2>
+      <p class="subtitle">Conference for the geeks.</p>
+      <p class="subtitle">No startup talks. No how to get rich talks. This is purely a tech conference.</p> 
+      <p class="subtitle"><b>For geeks. By geeks.</b></p>
+      <p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>18th August 2012</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>Microsoft, 21st Floor</b></p>
+      <p class="subtitle">Talks confirmed! Schedule can be found over <a href="<?php echo site_url('schedule/view_schedule') ?>">here</a>.</p>
+      <p class="subtitle">Tickets are <span style="color:#FF0000;font-weight:bold">SOLD OUT</span>!</p>
+    </div>
+    <div class="span3">
+      <div style="width:195px; text-align:center;margin-top:30px" ><iframe  src="http://www.eventbrite.com/countdown-widget?eid=2073727575" frameborder="0" height="313" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe></div>
+    </div>
+  </div>
   <h2 class="about">Theme</h2>
   <p class="subtitle">This year, our theme is</p>
   <pre>Bring a youngling to GeekcampSG!</pre> 

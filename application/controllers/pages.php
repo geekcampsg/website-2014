@@ -28,7 +28,7 @@ class Pages extends CI_Controller {
 		$data['talks'] = $this->talk_model->get_all_published_talks_for_current_year();
 		$data['content'] = $this->load->view('pages/index', $data, TRUE);
 		$this->load->view('core', $data);
-		$this->output->cache(1);
+		//$this->output->cache(1);
 	}
 
 	/*******************
