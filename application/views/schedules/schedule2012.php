@@ -36,7 +36,8 @@
         		<tr>
         			<td>1:30 - 2:15</td>
         			<td>Hacking and Securing iOS Apps by <strong>Subh</strong></td>
-        			<td>Designing a RESTful API server for a mobile app by <strong>Mugunth</strong></td>
+                    <td>Git and SVN - Making the best of both worlds by <strong>Lim Chern Jie</strong></td>
+        			
         		</tr>
         		<tr>
         			<td>2:15 - 3:00</td>
@@ -51,7 +52,7 @@
         		<tr>
         			<td>3:45 - 4:30</td>
         			<td>Continuous Integration for PHP with Jenkins &amp Sonar by <strong>Michael Cheng</strong></td>
-                    <td>Git and SVN - Making the best of both worlds by <strong>Lim Chern Jie</strong></td>
+                    <td>Designing a RESTful API server for a mobile app by <strong>Mugunth</strong></td>
         		</tr>
         		<tr>
         			<td>4:30 - 5:15</td>
