@@ -78,7 +78,8 @@
 <script type="text/javascript">
   $(document).ready(function(){
     $(".popup").prettyPhoto({
-        social_tools: false
+        social_tools: false,
+        allow_expand: false,
     });
   });
 </script>
