@@ -1,3 +1,4 @@
+<link href="<?php echo base_url('static/css/prettyPhoto.css')?>" rel="stylesheet">
 <div class="span11">
     <div class="padded-element">
         <table class="table">
@@ -16,7 +17,7 @@
         		</tr>
         		<tr>
         			<td>10:15 - 11:00</td>
-        			<td>Cryptography: How Bitcoin is safer than your bank? by <strong>U-Zyn Chua</strong></td>
+        			<td><a class="popup" href="http://speakerdeck.com/embed/502f7b3321ffdc000202cf11?iframe=true&width=800&height=600">Cryptography: How Bitcoin is safer than your bank?</a> by <strong>U-Zyn Chua</strong></td>
         			<td></td>
         		</tr>
         		<tr>
@@ -46,17 +47,17 @@
         		</tr>
         		<tr>
         			<td>3:00 - 3:45</td>
-        			<td>Learning iOS and hunting NSZombies in 3 weeks by <strong>Calvin Cheng</strong></td>
-        			<td>Why Common Lisp is still relevant. Introduction to the language by <strong>Elias Mårtenson</strong></td>
+        			<td><a class="popup" href="http://www.slideshare.net/slideshow/embed_code/14006860?iframe=true&width=800&height=600" >Learning iOS and hunting NSZombies in 3 weeks</a> by <strong>Calvin Cheng</strong></td>
+        			<td><a class="popup" href="https://docs.google.com/presentation/embed?id=1mIHAruC3nbI-CZPVjX7AuRp-bj9xjJima0l6XrHUI6Y&start=false&loop=false&delayms=3000?iframe=true&width=800&height=600">Why Common Lisp is still relevant. Introduction to the language</a> by <strong>Elias Mårtenson</strong></td>
         		</tr>
         		<tr>
         			<td>3:45 - 4:30</td>
-        			<td>Continuous Integration for PHP with Jenkins &amp Sonar by <strong>Michael Cheng</strong></td>
-                    <td>Designing a RESTful API server for a mobile app by <strong>Mugunth</strong></td>
+        			<td><a class="popup" href="http://speakerdeck.com/embed/502f20ea21ffdc000201a5a7?iframe=true&width=800&height=600">Continuous Integration for PHP with Jenkins &amp Sonar</a> by <strong>Michael Cheng</strong></td>
+                    <td><a class="popup" href="http://speakerdeck.com/embed/503043fbedfca80002010b93?iframe=true&width=800&height=600">Designing a RESTful API server for a mobile app</a> by <strong>Mugunth</strong></td>
         		</tr>
         		<tr>
         			<td>4:30 - 5:15</td>
-        			<td>How to stay up when your server goes down (that includes AWS too) by <strong>Laurence Putra</strong></td>
+        			<td><a class="popup" href="http://speakerdeck.com/embed/5030344a9c9652000200ea4b?iframe=true&width=800&height=600">How to stay up when your server goes down (that includes AWS too)</a> by <strong>Laurence Putra</strong></td>
         			<td>FPGAs - Embedded Protoyping Made Easier by <strong>Aashish Mehta</strong></td>
         		</tr>
         		<tr>
@@ -72,3 +73,12 @@
         </table>
     </div>
 </div>
+<script type="text/javascript" src="<?php echo base_url('static/js/jquery-1.7.2.min.js')?>"></script>
+<script type="text/javascript" src="<?php echo base_url('static/js/jquery.prettyPhoto.js')?>"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(".popup").prettyPhoto({
+        social_tools: false
+    });
+  });
+</script>
