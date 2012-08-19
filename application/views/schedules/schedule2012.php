@@ -58,7 +58,7 @@
         		<tr>
         			<td>4:30 - 5:15</td>
         			<td><a class="popup" rel="prettyPhoto[popups]" title="Loading presentation from external site. Please give it a few seconds to load." href="http://speakerdeck.com/embed/5030344a9c9652000200ea4b?iframe=true&width=800&height=600">How to stay up when your server goes down (that includes AWS too)</a> by <strong>Laurence Putra</strong></td>
-        			<td>FPGAs - Embedded Protoyping Made Easier by <strong>Aashish Mehta</strong></td>
+        			<td><a class="popup" rel="prettyPhoto[popups]" title="Loading presentation from external site. Please give it a few seconds to load." href="http://prezi.com/8mgqtxcc0wzu/view?iframe=true&width=800&height=600" >FPGAs - Embedded Protoyping Made Easier</a> by <strong>Aashish Mehta</strong></td>
         		</tr>
         		<tr>
         			<td>5:15 - 6:00</td>
