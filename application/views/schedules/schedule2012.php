@@ -62,7 +62,7 @@
         		</tr>
         		<tr>
         			<td>5:15 - 6:00</td>
-        			<td>Graph databases for fun and profit by <strong>Vivek Prahlad</strong></td>
+        			<td><a class="popup" rel="prettyPhoto[popups]" title="Loading presentation from external site. Please give it a few seconds to load." href="http://speakerdeck.com/embed/50335865abb2600002030d58?iframe=true&width=800&height=600">Graph databases for fun and profit</a> by <strong>Vivek Prahlad</strong></td>
                     <td>Youngling Special! <p>Listen to some of the cool things our younglings in school are hacking around with these days.</p></td>
         		</tr>
         		<tr>
