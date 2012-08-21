@@ -27,7 +27,7 @@
         		</tr>
         		<tr>
         			<td>11:45 - 12:30</td>
-        			<td>BlackMagic with Node.js and WebSockets by <strong>Bhagaban Behera</strong></td>
+        			<td><a class="popup" rel="prettyPhoto[popups]" title="Loading presentation from external site. Please give it a few seconds to load." href="http://www.slideshare.net/slideshow/embed_code/14027469?iframe=true&width=800&height=600">BlackMagic with Node.js and WebSockets</a> by <strong>Bhagaban Behera</strong></td>
         			<td></td>
         		</tr>
         		<tr>
