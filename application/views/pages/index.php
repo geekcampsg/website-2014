@@ -108,7 +108,6 @@
     
   </div>
 </div>
-<div id="fb-root"></div>
 <script type="text/javascript">
   (function() {
     var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;

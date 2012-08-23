@@ -10,10 +10,10 @@ class Talk_model extends CI_Model {
     /*******************
      * Returns a MongoCursor to all published talks for current year
     *******************/
-    public function get_all_published_talks_for_current_year(){
+    public function get_all_published_talks_for_year($year){
         $collection = $this->choose_collection();
         $query = array(
-            'year' => (int)date('Y'),
+            'year' => (int)$year,
             'published' => TRUE,
         );
         return $collection->find($query)
