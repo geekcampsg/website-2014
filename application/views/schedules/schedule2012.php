@@ -43,7 +43,7 @@
         		<tr>
         			<td>2:15 - 3:00</td>
         			<td>Hardware is not BORING by <strong>Dave Appleton</strong></td>
-        			<td>Why you should date Windows Azure by <strong>Yap Neng Ginn</strong></td>
+        			<td><a href="https://www.windowsazure.com/en-us/pricing/free-trial/?WT.mc_id=AB39D46DE" target="_blank">Why you should date Windows Azure</a> by <strong>Yap Neng Ginn</strong></td>
         		</tr>
         		<tr>
         			<td>3:00 - 3:45</td>
