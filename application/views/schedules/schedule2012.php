@@ -36,7 +36,7 @@
         		</tr>
         		<tr>
         			<td>1:30 - 2:15</td>
-        			<td>Hacking and Securing iOS Apps by <strong>Subh</strong></td>
+        			<td><a class="popup" rel="prettyPhoto[popups]" title="Loading presentation from external site. Please give it a few seconds to load." href="http://speakerdeck.com/embed/5035f894d135ef000202d152?iframe=true&width=800&height=600">Hacking and Securing iOS Apps</a> by <strong>Subh</strong></td>
                     <td>Git and SVN - Making the best of both worlds by <strong>Lim Chern Jie</strong></td>
         			
         		</tr>
