@@ -32,6 +32,20 @@ class Pages extends CI_Controller {
 	}
 
 	/*******************
+     * Archive page
+     * Displays list of proposed talks in past year with voting buttons
+     * Uses Facebook Likes and Google +1's for voting
+     * Output is cached for 10 minute
+    *******************/
+	public function archive($year = 2012){
+		$this->load->model('talk_model');
+		$data['talks'] = $this->talk_model->get_all_published_talks_for_year($year);
+		$data['content'] = $this->load->view('index/index'.$year, $data, TRUE);
+		$this->load->view('core', $data);
+		$this->output->cache(10);
+	}
+
+	/*******************
      * Schedule page
      * Displays schedule for the year passed into $year
      * Admin sets $min_year in this function
