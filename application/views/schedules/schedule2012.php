@@ -22,7 +22,7 @@
         		</tr>
         		<tr>
         			<td>11:00 - 11:45</td>
-        			<td>HTML5 - The road to multi-platform serenity by <strong>Justin Lee</strong></td>
+        			<td><a class="popup" rel="prettyPhoto[popups]" title="Loading presentation from external site. Please give it a few seconds to load." href="http://speakerdeck.com/embed/5036e814c4145e0002034486?iframe=true&width=800&height=600">HTML5 - The road to multi-platform serenity</a> by <strong>Justin Lee</strong></td>
         			<td></td>
         		</tr>
         		<tr>
