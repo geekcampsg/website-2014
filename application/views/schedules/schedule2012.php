@@ -42,7 +42,7 @@
         		</tr>
         		<tr>
         			<td>2:15 - 3:00</td>
-        			<td>Hardware is not BORING by <strong>Dave Appleton</strong></td>
+        			<td><a class="popup" rel="prettyPhoto[popups]" title="Loading presentation from external site. Please give it a few seconds to load." href="http://speakerdeck.com/embed/503881361d8148000204cc08?iframe=true&width=800&height=600">Hardware is not BORING</a> by <strong>Dave Appleton</strong></td>
         			<td><a href="https://www.windowsazure.com/en-us/pricing/free-trial/?WT.mc_id=AB39D46DE" target="_blank">Why you should date Windows Azure</a> by <strong>Yap Neng Ginn</strong></td>
         		</tr>
         		<tr>
