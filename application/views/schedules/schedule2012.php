@@ -48,7 +48,7 @@
         		<tr>
         			<td>3:00 - 3:45</td>
         			<td><a class="popup" rel="prettyPhoto[popups]" title="Loading presentation from external site. Please give it a few seconds to load." href="http://www.slideshare.net/slideshow/embed_code/14006860?iframe=true&width=800&height=600" >Learning iOS and hunting NSZombies in 3 weeks</a> by <strong>Calvin Cheng</strong> <a class="popup" rel="prettyPhoto[videos]" title="Loading video from external site. Please give it a few seconds to load." href="http://www.youtube.com/embed/Wh535qOUWw4?iframe=true&width=800&height=600">(Video)</a></td>
-        			<td><a class="popup" rel="prettyPhoto[popups]" title="Loading presentation from external site. Please give it a few seconds to load." href="https://docs.google.com/presentation/embed?id=1mIHAruC3nbI-CZPVjX7AuRp-bj9xjJima0l6XrHUI6Y&start=false&loop=false&delayms=3000?iframe=true&width=800&height=600">Why Common Lisp is still relevant. Introduction to the language</a> by <strong>Elias Mårtenson</strong></td>
+        			<td><a class="popup" rel="prettyPhoto[popups]" title="Loading presentation from external site. Please give it a few seconds to load." href="https://docs.google.com/presentation/embed?id=1mIHAruC3nbI-CZPVjX7AuRp-bj9xjJima0l6XrHUI6Y&start=false&loop=false&delayms=3000?iframe=true&width=800&height=600">Why Common Lisp is still relevant. Introduction to the language</a> by <strong>Elias Mårtenson</strong> <a class="popup" rel="prettyPhoto[videos]" title="Loading video from external site. Please give it a few seconds to load." href="http://www.youtube.com/embed/pymDvW2Mvco?iframe=true&width=800&height=600">(Unofficial Video)</a></td>
         		</tr>
         		<tr>
         			<td>3:45 - 4:30</td>
