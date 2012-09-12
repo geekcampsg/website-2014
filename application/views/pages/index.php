@@ -47,7 +47,7 @@
           $url_share_normal = site_url('pages/index/'.$talk['year'].'/'.$talk['_id'].'#'.$talk['_id']);
           ?>
           <br />
-          <div class="fb-like" data-href="<?php echo $url_share_normal ?>" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+          <div style="width:90px;" class="fb-like" data-href="<?php echo $url_share_normal ?>" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
           <div class="g-plusone" data-href="<?php echo $url_share_normal ?>" data-width="90" data-size="medium"></div>
         </td>
         <td><?php echo $talk['speaker_name'] ?><br />
@@ -108,10 +108,3 @@
     
   </div>
 </div>
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
