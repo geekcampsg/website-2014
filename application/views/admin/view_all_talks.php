@@ -16,11 +16,11 @@
         <tr>
           <td>
             <b><a href="<?php echo site_url('admin/edit_talk/'.$talk['_id'])?>"><?php echo $talk['title']?></a> <?php if($talk['published']){?> (Published) <?php }else{?> (Unpublished) <?php }?></b><br /><?php echo $talk['description'] ?><br />
-            <?php $url_facebook = urlencode(site_url('pages/index/'.$talk['year'].'/'.preg_replace("/[^a-zA-Z0-9]/", "", $talk['title']).'/'.preg_replace("/[^a-zA-Z0-9]/", "", $talk['speaker_name']).'#'.preg_replace("/[^a-zA-Z0-9]/", "", $talk['year'].'-'.$talk['title'].'-'.$talk['speaker_name'])));
-          $url_gplus = site_url('pages/index/'.$talk['year'].'/'.preg_replace("/[^a-zA-Z0-9]/", "", $talk['title']).'/'.preg_replace("/[^a-zA-Z0-9]/", "", $talk['speaker_name']).'#'.preg_replace("/[^a-zA-Z0-9]/", "", $talk['year'].'-'.$talk['title'].'-'.$talk['speaker_name']));
+          <?php 
+          $url_share_normal = site_url('pages/index/'.$talk['year'].'/'.$talk['_id'].'#'.$talk['_id'])
           ?>
-          <iframe src="//www.facebook.com/plugins/like.php?href=<?php echo $url_facebook ?>&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=segoe+ui&amp;height=21&amp;appId=275526672542963" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>
-          <div class="g-plusone" data-href="<?php echo $url_gplus ?>" data-width="450" data-annotation="inline"></div>
+          <div class="fb-like" data-href="<?php echo $url_share_normal ?>" data-send="false" data-layout="standard" data-width="45-" data-show-faces="false"></div>
+          <div class="g-plusone" data-href="<?php echo $url_share_normal ?>" data-width="450" data-annotation="inline"></div>
           </td>
           <td><?php echo $talk['speaker_name'] ?><br />
             <?php echo $talk['email'] ?><br />
