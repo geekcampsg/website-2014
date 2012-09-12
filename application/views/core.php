@@ -46,6 +46,7 @@
         <div class="row">
         <div class="span4">
           <p>Bring a youngling to GeekcampSG this year!</p>
+          <p style="display:none">Loading took {elapsed_time}s</p>
         </div>
         </div>
       </footer>
