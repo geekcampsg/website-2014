@@ -86,4 +86,5 @@
         allow_expand: false,
     });
   });
+  mixpanel.track("Schedule 2012 loaded");
 </script>
