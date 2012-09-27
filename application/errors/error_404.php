@@ -36,12 +36,15 @@
       </div>
       <div class="row">
         <div class="span12">
-		    <div class="padded-element">
-		        <h2 class="about">Oops! A page is lost!</h2>
-		        <p class="info">If you are very sure this page exists, drop us an email <a href="<?php echo site_url('contact') ?>">here</a>.</p>
-		        <p class="info">Else you can head over to <a href="<?php echo base_url() ?>"><?php echo base_url() ?></a> and submit a talk, or vote for your favourite talks :)</p>
-		    </div>
-		</div> 
+  		    <div class="padded-element">
+  		        <h2 class="about">Oops! A page is lost!</h2>
+  		        <p class="info">If you are very sure this page exists, drop us an email <a href="<?php echo site_url('contact') ?>">here</a>.</p>
+  		        <p class="info">Else you can head over to <a href="<?php echo base_url() ?>"><?php echo base_url() ?></a> and submit a talk, or vote for your favourite talks :)</p>
+  		    </div>
+		    </div> 
+        <div class="span12">
+          <iframe src="http://notfound-static.fwebservices.be/404/index.html?&amp;key=f6009f662f9e6441d159168075556e6f" width="100%" height="650" frameborder="0"></iframe>
+        </div>
       </div>
       <hr>     
       <footer>
