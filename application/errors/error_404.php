@@ -16,8 +16,8 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="<?php echo base_url()?>static/css/bootstrap.css" rel="stylesheet">
-    <link href="<?php echo base_url()?>static/css/custom.css" rel="stylesheet">
+    <link href="./static/css/bootstrap.css" rel="stylesheet">
+    <link href="./static/css/custom.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
   </head>
 
@@ -27,7 +27,7 @@
       <div class="row">
 
         <div class="span6">
-          <a href="<?php echo base_url() ?>"><h1 class="logo">Geekcamp.SG</h1></a>
+          <a href="./"><h1 class="logo">Geekcamp.SG</h1></a>
         </div>
         <div class="span6">
           <div class="fb-like" data-href="https://www.facebook.com/geekcampsg" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
@@ -39,7 +39,7 @@
   		    <div class="padded-element">
   		        <h2 class="about">Oops! A page is lost!</h2>
   		        <p class="info">If you are very sure this page exists, drop us an email <a href="<?php echo site_url('contact') ?>">here</a>.</p>
-  		        <p class="info">Else you can head over to <a href="<?php echo base_url() ?>"><?php echo base_url() ?></a> and submit a talk, or vote for your favourite talks :)</p>
+  		        <p class="info">Else you can head over to <a href="./">./</a> and submit a talk, or vote for your favourite talks :)</p>
   		    </div>
 		    </div> 
         <div class="span12">
