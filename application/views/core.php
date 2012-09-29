@@ -50,7 +50,7 @@ mixpanel.init("adeb4cfee8bc300c7ab493ca2052c1b5");</script><!-- end Mixpanel -->
         <div class="span4">
           <p>Bring a youngling to GeekcampSG this year!</p>
           <p style="display:none">Loading took {elapsed_time}s</p>
-          <a href="https://mixpanel.com/f/partner"><img src="//cdn.mxpnl.com/site_media/images/partner/badge_blue.png" alt="Mobile Analytics" /></a>
+          <div style="display:none"><a href="https://mixpanel.com/f/partner"><img src="//cdn.mxpnl.com/site_media/images/partner/badge_blue.png" alt="Mobile Analytics" /></a></div>
         </div>
         </div>
       </footer>
