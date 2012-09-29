@@ -85,5 +85,6 @@ mixpanel.init("adeb4cfee8bc300c7ab493ca2052c1b5");</script><!-- end Mixpanel -->
 <script type="text/javascript">
   mixpanel.track("Page Load");
 </script>
+<div style="display:none"><a href="https://mixpanel.com/f/partner"><img src="//cdn.mxpnl.com/site_media/images/partner/badge_blue.png" alt="Mobile Analytics" /></a></div>
   </body>
 </html>
