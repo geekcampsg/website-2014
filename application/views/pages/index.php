@@ -74,6 +74,14 @@
     <li>Sneha Menon</li>
     <li>Vishnu Prem</li>
   </ul>
+  <h3 class="about">Subscribe to our mailing list</h2>
+  <!-- Begin MailChimp Signup Form -->
+  <form action="http://geekcamp.us6.list-manage1.com/subscribe/post?u=174cbd8da574a4c003fc8b319&amp;id=b3607cf4d3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <input type="email" value="" name="EMAIL" class="input-large" id="mce-EMAIL" placeholder="email address" required>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></div>
+  </form>
+
+  <!--End mc_embed_signup-->
   <h2 class="about">Partners</h2>
   <p class="sublabel">Interested to work with us?</p>
   <p class="sublabel">Drop us an email <a href="<?php echo site_url('pages/email')?>">here</a>.</p>
