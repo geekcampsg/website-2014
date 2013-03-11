@@ -16,8 +16,8 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="./static/css/bootstrap.css" rel="stylesheet">
-    <link href="./static/css/custom.css" rel="stylesheet">
+    <link href="<?php echo base_url()?>static/css/bootstrap.css" rel="stylesheet">
+    <link href="<?php echo base_url()?>static/css/custom.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
   </head>
 
