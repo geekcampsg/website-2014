@@ -26,7 +26,7 @@
   <h4>28/07/2012</h4>
   <p class="subsubtitle">We will be closing talks submission on Aug 1, so do register your talk by then if you want to volunteer a talk. Thanks!<em>- Laurence</em></p>
   <p class="subtitle"></p>
-  <?php if($talks->count() == 0){ ?>
+  <?php if($talks == NULL || $talks->count() == 0){ ?>
   <p class="subtitle">No talks submitted for this year yet.</p>
   <?php }
   else{?>
