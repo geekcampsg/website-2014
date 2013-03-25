@@ -18,7 +18,7 @@
         <div style="width:90px;" class="fb-like" data-href="<?php echo $url_share_normal ?>" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
         <div class="g-plusone" data-href="<?php echo $url_share_normal ?>" data-width="90" data-size="medium"></div>
         <h3>View more talks  <a href="<?php echo base_url()?>#talks">here</a>!</h3>
-        <p class="subsubtitle">Click on the Facebook 'Like' button or Google +1 button to vote.</p>
+        <p class="subsubtitle">Click on the Facebook Like Button or Google +1 button to vote.</p>
     </div>
 </div>
 <script type="text/javascript">
