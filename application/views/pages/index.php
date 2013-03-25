@@ -1,30 +1,21 @@
 <a href="https://github.com/laurenceputra/Geekcamp.SG/" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
 <div class="span7">
-  <div class="row">
-    <div class="span4">
-      <h2 class="about">What is it?</h2>
-      <p class="subtitle">Conference for the geeks.</p>
-      <p class="subtitle">No startup talks. No how to get rich talks. This is purely a tech conference.</p> 
-      <p class="subtitle"><b>For geeks. By geeks.</b></p>
-      <p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>18th August 2012</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>Microsoft, 21st Floor</b></p>
-      <p class="subtitle">Event over! Slides can be found over <a href="<?php echo site_url('schedule/view_schedule') ?>">here</a>.</p>
-      <p class="subtitle">Tickets are <span style="color:#FF0000;font-weight:bold">SOLD OUT</span>!</p>
-    </div>
-    <div class="span3">
-      <div style="width:195px; text-align:center;margin-top:30px" ><iframe  src="http://www.eventbrite.com/countdown-widget?eid=2073727575" frameborder="0" height="313" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe></div>
-    </div>
-  </div>
+  <h2 class="about">What is it?</h2>
+  <p class="subtitle">Conference for the geeks.</p>
+  <p class="subtitle">No startup talks. No how to get rich talks. This is purely a tech conference.</p> 
+  <p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>7th September 2013</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: TBA. Know of any good locations? Drop us an email <a href="http://geekcamp.sg/pages/email">here</a></p>
+  <p class="subtitle">Last year's slides can be found over <a href="<?php echo site_url('schedule/view_schedule/2012') ?>">here</a>.</p>
+  <p class="subtitle">Tickets are <span style="color:#FF0000;font-weight:bold">SOLD OUT</span>!</p>
   <h2 class="about">Theme</h2>
   <p class="subtitle">This year, our theme is</p>
-  <pre>Bring a youngling to GeekcampSG!</pre> 
-  <p class="subtitle">The geek scene's average age has been growing year by year over the past few years, and we believe that the time is now right to get more younglings in again :) So, bring a young geek along with you when you come to GeekcampSG this year.</p>
-  <pre>Youngling: A geek who's still in school, be it Primary, Secondary, ITE/Poly/JC, or Uni.</pre>
+  <pre>Because we can!</pre> 
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HsbvLd7MSWQ" frameborder="0" allowfullscreen></iframe>
   <h2 class="about">Topics up for voting!</h2>
   <p class="subtitle"><b>Like or +1 the topics that you want to hear to vote.</b> Voting will close on 5 Aug 2359h. Top 15 talks (depending on venue) will be scheduled.</p>
   <p class="subtitle">Each talk should last around 30 minutes.</p>
-  <h3>Announcements</h3>
-  <h4>28/07/2012</h4>
-  <p class="subsubtitle">We will be closing talks submission on Aug 1, so do register your talk by then if you want to volunteer a talk. Thanks!<em>- Laurence</em></p>
+  <h3>Updates</h3>
+  <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/geekcamp"  data-widget-id="316066314504503296">Tweets by @geekcamp</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
   <p class="subtitle"></p>
   <a name="talks"></a>
   <?php if($talks == NULL || $talks->count() == 0){ ?>
