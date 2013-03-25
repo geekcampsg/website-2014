@@ -13,8 +13,8 @@ class Talk extends CI_Controller {
 			}
 			else{
 				$data['content'] = $this->load->view('talk/view', $data, TRUE);
-				$data['title'] = 'I voted for a talk on GeekcampSG';
-				$data['meta_description'] = $data['talk']['title'];
+				$data['title'] = $data['talk']['title'].' by '.$data['talk']['speaker_name'];
+				$data['meta_description'] = 'Join me and vote for a talk at Geekcamp.SG today!';
 				$this->load->view('core', $data);
 			}
 		}
