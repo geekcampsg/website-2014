@@ -44,7 +44,7 @@
           <a id="<?php echo $talk['_id'] ?>"></a>
           <b><?php echo $talk['title']?></b><br /><?php echo str_replace(PHP_EOL, '<br />', html_entity_decode($talk['description'])) ?><br />
           <?php 
-          $url_share_normal = site_url('pages/index/'.$talk['year'].'/'.$talk['_id'].'#'.$talk['_id']);
+          $url_share_normal = site_url('talk/view/'.$talk['_id']);
           ?>
           <br />
           <div style="width:90px;" class="fb-like" data-href="<?php echo $url_share_normal ?>" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>

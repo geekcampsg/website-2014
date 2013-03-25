@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Geekcamp.SG</title>
+    <title><?php echo isset($title)?$title:'Geekcamp.SG'?></title>
     <meta name="keywords" content="geek, geekcamp, geekcampsg, tech, technology, conference, barcamp"> 
     <meta name="description" content="Join us for GeekcampSG this year, with tons of geeky talks and what not!">
     <meta property="fb:app_id" content="458924617453783">
