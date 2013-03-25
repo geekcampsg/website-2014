@@ -1,7 +1,7 @@
 <a href="https://github.com/laurenceputra/Geekcamp.SG/" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
 <link href="<?php echo base_url('static/css/prettyPhoto.css')?>" rel="stylesheet">
 <div class="span7">
-  <h2 class="about">What is it?</h2>
+  <h2>What is it?</h2>
   <p class="subtitle">Conference for the geeks.</p>
   <p class="subtitle">No startup talks. No how to get rich talks. This is purely a tech conference.</p> 
   <p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>7th September 2013</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: TBA. Know of any good locations? Drop us an email <a href="http://geekcamp.sg/pages/email">here</a></p>
@@ -51,7 +51,7 @@
   <?php } ?>
 </div>
 <div class="span5">
-  <h2 class="about">Brought to you by</h2>
+  <h2>Brought to you by</h2>
   <ul class="subtitle">
     <li>Chua Ruiwen</li>
     <li><a href="http://flavors.me/joycehliting" target="_blank">Joyce Huang</a></li>
