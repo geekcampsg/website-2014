@@ -1,21 +1,17 @@
 <a href="https://github.com/laurenceputra/Geekcamp.SG/" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+<link href="<?php echo base_url('static/css/prettyPhoto.css')?>" rel="stylesheet">
 <div class="span7">
   <h2 class="about">What is it?</h2>
   <p class="subtitle">Conference for the geeks.</p>
   <p class="subtitle">No startup talks. No how to get rich talks. This is purely a tech conference.</p> 
   <p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>7th September 2013</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: TBA. Know of any good locations? Drop us an email <a href="http://geekcamp.sg/pages/email">here</a></p>
   <p class="subtitle">Last year's slides can be found over <a href="<?php echo site_url('schedule/view_schedule/2012') ?>">here</a>.</p>
-  <p class="subtitle">Tickets are <span style="color:#FF0000;font-weight:bold">SOLD OUT</span>!</p>
+  <p class="subtitle">We will be opening registration for both GeekcampSG and the talks soon</p>
   <h2 class="about">Theme</h2>
-  <p class="subtitle">This year, our theme is</p>
-  <pre>Because we can!</pre> 
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HsbvLd7MSWQ" frameborder="0" allowfullscreen></iframe>
+  <p class="subtitle">This year, our theme is <code>Because we can!</code>. See inspiration <a rel="geekcampsg[video]" onclick="mixpanel.track('Video | Because we can')" title="Loading video from external site. Please give it a few seconds to load." href="https://www.youtube-nocookie.com/embed/HsbvLd7MSWQ?iframe=true&width=800&height=600">here</a>!</p>
   <h2 class="about">Topics up for voting!</h2>
   <p class="subtitle"><b>Like or +1 the topics that you want to hear to vote.</b> Voting will close on 5 Aug 2359h. Top 15 talks (depending on venue) will be scheduled.</p>
   <p class="subtitle">Each talk should last around 30 minutes.</p>
-  <h3>Updates</h3>
-  <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/geekcamp"  data-widget-id="316066314504503296">Tweets by @geekcamp</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
   <p class="subtitle"></p>
   <a name="talks"></a>
   <?php if($talks == NULL || $talks->count() == 0){ ?>
@@ -78,21 +74,12 @@
   <h2 class="about">Partners</h2>
   <p class="sublabel">Interested to work with us?</p>
   <p class="sublabel">Drop us an email <a href="<?php echo site_url('pages/email')?>">here</a>.</p>
-  <h3 class="about">Platinum Sponsor</h3>
-    <a onclick="mixpanel.track('Sponsor | Azure')" href="https://www.windowsazure.com/en-us/pricing/free-trial/?WT.mc_id=AB39D46DE" target="_blank"><img class="platinum-sponsor-images" src="<?php echo base_url('static/images/winazure-logo.png')?>" alt="Windows Azure"></a>
-  <h3 class="about">Gold Sponsor</h3>
-    <a onclick="mixpanel.track('Sponsor | Softlayer')" href="http://www.softlayer.com/cloudcash" target="_blank"><img class="gold-sponsor-images" src="<?php echo base_url('static/images/softlayer-logo.png')?>" alt="Softlayer"><p>Promo Code: SNGCLOUD01</p></a>
-  <h3 class="about">Afterparty Sponsor</h3>
-    <a onclick="mixpanel.track('Sponsor | PayPal')" href="https://www.paypal.com" target="_blank"><img class="gold-sponsor-images" src="<?php echo base_url('static/images/paypal-logo.png')?>" alt="Paypal"></a>
-  <h3 class="about">Supported By</h3>
-    <a onclick="mixpanel.track('Sponsor | iDA')" href="http://www.ida.gov.sg/home/index.aspx" target="_blank"><img class="platinum-sponsor-images" src="<?php echo base_url('static/images/ida-logo.jpg')?>" alt="IDA"></a>
   <h3 class="about">Digital Media Partner</h3>
     <a onclick="mixpanel.track('Media Partner | Tech65')" href="http://www.tech65.org/" target="_blank"><img class="platinum-sponsor-images" src="<?php echo base_url('static/images/tech65-logo.jpg')?>" alt="IDA"></a>
   <h3 class="about">Media Partners</h3>
   <div class="info">
     <a onclick="mixpanel.track('Media Partner | e27')" href="http://e27.sg" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/e27-logo.jpg')?>" alt="e27"></a>
     <a onclick="mixpanel.track('Media Partner | SGE')" href="http://sgentrepreneurs.com/" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/sge-logo.jpg')?>" alt="sge"></a>
-    <a onclick="mixpanel.track('Media Partner | TechinAsia')" href="http://www.techinasia.com/" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/techinasia-logo.jpg')?>" alt="Tech In Asia"></a>
   </div>
   <h3 class="about">Community Partners</h3>
   <div class="info">
@@ -107,6 +94,12 @@
     <a onclick="mixpanel.track('Community Partner | PythonSG')" href="https://www.facebook.com/groups/pythonsg/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/pugs-logo.jpg')?>" alt="PUGS"></a>
   </div>
 </div>
+<script type="text/javascript" src="<?php echo base_url('static/js/jquery-1.7.2.min.js')?>"></script>
+<script type="text/javascript" src="<?php echo base_url('static/js/jquery.prettyPhoto.js')?>"></script>
 <script type="text/javascript">
   mixpanel.track("Index Loaded");
+  $("a[rel='geekcampsg[video]']").prettyPhoto({
+      social_tools: false,
+      allow_expand: false,
+  });
 </script>

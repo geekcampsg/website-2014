@@ -23,7 +23,7 @@ class Pages extends CI_Controller {
      * Uses Facebook Likes and Google +1's for voting
      * Output is cached for 1 minute
     *******************/
-	public function index($year = 2012){
+	public function index($year = 2013){
 		$this->load->model('talk_model');
 		$data['talks'] = $this->talk_model->get_all_published_talks_for_year($year);
 		$data['content'] = $this->load->view('pages/index', $data, TRUE);
