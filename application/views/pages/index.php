@@ -88,32 +88,32 @@
   <p class="sublabel">Interested to work with us?</p>
   <p class="sublabel">Drop us an email <a href="<?php echo site_url('pages/email')?>">here</a>.</p>
   <h3 class="about">Platinum Sponsor</h3>
-    <a onclick="mixpanel.track('2012 | Sponsor | Azure')" href="https://www.windowsazure.com/en-us/pricing/free-trial/?WT.mc_id=AB39D46DE" target="_blank"><img class="platinum-sponsor-images" src="<?php echo base_url('static/images/winazure-logo.png')?>" alt="Windows Azure"></a>
+    <a onclick="mixpanel.track('Sponsor | Azure')" href="https://www.windowsazure.com/en-us/pricing/free-trial/?WT.mc_id=AB39D46DE" target="_blank"><img class="platinum-sponsor-images" src="<?php echo base_url('static/images/winazure-logo.png')?>" alt="Windows Azure"></a>
   <h3 class="about">Gold Sponsor</h3>
-    <a onclick="mixpanel.track('2012 | Sponsor | Softlayer')" href="http://www.softlayer.com/cloudcash" target="_blank"><img class="gold-sponsor-images" src="<?php echo base_url('static/images/softlayer-logo.png')?>" alt="Softlayer"><p>Promo Code: SNGCLOUD01</p></a>
+    <a onclick="mixpanel.track('Sponsor | Softlayer')" href="http://www.softlayer.com/cloudcash" target="_blank"><img class="gold-sponsor-images" src="<?php echo base_url('static/images/softlayer-logo.png')?>" alt="Softlayer"><p>Promo Code: SNGCLOUD01</p></a>
   <h3 class="about">Afterparty Sponsor</h3>
-    <a onclick="mixpanel.track('2012 | Sponsor | PayPal')" href="https://www.paypal.com" target="_blank"><img class="gold-sponsor-images" src="<?php echo base_url('static/images/paypal-logo.png')?>" alt="Paypal"></a>
+    <a onclick="mixpanel.track('Sponsor | PayPal')" href="https://www.paypal.com" target="_blank"><img class="gold-sponsor-images" src="<?php echo base_url('static/images/paypal-logo.png')?>" alt="Paypal"></a>
   <h3 class="about">Supported By</h3>
-    <a onclick="mixpanel.track('2012 | Sponsor | iDA')" href="http://www.ida.gov.sg/home/index.aspx" target="_blank"><img class="platinum-sponsor-images" src="<?php echo base_url('static/images/ida-logo.jpg')?>" alt="IDA"></a>
+    <a onclick="mixpanel.track('Sponsor | iDA')" href="http://www.ida.gov.sg/home/index.aspx" target="_blank"><img class="platinum-sponsor-images" src="<?php echo base_url('static/images/ida-logo.jpg')?>" alt="IDA"></a>
   <h3 class="about">Digital Media Partner</h3>
-    <a onclick="mixpanel.track('2012 | Media Partner | Tech65')" href="http://www.tech65.org/" target="_blank"><img class="platinum-sponsor-images" src="<?php echo base_url('static/images/tech65-logo.jpg')?>" alt="IDA"></a>
+    <a onclick="mixpanel.track('Media Partner | Tech65')" href="http://www.tech65.org/" target="_blank"><img class="platinum-sponsor-images" src="<?php echo base_url('static/images/tech65-logo.jpg')?>" alt="IDA"></a>
   <h3 class="about">Media Partners</h3>
   <div class="info">
-    <a onclick="mixpanel.track('2012 | Media Partner | e27')" href="http://e27.sg" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/e27-logo.jpg')?>" alt="e27"></a>
-    <a onclick="mixpanel.track('2012 | Media Partner | SGE')" href="http://sgentrepreneurs.com/" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/sge-logo.jpg')?>" alt="sge"></a>
-    <a onclick="mixpanel.track('2012 | Media Partner | TechinAsia')" href="http://www.techinasia.com/" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/techinasia-logo.jpg')?>" alt="Tech In Asia"></a>
+    <a onclick="mixpanel.track('Media Partner | e27')" href="http://e27.sg" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/e27-logo.jpg')?>" alt="e27"></a>
+    <a onclick="mixpanel.track('Media Partner | SGE')" href="http://sgentrepreneurs.com/" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/sge-logo.jpg')?>" alt="sge"></a>
+    <a onclick="mixpanel.track('Media Partner | TechinAsia')" href="http://www.techinasia.com/" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/techinasia-logo.jpg')?>" alt="Tech In Asia"></a>
   </div>
   <h3 class="about">Community Partners</h3>
   <div class="info">
-    <a onclick="mixpanel.track('2012 | Community Partner | HackerspaceSG')" href="http://hackerspace.sg" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/hackerspace-logo.jpg')?>" alt="HackerspaceSG"></a>
-    <a onclick="mixpanel.track('2012 | Community Partner | Singapore PHP User Group')" href="https://www.facebook.com/groups/sghypertextpreprocessors" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/singapore-php-logo.jpg')?>" alt="SG PHP Meetup Group"></a>
-    <a onclick="mixpanel.track('2012 | Community Partner | NUSHackers')" href="http://www.nushackers.org" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/nushackers-logo.jpg')?>" alt="NUSHackers"></a>
-    <a onclick="mixpanel.track('2012 | Community Partner | Singapore Ruby Brigade')" href="https://groups.google.com/forum/#!forum/singapore-rb" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/srb-logo.jpg')?>" alt="Singapore Ruby Brigade"></a>
-    <a onclick="mixpanel.track('2012 | Community Partner | Singapore Geek Girls')" href="http://www.sggeekgirls.com" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/sg-geek-girls-logo.jpg')?>" alt="SG Geek Girls"></a>
-    <a onclick="mixpanel.track('2012 | Community Partner | Devops Singapore')" href="http://www.meetup.com/devops-singapore" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/devops-logo.png')?>" alt="DevOps Singapore"></a>
-    <a onclick="mixpanel.track('2012 | Community Partner | iOS Dev Scout')" href="http://iosdevscout.com" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/ios-dev-scout-logo.png')?>" alt="IOS Dev Scout"></a>
-    <a onclick="mixpanel.track('2012 | Community Partner | Little Hackers')" href="https://www.facebook.com/groups/littlehackers/" target="_blank" title="parent-and-child bonding through creative and techie projects"><img class="community-partner-images" src="<?php echo base_url('static/images/little-hackers-logo.png')?>" alt="A place for creative and techie kids to showcase their projects"></a>
-    <a onclick="mixpanel.track('2012 | Community Partner | PythonSG')" href="https://www.facebook.com/groups/pythonsg/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/pugs-logo.jpg')?>" alt="PUGS"></a>
+    <a onclick="mixpanel.track('Community Partner | HackerspaceSG')" href="http://hackerspace.sg" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/hackerspace-logo.jpg')?>" alt="HackerspaceSG"></a>
+    <a onclick="mixpanel.track('Community Partner | Singapore PHP User Group')" href="https://www.facebook.com/groups/sghypertextpreprocessors" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/singapore-php-logo.jpg')?>" alt="SG PHP Meetup Group"></a>
+    <a onclick="mixpanel.track('Community Partner | NUSHackers')" href="http://www.nushackers.org" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/nushackers-logo.jpg')?>" alt="NUSHackers"></a>
+    <a onclick="mixpanel.track('Community Partner | Singapore Ruby Brigade')" href="https://groups.google.com/forum/#!forum/singapore-rb" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/srb-logo.jpg')?>" alt="Singapore Ruby Brigade"></a>
+    <a onclick="mixpanel.track('Community Partner | Singapore Geek Girls')" href="http://www.sggeekgirls.com" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/sg-geek-girls-logo.jpg')?>" alt="SG Geek Girls"></a>
+    <a onclick="mixpanel.track('Community Partner | Devops Singapore')" href="http://www.meetup.com/devops-singapore" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/devops-logo.png')?>" alt="DevOps Singapore"></a>
+    <a onclick="mixpanel.track('Community Partner | iOS Dev Scout')" href="http://iosdevscout.com" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/ios-dev-scout-logo.png')?>" alt="IOS Dev Scout"></a>
+    <a onclick="mixpanel.track('Community Partner | Little Hackers')" href="https://www.facebook.com/groups/littlehackers/" target="_blank" title="parent-and-child bonding through creative and techie projects"><img class="community-partner-images" src="<?php echo base_url('static/images/little-hackers-logo.png')?>" alt="A place for creative and techie kids to showcase their projects"></a>
+    <a onclick="mixpanel.track('Community Partner | PythonSG')" href="https://www.facebook.com/groups/pythonsg/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/pugs-logo.jpg')?>" alt="PUGS"></a>
   </div>
 </div>
 <script type="text/javascript">
