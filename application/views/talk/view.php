@@ -1,6 +1,6 @@
 <div class="span12">
     <div class="padded-element">
-        <h3>View more talks  <a href="<?php echo base_url()?>">here</a>!</h3>
+        <h3>View more talks  <a href="<?php echo base_url()?>#talks">here</a>!</h3>
         <p class="subsubtitle">Click on the Facebook Like Button, or Google +1 button to vote.</p>
         <table class="table table-bordered table-striped">
         <thead>
