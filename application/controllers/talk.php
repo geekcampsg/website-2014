@@ -14,6 +14,7 @@ class Talk extends CI_Controller {
 			else{
 				$data['content'] = $this->load->view('talk/view', $data, TRUE);
 				$data['title'] = $data['talk']['title'].' by '.$data['talk']['speaker_name'];
+				$data['meta_description'] = $data['talk']['description'];
 				$this->load->view('core', $data);
 			}
 		}

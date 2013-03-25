@@ -7,7 +7,7 @@
     <meta name="description" content="Join us for GeekcampSG this year, with tons of geeky talks and what not!">
     <meta property="fb:app_id" content="458924617453783">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Geekcamp.SG<?php echo isset($meta_title)?' - '.$meta_title:''; ?>">
+    <meta property="og:title" content="<?php echo isset($title)?$title:'Geekcamp.SG'?>">
     <meta property="og:description" content="<?php echo isset($meta_description)?$meta_description:'Vote for your favourite talks here!'; ?>">
     <meta property="og:image" content="http://geekcamp.pbworks.com/f/1314843253/geekcamp2011_website.png" />
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
