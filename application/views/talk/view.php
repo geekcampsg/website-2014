@@ -22,6 +22,7 @@
     </div>
 </div>
 <script type="text/javascript">
+  mixpanel.track("<?php echo $talk[title'] ?> Loaded");
   (function() {
     var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
     po.src = 'https://apis.google.com/js/plusone.js';
