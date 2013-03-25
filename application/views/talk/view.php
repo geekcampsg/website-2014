@@ -9,7 +9,7 @@
           <a href="http://twitter.com/<?php echo $talk['twitter_handle']?>" target="_blank">@<?php echo $talk['twitter_handle']?></a><br />
           <?php endif; ?>
           <?php if($talk['website']): ?>
-          <a href="<?php echo $talk['website']?>" target="_blank">Link</a><br />
+          <a href="<?php echo $talk['website']?>" target="_blank"><?php echo $talk['website']?></a><br />
           <?php endif; ?>
         </p>
         <p class="subtitle"><?php echo str_replace(PHP_EOL, '<br />', html_entity_decode($talk['description'])) ?></p>
