@@ -73,7 +73,7 @@ class Admin extends CI_Controller {
                 else{
                     $data['talk'] = $this->talk_model->get_talk_by__id($id);
                     $data['edit'] = TRUE;
-                    $data['content'] = $this->load->view('pages/submit_talk', $data, TRUE);
+                    $data['content'] = $this->load->view('talk/submit_talk', $data, TRUE);
                 }
                 $this->load->view('core', $data);
             }
