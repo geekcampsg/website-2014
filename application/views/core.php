@@ -7,7 +7,7 @@
     <meta name="description" content="Join us for GeekcampSG this year, with tons of geeky talks and what not!">
     <meta property="fb:app_id" content="458924617453783">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="<?php echo isset($meta_title)?$meta_title:'Geekcamp.SG'?>">
+    <meta property="og:title" content="<?php echo isset($meta_title)?$meta_titleBecause we can:'Geekcamp.SG'?>">
     <meta property="og:description" content="<?php echo isset($meta_description)?$meta_description:'Vote for your favourite talks here!'; ?>">
     <meta property="og:image" content="<?php echo base_url()?>static/images/geekcamp-logo-og.png" />
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -48,7 +48,7 @@ mixpanel.init("adeb4cfee8bc300c7ab493ca2052c1b5");</script><!-- end Mixpanel -->
       <footer>
         <div class="row">
           <div class="span4">
-            <p>Bring a youngling to GeekcampSG this year!</p>
+            <p>Because we can!</p>
             <p>Loading took {elapsed_time}s.</p>
           </div>
           <div style="display:none"><a href="https://mixpanel.com/f/partner"><img src="//cdn.mxpnl.com/site_media/images/partner/badge_blue.png" alt="Mobile Analytics" /></a></div>
