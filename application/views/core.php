@@ -9,7 +9,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="<?php echo isset($title)?$title:'Geekcamp.SG'?>">
     <meta property="og:description" content="<?php echo isset($meta_description)?$meta_description:'Vote for your favourite talks here!'; ?>">
-    <meta property="og:image" content="http://geekcamp.pbworks.com/f/1314843253/geekcamp2011_website.png" />
+    <meta property="og:image" content="<?php echo base_url()?>static/images/geekcamp-logo-og.png" />
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
