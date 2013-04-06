@@ -5,16 +5,15 @@
   <p class="subtitle">Conference for the geeks.</p>
   <p class="subtitle">No startup talks. No how to get rich talks. This is purely a tech conference.</p> 
   <p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>7th September 2013</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>Microsoft, 21st Floor</b></p>
-  <p class="subtitle">Sign up over at <a href="http://geekcampsg13.eventbrite.com">Eventbrite</a></p>
+  <p class="subtitle"><b>Sign up over at <a href="http://geekcampsg13.eventbrite.com">Eventbrite</a></b></p>
   <p class="subtitle">Last year's slides can be found over <a href="<?php echo site_url('schedule/view_schedule/2012') ?>">here</a>.</p>
   <h2 class="about">Theme</h2>
   <p class="subtitle">This year, our theme is <code>Because we can!</code>. See inspiration <a rel="geekcampsg[video]" onclick="mixpanel.track('Video | Because we can')" title="Loading video from external site. Please give it a few seconds to load." href="https://www.youtube-nocookie.com/embed/HsbvLd7MSWQ?iframe=true&width=800&height=600">here</a>!</p>
   <h2 class="about">Topics up for voting!</h2>
   <p class="subtitle"><b>Like or +1 the topics that you want to hear to vote.</b> Voting will close on 7th Aug 2359h. Top 15 talks (depending on venue) will be scheduled.</p>
   <p class="subtitle">Each talk should last around 30 minutes.</p>
-  <p class="subtitle"></p>
+  <p class="subtitle">Submit your talk <a href="<?php echo site_url('talk/submit_talk');?>">here</a></p>
   <a name="talks"></a>
-  <p class="subsubtitle">Submit your talk <a href="<?php echo site_url('talk/submit_talk');?>">here</a></p>
   <?php if($talks == NULL || $talks->count() == 0){ ?>
   <p class="subtitle">No talks submitted for this year yet.</p>
   <?php }
