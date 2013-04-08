@@ -1,5 +1,3 @@
-<?php $CI =& get_instance();
-$CI->load->helper('url'); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,8 +16,8 @@ $CI->load->helper('url'); ?>
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="<?php echo base_url()?>static/css/bootstrap.css" rel="stylesheet">
-    <link href="<?php echo base_url()?>static/css/custom.css" rel="stylesheet">
+    <link href="http://geekcamp.sg/static/css/bootstrap.css" rel="stylesheet">
+    <link href="http://geekcamp.sg/static/css/custom.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
   </head>
 
