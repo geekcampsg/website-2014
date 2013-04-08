@@ -1,3 +1,5 @@
+<?php $CI =& get_instance();
+$CI->load->helper('url'); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
