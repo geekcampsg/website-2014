@@ -58,7 +58,7 @@
     <li>Justin Lee</li>
     <li><a href="http://geeksphere.net" target="_blank">Laurence Putra</a></li>
     <li>Luther Goh</li>
-    <li>Rahul Gokul</li>
+    <li><a href="https://ra.hul.ag/" target="_blank">Rahul Gokul</a></li>
     <li><a href="https://twitter.com/shannietron" target="_blank">Shanmugam Mpl</a></li>
     <li>Sneha Menon</li>
     <li>Vishnu Prem</li>
