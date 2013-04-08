@@ -33,7 +33,8 @@
           <?php 
           $url_share_normal = site_url('talk/view/'.$talk['_id']);
           ?>
-          <b><?php echo $talk['title']?></b>(<a href="<?php echo $url_share_normal ?>">Direct Link</a>)<br /><?php echo str_replace(PHP_EOL, '<br />', html_entity_decode($talk['description'])) ?><br />
+          <a href="<?php echo $url_share_normal ?>"><b><?php echo $talk['title']?></b></a><br />
+          <?php echo str_replace(PHP_EOL, '<br />', html_entity_decode($talk['description'])) ?><br />
           <br />
           <div style="width:90px;" class="fb-like" data-href="<?php echo $url_share_normal ?>" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
           <div class="g-plusone" data-href="<?php echo $url_share_normal ?>" data-width="90" data-size="medium"></div>
