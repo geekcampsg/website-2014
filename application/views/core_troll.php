@@ -16,7 +16,7 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="<?php echo base_url()?>static/css/bootstrap.css" rel="stylesheet">
+    <link href="http://divshot.github.io/geo-bootstrap/swatch/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo base_url()?>static/css/custom.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
     <!-- start Mixpanel --><script type="text/javascript">(function(c,a){window.mixpanel=a;var b,d,h,e;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src=("https:"===c.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.0.min.js';d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d);a._i=[];a.init=function(b,c,f){function d(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)))}}var g=a;"undefined"!==typeof f?
@@ -31,7 +31,7 @@ mixpanel.init("adeb4cfee8bc300c7ab493ca2052c1b5");</script><!-- end Mixpanel -->
 
         <div class="span6">
           <a href="<?php echo base_url() ?>"><img src="<?php echo base_url('static/images/geekcampsg-logo-hori.png')?>"></a>
-          <p>Click <a href="<?php echo site_url('pages/index/1990') ?>">here</a> to visit the 90's version of this page.</p>
+          <p>Click <a href="<?php echo base_url() ?>">here</a> to go back to the normal site.</p>
         </div>
         <div class="span6">
           <div class="fb-like" data-href="https://www.facebook.com/geekcampsg" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
@@ -85,7 +85,7 @@ mixpanel.init("adeb4cfee8bc300c7ab493ca2052c1b5");</script><!-- end Mixpanel -->
   })();
 </script>
 <script type="text/javascript">
-  mixpanel.track("Page Load");
+  mixpanel.track("Troll Page Load");
 </script>
   </body>
 </html>
