@@ -25,7 +25,7 @@ class Pages extends CI_Controller {
     *******************/
 	public function index($year = 2013){
 		$this->load->model('talk_model');
-		$data['talks'] = $this->talk_model->get_all_published_talks_for_year($year);
+		$data['talks'] = $this->talk_model->get_all_published_talks_for_year(2013);
 		$data['content'] = $this->load->view('pages/index', $data, TRUE);
 		if($year > 2000){
 			$this->load->view('core', $data);
