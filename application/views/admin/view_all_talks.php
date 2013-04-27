@@ -17,7 +17,7 @@
           <td>
             <b><a href="<?php echo site_url('admin/edit_talk/'.$talk['_id'])?>"><?php echo $talk['title']?></a> <?php if($talk['published']){?> (Published) <?php }else{?> (Unpublished) <?php }?></b><br /><?php echo $talk['description'] ?><br />
           <?php 
-          $url_share_normal = site_url('pages/index/'.$talk['year'].'/'.$talk['_id'].'#'.$talk['_id'])
+          $url_share_normal = site_url('talk/view/'.$talk['_id']);
           ?>
           <div class="fb-like" data-href="<?php echo $url_share_normal ?>" data-send="false" data-layout="standard" data-width="45-" data-show-faces="false"></div>
           <div class="g-plusone" data-href="<?php echo $url_share_normal ?>" data-width="450" data-annotation="inline"></div>
