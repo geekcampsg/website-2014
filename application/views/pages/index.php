@@ -1,4 +1,4 @@
-<a href="https://github.com/laurenceputra/Geekcamp.SG/" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+<a href="https://github.com/GeekcampSG/Geekcamp.SG" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
 <link href="<?php echo base_url('static/css/prettyPhoto.css')?>" rel="stylesheet">
 <div class="span7">
   <h2>What is it?</h2>
