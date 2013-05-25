@@ -18,6 +18,7 @@ class Talk extends CI_Controller {
 				$this->load->view('core', $data);
 			}
 		}
+		$this->output->cache(60);
 	}
 
 	/*******************
