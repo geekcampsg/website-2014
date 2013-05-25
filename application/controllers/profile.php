@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Talk extends CI_Controller {
+class Profile extends CI_Controller {
 	public function view_index($year = 2013){
 		if(!$this->user_lib->is_logged_in()){
 			redirect('');
