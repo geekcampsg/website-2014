@@ -69,6 +69,10 @@ class Pages extends CI_Controller {
 		//$this->output->cache(60);
 	}
 
+	public function hotel(){
+		$data['content'] = $this->load->view('pages/hotel');
+		$this->load->view('core', $data)
+	}
 
 	/*******************
      * Email page
