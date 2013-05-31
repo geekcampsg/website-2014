@@ -75,7 +75,7 @@ class Pages extends CI_Controller {
     *******************/
     public function hotel(){
         $data['content'] = $this->load->view('pages/hotel');
-        $this->load->view('core', $data)
+        $this->load->view('core', $data);
     }
 
     /*******************
