@@ -74,7 +74,7 @@ class Pages extends CI_Controller {
      * Uses tripconomics
     *******************/
     public function hotel(){
-        $data['content'] = $this->load->view('pages/hotel');
+        $data['content'] = $this->load->view('pages/hotel', NULL, TRUE);
         $this->load->view('core', $data);
     }
 
