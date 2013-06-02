@@ -4,6 +4,8 @@ function deleteTalk(id){
     $.ajax({
       url: "<?php echo site_url()?>/admin/delete_talk/" + id
     }).done(function(data){
+      console.log('deleted');
+      console.log(data);
       if(data['status'] == 'ok'){
         removeNode(document.getElementById(id));
       }
