@@ -92,7 +92,7 @@ class Admin extends CI_Controller {
             $this->load->model('talk_model');
             $this->talk_model->delete_talk($id);
             $this->output->set_header('Content-Type: application/json; charset=utf-8');
-            echo '{"status":"ok"}'
+            echo '{"status":"ok"}';
         }
         else {
             redirect('/');
