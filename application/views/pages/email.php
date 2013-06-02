@@ -40,6 +40,7 @@
                     <?php echo ($str == NULL)?'':'<span class="help-inline">'.$str.'</span>'?>
                 </div>
             </div>
+            <input type="text" class="captcha2" name="captcha2">
 
         </fieldset>
         <button type="submit" class="btn">Contact us now!</button>

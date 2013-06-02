@@ -90,6 +90,7 @@ class Pages extends CI_Controller {
         $this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email|strtolower|stripcslashes');
         $this->form_validation->set_rules('subject', 'Subject', 'trim|required|stripcslashes');
         $this->form_validation->set_rules('msg', 'Message', 'trim|required|stripcslashes');
+        $this->form_validation->set_rules('captcha2', '', 'max_length[0]');
         
         if($this->form_validation->run()){
             $contactMessage =  
