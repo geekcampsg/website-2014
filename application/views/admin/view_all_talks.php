@@ -1,4 +1,18 @@
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script type="text/javascript">
+function deleteTalk(id){
+    $.ajax({
+      url: "<?php echo site_url()?>/admin/delete_talk/" + id; 
+    }).done(function(data){
+      if(data['status'] == 'ok'){
+        removeNode(document.getElementById(id));
+      }
+    })
+}
+function removeNode(node){
+  node && node.parentNode && node.parentNode.removeChild(node)
+}
+</script>
 <div class="span12">
   <div class="padded-element">
     <?php if($talks->count() == 0){ ?>
@@ -29,7 +43,7 @@
             <a href="http://twitter.com/<?php echo $talk['twitter_handle']?>" target="_blank">@<?php echo $talk['twitter_handle']?></a><br /><?php } ?>
             <?php if($talk['website']){ ?>
             <a href="<?php echo $talk['website']?>" target="_blank"><?php echo $talk['website']?></a><br /><?php } ?>
-            <a href="#" onClick="delete_talk('<?php echo $talk['_id']?>')">Delete</a>
+            <a href="#" onClick="deleteTalk('<?php echo $talk['_id']?>')">Delete</a>
           </td>
         </tr>
         <?php }?>
@@ -48,18 +62,4 @@
     po.src = 'https://apis.google.com/js/plusone.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
-</script>
-<script type="text/javascript">
-function delete_talk(id){
-    $.ajax({
-      url: "<?php echo site_url()?>/admin/delete_talk/" + id; 
-    }).done(function(data){
-      if(data['status'] == 'ok'){
-        remove_node(document.getElementById(id));
-      }
-    })
-}
-function remove_node(node){
-  node && node.parentNode && node.parentNode.removeChild(node)
-}
 </script>
