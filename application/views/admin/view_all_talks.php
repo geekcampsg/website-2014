@@ -4,12 +4,7 @@ function deleteTalk(id){
     $.ajax({
       url: "<?php echo site_url()?>/admin/delete_talk/" + id
     }).done(function(data){
-      console.log('deleted');
-      console.log(data);
-      console.log(id);
-      if(data.status== 'ok'){
-        removeNode(document.getElementById(id));
-      }
+      removeNode(document.getElementById(id));
     })
 }
 function removeNode(node){
@@ -46,7 +41,7 @@ function removeNode(node){
             <a href="http://twitter.com/<?php echo $talk['twitter_handle']?>" target="_blank">@<?php echo $talk['twitter_handle']?></a><br /><?php } ?>
             <?php if($talk['website']){ ?>
             <a href="<?php echo $talk['website']?>" target="_blank"><?php echo $talk['website']?></a><br /><?php } ?>
-            <a href="#" onClick="deleteTalk('<?php echo $talk['_id']?>')">Delete</a>
+            <a onClick="deleteTalk('<?php echo $talk['_id']?>')">Delete</a>
           </td>
         </tr>
         <?php }?>
