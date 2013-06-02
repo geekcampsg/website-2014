@@ -112,6 +112,7 @@
 
 <script type="text/javascript" src="<?php echo base_url() ?>static/js/bootstrap-button.js"></script>
 <script type="text/javascript">
+mixpanel.track("Submit Talk Page Loaded");
 $(document).ready(function(){
         $('.btn-group').button();
         $('#published').click(function(){
