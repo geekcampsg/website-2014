@@ -37,7 +37,7 @@ class Talk extends CI_Controller {
 		$this->form_validation->set_rules('website', 'Website', 'trim');
 		$this->form_validation->set_rules('twitter-handle', 'Twitter', 'trim');
 
-		if($this->form_validation->run()){
+		if($this->form_validation->run() && $this->_arithmetic_captcha($_POST['operation'], $_POST['digit1'], $_POST['digit2'], $_POST['captcha'])){
 			$this->load->model('talk_model');
 			$data['talk'] = $this->talk_model->create_talk(set_value('title'), set_value('talk-description'), set_value('speaker-name'), set_value('email-address'), set_value('website'), set_value('twitter-handle'));
 			$data['content'] = $this->load->view('talk/submit_talk_success', $data, TRUE);
@@ -49,6 +49,24 @@ class Talk extends CI_Controller {
 		}	
 	}
 
+	private function _arithmetic_captcha($operation, $digit1, $digit2, $result){
+		switch ($operation) {
+			case '0':
+				return ((int)$result == (int)$digit1 + (int)$digit2)?TRUE:FALSE;
+				break;
+			
+			case '1':
+				return ((int)$result == (int)$digit2 - (int)$digit1)?TRUE:FALSE;
+				break;
+
+			case '2':
+				return ((int)$result == (int)$digit1 * (int)$digit2)?TRUE:FALSE;
+				break;
+			default:
+				# code...
+				break;
+		}
+	}
 	public function tmp(){
 		phpinfo();
 	}

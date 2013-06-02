@@ -59,6 +59,36 @@
                     <?php echo ($str == NULL)?'':'<span class="help-inline">'.$str.'</span>'?>
                 </div>
             </div>
+            <?php if(!isset($edit)):?>
+            <?php $str = form_error('captcha'); 
+            $digit1 = rand(0, 9);
+            $digit2 = rand(0, 9);
+            $operation = rand(0, 2);
+            ?>
+            <div class="control-group<?php echo ($str == NULL)?'':' error'?>">
+                <div class="controls">
+                    <label for="captcha"><?php 
+                        switch ($operation) {
+                            case 0:
+                                echo 'What is the sum of '."$digit1".' and '."$digit2".'?';
+                                break;
+                            
+                            case 1:
+                                echo 'What do you get when you subtract '."$digit1".' from '."$digit2".'?';
+                                break;
+                            case 2:
+                                echo 'What is '."$digit1".' multiplied by '."$digit2".'?';
+                                break;
+                        }
+                    ?></label>
+                    <input type="text" class="input-xlarge" id="captcha" name="captcha" tabindex="7"><br />
+                    <input type="hidden" value="<?php echo $operation?>" name="operation">
+                    <input type="hidden" value="<?php echo $digit1?>" name="digit1">
+                    <input type="hidden" value="<?php echo $digit2?>" name="digit2">
+                    <?php echo ($str == NULL)?'':'<span class="help-inline">'.$str.'</span>'?>
+                </div>
+            </div>
+            <?php endif; ?>
             <?php if (isset($edit) && $edit){ ?>
             <div class="control-group">
                 <div class="controls">
