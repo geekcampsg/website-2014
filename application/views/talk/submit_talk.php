@@ -88,6 +88,7 @@
                     <?php echo (isset($captcha) && !$captcha)?'<span class="help-inline">Your answer was wrong. Please try again.</span>':''?>
                 </div>
             </div>
+            <input type="text" class="captcha2" name="captcha2">
             <?php endif; ?>
             <?php if (isset($edit) && $edit){ ?>
             <div class="control-group">

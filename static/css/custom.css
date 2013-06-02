@@ -55,3 +55,7 @@ div .fb_reset {
     min-width:400px;
     min-height:150px;
 }
+
+.captcha2{
+    display: none;
+}

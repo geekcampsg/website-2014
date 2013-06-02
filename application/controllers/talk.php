@@ -36,6 +36,7 @@ class Talk extends CI_Controller {
 		$this->form_validation->set_rules('email-address', 'Email', 'trim|required|valid_email|strtolower');
 		$this->form_validation->set_rules('website', 'Website', 'trim');
 		$this->form_validation->set_rules('twitter-handle', 'Twitter', 'trim');
+		$this->form_validation->set_rules('captcha2', '', 'max_length[0]');
 		if(isset($_POST['operation']) && isset($_POST['digit1']) && isset($_POST['digit2']) && isset($_POST['captcha'])){
 			$data['captcha'] = $this->_arithmetic_captcha($_POST['operation'], $_POST['digit1'], $_POST['digit2'], $_POST['captcha']);
 		}
