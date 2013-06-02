@@ -83,6 +83,21 @@ class Admin extends CI_Controller {
             redirect('/');
         }
     }
+
+    public function delete_talk($id = -1){
+        if($this->user_lib->is_logged_in()){
+            if($id == -1){
+                redirect('/');
+            }
+            $this->load->model('talk_model');
+            $this->talk_model->delete_talk($id);
+            $this->output->set_header('Content-Type: application/json; charset=utf-8');
+            echo '{"status":"ok"}'
+        }
+        else {
+            redirect('/');
+        }
+    }
 }
 
 /* End of file welcome.php */
