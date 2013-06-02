@@ -29,7 +29,7 @@
             <a href="http://twitter.com/<?php echo $talk['twitter_handle']?>" target="_blank">@<?php echo $talk['twitter_handle']?></a><br /><?php } ?>
             <?php if($talk['website']){ ?>
             <a href="<?php echo $talk['website']?>" target="_blank"><?php echo $talk['website']?></a><br /><?php } ?>
-            <a href="#" onClick="delete_talk('<?php echo $talk['_id']?>')"></a>
+            <a href="#" onClick="delete_talk('<?php echo $talk['_id']?>')">Delete</a>
           </td>
         </tr>
         <?php }?>
