@@ -121,8 +121,7 @@ class Talk_model extends CI_Model {
     public function delete_talk($id){
         $collection = $this->choose_collection();
         $query = array(
-            '_id' => new Mongo($id),
-            'published' => FALSE,
+            '_id' => new MongoID($id),
         );
         
         $collection->remove($query);
