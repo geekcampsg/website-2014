@@ -36,15 +36,17 @@ class Talk extends CI_Controller {
 		$this->form_validation->set_rules('email-address', 'Email', 'trim|required|valid_email|strtolower');
 		$this->form_validation->set_rules('website', 'Website', 'trim');
 		$this->form_validation->set_rules('twitter-handle', 'Twitter', 'trim');
-
-		if($this->form_validation->run() && $this->_arithmetic_captcha($_POST['operation'], $_POST['digit1'], $_POST['digit2'], $_POST['captcha'])){
+		if(isset($_POST['operation']) && isset($_POST['digit1']) && isset($_POST['digit2']) && isset($_POST['captcha'])){
+			$data['captcha'] = $this->_arithmetic_captcha($_POST['operation'], $_POST['digit1'], $_POST['digit2'], $_POST['captcha']);
+		}
+		if($this->form_validation->run() && isset($data) && $data['captcha']){
 			$this->load->model('talk_model');
 			$data['talk'] = $this->talk_model->create_talk(set_value('title'), set_value('talk-description'), set_value('speaker-name'), set_value('email-address'), set_value('website'), set_value('twitter-handle'));
 			$data['content'] = $this->load->view('talk/submit_talk_success', $data, TRUE);
 			$this->load->view('core', $data);	
 		}
 		else{
-			$data['content'] = $this->load->view('talk/submit_talk', '', TRUE);
+			$data['content'] = $this->load->view('talk/submit_talk', isset($data)?$data:NULL, TRUE);
 			$this->load->view('core', $data);
 		}	
 	}

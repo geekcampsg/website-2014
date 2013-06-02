@@ -65,7 +65,7 @@
             $digit2 = rand(0, 9);
             $operation = rand(0, 2);
             ?>
-            <div class="control-group<?php echo ($str == NULL)?'':' error'?>">
+            <div class="control-group<?php echo (isset($captcha) && !$captcha)?' error':''?>">
                 <div class="controls">
                     <label for="captcha"><?php 
                         switch ($operation) {
@@ -85,7 +85,7 @@
                     <input type="hidden" value="<?php echo $operation?>" name="operation">
                     <input type="hidden" value="<?php echo $digit1?>" name="digit1">
                     <input type="hidden" value="<?php echo $digit2?>" name="digit2">
-                    <?php echo ($str == NULL)?'':'<span class="help-inline">'.$str.'</span>'?>
+                    <?php echo (isset($captcha) && !$captcha)?'<span class="help-inline">Your answer was wrong. Please try again.</span>':''?>
                 </div>
             </div>
             <?php endif; ?>
