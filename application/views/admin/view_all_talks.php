@@ -2,7 +2,7 @@
 <script type="text/javascript">
 function deleteTalk(id){
     $.ajax({
-      url: "<?php echo site_url()?>/admin/delete_talk/" + id; 
+      url: "<?php echo site_url()?>/admin/delete_talk/" + id
     }).done(function(data){
       if(data['status'] == 'ok'){
         removeNode(document.getElementById(id));
