@@ -6,7 +6,8 @@ function deleteTalk(id){
     }).done(function(data){
       console.log('deleted');
       console.log(data);
-      if(data['status'] == 'ok'){
+      console.log(id);
+      if(data.status== 'ok'){
         removeNode(document.getElementById(id));
       }
     })
