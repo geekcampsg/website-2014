@@ -62,7 +62,6 @@
     <li>Luther Goh</li>
     <li><a href="https://ra.hul.ag/" target="_blank">Rahul Gokul</a></li>
     <li><a href="https://twitter.com/shannietron" target="_blank">Shanmugam Mpl</a></li>
-    <li>Sneha Menon</li>
     <li>Vishnu Prem</li>
   </ul>
   <h3 class="about">Subscribe to our mailing list</h2>
@@ -96,6 +95,9 @@
     <a onclick="mixpanel.track('Community Partner | iOS Dev Scout')" href="http://iosdevscout.com" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/ios-dev-scout-logo.png')?>" alt="IOS Dev Scout"></a>
     <a onclick="mixpanel.track('Community Partner | Little Hackers')" href="https://www.facebook.com/groups/littlehackers/" target="_blank" title="parent-and-child bonding through creative and techie projects"><img class="community-partner-images" src="<?php echo base_url('static/images/little-hackers-logo.png')?>" alt="A place for creative and techie kids to showcase their projects"></a>
     <a onclick="mixpanel.track('Community Partner | PythonSG')" href="https://www.facebook.com/groups/pythonsg/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/pugs-logo.jpg')?>" alt="PUGS"></a>
+    <a onclick="mixpanel.track('Community Partner | Front End Developer')" href="https://www.facebook.com/groups/frontendsingapore/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/front-end-developer.jpg')?>" alt="Front End Developer"></a>
+    <a onclick="mixpanel.track('Community Partner | We Build SG')" href="http://webuild.sg/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/we-build-sg.jpg')?>" alt="We Build SG"></a>
+    <a onclick="mixpanel.track('Community Partner | Agile SG')" href="https://www.facebook.com/groups/agiledevopssg/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/agile-sg.jpg')?>" alt="Agile SG"></a>
   </div>
 </div>
 <script type="text/javascript" src="<?php echo base_url('static/js/jquery-1.7.2.min.js')?>"></script>
