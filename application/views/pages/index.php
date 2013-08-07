@@ -11,7 +11,7 @@
   <h2 class="about">Theme</h2>
   <p class="subtitle">This year, our theme is <code>Because we can!</code>. See inspiration <a rel="geekcampsg[video]" onclick="mixpanel.track('Video | Because we can')" title="Loading video from external site. Please give it a few seconds to load." href="https://www.youtube-nocookie.com/embed/HsbvLd7MSWQ?iframe=true&width=800&height=600">here</a>!</p>
   <h2 class="about">Topics up for voting!</h2>
-  <p class="subtitle"><b>Voting is now over. Scheduling in progress</p>
+  <p class="subtitle"><b>Voting is now over. Scheduling in progress</b></p>
   <a name="talks"></a>
   <?php if($talks == NULL || $talks->count() == 0){ ?>
   <p class="subtitle">No talks submitted for this year yet.</p>
