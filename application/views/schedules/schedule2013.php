@@ -22,7 +22,7 @@
         		</tr>
         		<tr>
         			<td>11:00 - 11:45</td>
-        			<td>Where are the geeks? by <strong>Eugene Teo</strong></td>
+        			<td>Scale without NoSQL by <strong>Justin Mann</strong></td>
         			<td></td>
         		</tr>
         		<tr>
@@ -67,7 +67,7 @@
         		</tr>
         		<tr>
         			<td>6:00 till late</td>
-        			<td colspan="2">After party @ Nueva Cuba</td>
+        			<td colspan="2">After party @ Secret Location</td>
         		</tr>
         	</tbody>
         </table>
