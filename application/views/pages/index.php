@@ -78,6 +78,9 @@
   <h3 class="about">Gold Sponsor</h3>
     <a onclick="mixpanel.track('Sponsor | Odd-e')" href="http://odd-e.com/" target="_blank"><img class="gold-sponsor-images" src="<?php echo base_url('static/images/odd-e-logo.jpeg')?>" alt="Odd-e"></a>
     <a onclick="mixpanel.track('Sponsor | ThoughtWorks')" href="http://www.thoughtworks.com/" target="_blank"><img class="gold-sponsor-images" src="<?php echo base_url('static/images/thoughtworks-logo.jpg')?>" alt="ThoughtWorks"></a>
+  <h3 class="about">Supporting Companies</h3>
+    <a onclick="mixpanel.track('Supporting | BillPin')" href="http://billpin.com/" target="_blank"><img class="supporting-company-images" src="<?php echo base_url('static/images/billpin-logo.png')?>" alt="BillPin"></a>
+    <a onclick="mixpanel.track('Supporting | TypeSafe')" href="http://typesafe.com/" target="_blank"><img class="supporting-company-images" src="<?php echo base_url('static/images/typesafe-logo.png')?>" alt="TypeSafe"></a>
   <h3 class="about">Digital Media Partner</h3>
     <a onclick="mixpanel.track('Media Partner | Tech65')" href="http://www.tech65.org/" target="_blank"><img class="platinum-sponsor-images" src="<?php echo base_url('static/images/tech65-logo.jpg')?>" alt="tech65"></a>
   <h3 class="about">Media Partners</h3>

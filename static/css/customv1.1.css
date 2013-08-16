@@ -22,6 +22,12 @@ div .fb_reset {
     width:120px;
     padding-bottom:5px;
 }
+.supporting-company-images{
+    vertical-align:top;
+    max-width:180px;
+    max-height: 180px;
+    padding-bottom:5px;
+}
 .media-partner-images{
     vertical-align:top;
     width:90px;
