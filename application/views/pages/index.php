@@ -60,7 +60,7 @@
     <li>Luther Goh</li>
     <li><a href="https://ra.hul.ag/" target="_blank">Rahul Gokul</a></li>
     <li><a href="https://twitter.com/shannietron" target="_blank">Shanmugam Mpl</a></li>
-    <li>Vishnu Prem</li>
+    <li><a href="https://twitter.com/burnflare" target="_blank">Vishnu Prem</a></li>
   </ul>
   <h3 class="about">Subscribe to our mailing list</h2>
   <!-- Begin MailChimp Signup Form -->
