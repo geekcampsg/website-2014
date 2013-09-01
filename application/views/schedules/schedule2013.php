@@ -53,12 +53,12 @@
         		<tr>
         			<td>3:45 - 4:30</td>
         			<td>Put it on a map! by <strong>Tim Chandler</strong></td>
-                    <td>Building apps with AngularJS by <strong>Ruiwen Chua</strong></td>
+                    <td>Hack your own beer by <strong>Markus Baden</strong></td>
         		</tr>
         		<tr>
         			<td>4:30 - 5:15</td>
         			<td>Oh NO. Not more hardware! by <strong>Dave Appleton</strong></td>
-        			<td>Hack your own beer by <strong>Markus Baden</strong></td>
+        			<td>Building apps with AngularJS by <strong>Ruiwen Chua</strong></td>
         		</tr>
         		<tr>
         			<td>5:15 - 6:00</td>
