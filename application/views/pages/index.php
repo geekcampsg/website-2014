@@ -84,6 +84,7 @@
   <h3 class="about">Supporting Companies</h3>
     <a onclick="mixpanel.track('Supporting | BillPin')" href="http://billpin.com/" target="_blank"><img class="supporting-company-images" src="<?php echo base_url('static/images/billpin-logo.png')?>" alt="BillPin"></a>
     <a onclick="mixpanel.track('Supporting | TypeSafe')" href="http://typesafe.com/" target="_blank"><img class="supporting-company-images" src="<?php echo base_url('static/images/typesafe-logo.png')?>" alt="TypeSafe"></a>
+    <a onclick="mixpanel.track('Supporting | Uber')" href="https://www.uber.com/" target="_blank"><img class="supporting-company-images" src="<?php echo base_url('static/images/uber-logo.png')?>" alt="Uber"></a>
   <h3 class="about">Media Partners</h3>
     <a onclick="mixpanel.track('Media Partner | e27')" href="http://e27.sg" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/e27-logo.jpg')?>" alt="e27"></a>
     <a onclick="mixpanel.track('Media Partner | SGE')" href="http://sgentrepreneurs.com/" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/sge-logo.jpg')?>" alt="sge"></a>
