@@ -7,8 +7,8 @@ class User extends CI_Controller {
 	}
 
 	/****************************
-     * renders the page for account creation
-    ****************************/
+	 * renders the page for account creation
+	****************************/
 	public function _signup(){
 		if(!$this->user_lib->is_logged_in()){
 			$this->load->library('form_validation');
@@ -37,8 +37,8 @@ class User extends CI_Controller {
 	}
 
 	/****************************
-     * renders the page for login
-    ****************************/
+	 * renders the page for login
+	****************************/
 	public function login(){
 		if(!$this->user_lib->is_logged_in()){
 			$this->load->helper('security');
@@ -78,9 +78,9 @@ class User extends CI_Controller {
 	}
 
 	/****************************
-     * renders the page for user to indicate that they have forgot the password
-     * sends an email if submitted
-    ****************************/
+	 * renders the page for user to indicate that they have forgot the password
+	 * sends an email if submitted
+	****************************/
 	public function forget_password_form(){
 		$this->load->library('form_validation');
 		$this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email|strtolower|callback__check_email_exist');
@@ -112,9 +112,9 @@ GeekBot';
 	}
 
 	/****************************
-     * renders the page for password reset
-     * resets the password if within 10 minutes
-    ****************************/
+	 * renders the page for password reset
+	 * resets the password if within 10 minutes
+	****************************/
 	public function password_reset_form($key){
 		$this->load->library('form_validation');
 		$this->form_validation->set_rules('password', 'Password', 'required|min_length[7]|matches[password_conf]');
@@ -134,7 +134,7 @@ GeekBot';
 
 	public function logout(){
 		$this->session->sess_destroy();
-        redirect('/');
+		redirect('/');
 	}
 
 	public function remove_reset_links(){
@@ -143,13 +143,13 @@ GeekBot';
 	}
 
 	/****************************
-     * callback functions
-    ****************************/
+	 * callback functions
+	****************************/
 
-    /****************************
-     * checks if the email exists
-     * if exists, return false
-    ****************************/
+	/****************************
+	 * checks if the email exists
+	 * if exists, return false
+	****************************/
 	public function _check_email($email_address){
 		$this->load->model('user_model');
 		if($this->user_model->check_dup($email_address)){
@@ -162,9 +162,9 @@ GeekBot';
 	}
 
 	/****************************
-     * checks if the email exists
-     * if exists, return true
-    ****************************/
+	 * checks if the email exists
+	 * if exists, return true
+	****************************/
 	public function _check_email_exist($email_address){
 		if($this->_check_email($email_address)){
 			$this->form_validation->set_message('_check_email_exist', 'Email not found!');

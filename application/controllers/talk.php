@@ -22,11 +22,11 @@ class Talk extends CI_Controller {
 	}
 
 	/*******************
-     * Talk submission page
-     * Allows users to submit talk with fields title, talk-description, speaker-name, email-address, website, and twitter-handle
-     * Validates the talk details, throw an error if condition fails
-     * Shows talk success page on success
-    *******************/
+	 * Talk submission page
+	 * Allows users to submit talk with fields title, talk-description, speaker-name, email-address, website, and twitter-handle
+	 * Validates the talk details, throw an error if condition fails
+	 * Shows talk success page on success
+	*******************/
 	public function submit_talk(){
 		$this->load->library('form_validation');
 
