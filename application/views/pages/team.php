@@ -15,7 +15,6 @@
 
         <h3>Venue</h3>
         Aizat Omar <br>
-        Robert Sim <br>
 
         <h3>Emcee</h3>
         Sayanee <br>
