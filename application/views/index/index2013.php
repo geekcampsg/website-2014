@@ -4,12 +4,16 @@
   <h2>What is it?</h2>
   <p class="subtitle">Conference for the geeks.</p>
   <p class="subtitle">No startup talks. No how to get rich talks. This is purely a tech conference.</p> 
-  <p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>6th or 13th September 2014</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>Unknown. Interesting in sponsoring? Drop us an <a href="<?php echo site_url('pages/email')?>">email</a></b></p>
-  <p class="subtitle"><a href="<?php echo site_url('talk/submit_talk') ?>">Submit</a> your talk now!</b></p>
+  <p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>7th September 2013</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>Microsoft, 21st Floor</b></p>
+  <p class="subtitle"><b>Sign up over at <a href="http://geekcampsg13.eventbrite.com">Eventbrite</a></b></p>
+  <p class="subtitle">Schedule can be found <a href="<?php echo site_url('schedule/view_schedule/2013') ?>">here</a>.</p>
+  <p class="subtitle">Coming from overseas? Book your hotel <a href="<?php echo site_url('pages/hotel') ?>">here</a>.</p>
+  <h2 class="about">Theme</h2>
+  <p class="subtitle">This year, our theme is <code>Because we can!</code>. See inspiration <a rel="geekcampsg[video]" onclick="mixpanel.track('Video | Because we can')" title="Loading video from external site. Please give it a few seconds to load." href="https://www.youtube-nocookie.com/embed/HsbvLd7MSWQ?iframe=true&width=800&height=600">here</a>!</p>
   <h2 class="about">Topics up for voting!</h2>
   <a name="talks"></a>
   <?php if($talks == NULL || $talks->count() == 0){ ?>
-  <p class="subtitle">No talks submitted for this year yet. <b></p>
+  <p class="subtitle">No talks submitted for this year yet.</p>
   <?php }
   else{?>
   <table class="table table-bordered table-striped">
@@ -59,12 +63,22 @@
   <h2 class="about">Partners</h2>
   <p class="sublabel">Interested to work with us?</p>
   <p class="sublabel">Drop us an email <a href="<?php echo site_url('pages/email')?>">here</a>.</p>
+  <h3 class="about">Platinum Sponsor</h3>
+    <a onclick="mixpanel.track('Sponsor | Azure')" href="https://www.windowsazure.com/" target="_blank"><img class="platinum-sponsor-images" src="<?php echo base_url('static/images/winazure-logo.png')?>" alt="Windows Azure"></a>
+  <h3 class="about">Gold Sponsor</h3>
+    <a onclick="mixpanel.track('Sponsor | Odd-e')" href="http://odd-e.com/" target="_blank"><img class="gold-sponsor-images" src="<?php echo base_url('static/images/odd-e-logo.jpeg')?>" alt="Odd-e"></a>
+    <a onclick="mixpanel.track('Sponsor | ThoughtWorks')" href="http://www.thoughtworks.com/" target="_blank"><img class="gold-sponsor-images" src="<?php echo base_url('static/images/thoughtworks-logo.jpg')?>" alt="ThoughtWorks"></a>
+  <h3 class="about">Supported By</h3>
+    <a onclick="mixpanel.track('Sponsor | iDA')" href="http://www.ida.gov.sg/home/index.aspx" target="_blank"><img class="platinum-sponsor-images" src="<?php echo base_url('static/images/ida-logo.jpg')?>" alt="IDA"></a>
   <h3 class="about">Digital Media Partner</h3>
     <a onclick="mixpanel.track('Media Partner | Tech65')" href="http://www.tech65.org/" target="_blank"><img class="platinum-sponsor-images" src="<?php echo base_url('static/images/tech65-logo.jpg')?>" alt="tech65"></a>
   <h3 class="about">Supporting Companies</h3>
-    <a onclick="mixpanel.track('Supporting | 12Geeks')" href="http://12Geeks.com/" target="_blank"><img class="supporting-company-images" src="<?php echo base_url('static/images/12geeks-logo.png')?>" alt="BillPin"></a>
+    <a onclick="mixpanel.track('Supporting | BillPin')" href="http://billpin.com/" target="_blank"><img class="supporting-company-images" src="<?php echo base_url('static/images/billpin-logo.png')?>" alt="BillPin"></a>
+    <a onclick="mixpanel.track('Supporting | TypeSafe')" href="http://typesafe.com/" target="_blank"><img class="supporting-company-images" src="<?php echo base_url('static/images/typesafe-logo.png')?>" alt="TypeSafe"></a>
+    <a onclick="mixpanel.track('Supporting | Uber')" href="https://www.uber.com/" target="_blank"><img class="supporting-company-images" src="<?php echo base_url('static/images/uber-logo.png')?>" alt="Uber"></a>
   <h3 class="about">Media Partners</h3>
     <a onclick="mixpanel.track('Media Partner | e27')" href="http://e27.sg" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/e27-logo.jpg')?>" alt="e27"></a>
+    <a onclick="mixpanel.track('Media Partner | SGE')" href="http://sgentrepreneurs.com/" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/sge-logo.jpg')?>" alt="sge"></a>
   <h3 class="about">Community Partners</h3>
     <a onclick="mixpanel.track('Community Partner | HackerspaceSG')" href="http://hackerspace.sg" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/hackerspace-logo.jpg')?>" alt="HackerspaceSG"></a>
     <a onclick="mixpanel.track('Community Partner | Singapore PHP User Group')" href="https://www.facebook.com/groups/sghypertextpreprocessors" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/singapore-php-logo.jpg')?>" alt="SG PHP Meetup Group"></a>

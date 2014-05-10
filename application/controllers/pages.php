@@ -23,9 +23,9 @@ class Pages extends CI_Controller {
 	 * Uses Facebook Likes and Google +1's for voting
 	 * Output is cached for 1 minute
 	*******************/
-	public function index($year = 2013){
+	public function index($year = 2014){
 		$this->load->model('talk_model');
-		$data['talks'] = $this->talk_model->get_all_published_talks_for_year(2013);
+		$data['talks'] = $this->talk_model->get_all_published_talks_for_year(2014);
 		$data['content'] = $this->load->view('pages/index', $data, TRUE);
 		if($year > 2000){
 			$this->load->view('core', $data);
@@ -70,15 +70,6 @@ class Pages extends CI_Controller {
 	}
 
 	/*******************
-	 * Hotel booking page
-	 * Uses tripconomics
-	*******************/
-	public function hotel(){
-		$data['content'] = $this->load->view('pages/hotel', NULL, TRUE);
-		$this->load->view('core', $data);
-	}
-
-	/*******************
 	 * Email page
 	 * Allows users to email the organisers
 	 * Shows email success page on success
@@ -112,6 +103,14 @@ Sending Script: $_SERVER[HTTP_HOST]$_SERVER[PHP_SELF]";
 			$this->load->view('core', $data);
 
 		}
+	}
+
+	/*******************
+	 * team page
+	*******************/
+	public function team(){
+		$data['content'] = $this->load->view('pages/team', '', TRUE);
+		$this->load->view('core', $data);
 	}
 
 	/*******************

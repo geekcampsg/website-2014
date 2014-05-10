@@ -31,7 +31,6 @@ mixpanel.init("adeb4cfee8bc300c7ab493ca2052c1b5");</script><!-- end Mixpanel -->
 
         <div class="span6">
           <a href="<?php echo base_url() ?>"><img src="<?php echo base_url('static/images/geekcampsg-logo-hori.png')?>"></a>
-          <p>Click <a href="<?php echo site_url('pages/index/1990') ?>">here</a> to visit the 90's version of this page.</p>
         </div>
         <div class="span6">
           <div class="fb-like" data-href="https://www.facebook.com/geekcampsg" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
