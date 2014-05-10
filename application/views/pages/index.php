@@ -4,7 +4,7 @@
   <h2>What is it?</h2>
   <p class="subtitle">Conference for the geeks.</p>
   <p class="subtitle">No startup talks. No how to get rich talks. This is purely a tech conference.</p> 
-  <p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>6th or 13th September 2014</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>Unknown. Interesting in sponsoring? Drop us an <a href="<?php echo site_url('pages/email')?>">email</a></b></p>
+  <p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>6th or 13th September 2014</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>Unknown. Interested in sponsoring? Drop us an <a href="<?php echo site_url('pages/email')?>">email</a>.</b></p>
   <p class="subtitle"><a href="<?php echo site_url('talk/submit_talk') ?>">Submit</a> your talk now!</b></p>
   <h2 class="about">Topics up for voting!</h2>
   <a name="talks"></a>
