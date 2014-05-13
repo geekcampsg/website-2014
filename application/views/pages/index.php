@@ -30,8 +30,11 @@
 					<a href="<?php echo $url_share_normal ?>"><b><?php echo $talk['title']?></b></a><br />
 					<?php echo str_replace(PHP_EOL, '<br />', html_entity_decode($talk['description'])) ?><br />
 					<br />
-					<div style="width:90px;" class="fb-like" data-href="<?php echo $url_share_normal ?>" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
-					<div class="g-plusone" data-href="<?php echo $url_share_normal ?>" data-width="90" data-size="medium"></div>
+					<div class="social">
+						<div style="width:90px;" class="fb-like" data-href="<?php echo $url_share_normal ?>" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+						<div class="g-plusone" data-href="<?php echo $url_share_normal ?>" data-width="90" data-size="medium"></div>
+					</div>
+					
 				</td>
 				<td><?php echo $talk['speaker_name'] ?><br />
 					<?php if($talk['twitter_handle']){ ?>
@@ -60,7 +63,7 @@
 	<h3 class="about">Digital Media Partner</h3>
 		<a onclick="mixpanel.track('Media Partner | Tech65')" href="http://www.tech65.org/" target="_blank"><img class="platinum-sponsor-images" src="<?php echo base_url('static/images/tech65-logo.jpg')?>" alt="tech65"></a>
 	<h3 class="about">Supporting Companies</h3>
-		<a onclick="mixpanel.track('Supporting | 12Geeks')" href="http://12Geeks.com/" target="_blank"><img class="supporting-company-images" src="<?php echo base_url('static/images/12geeks-logo.png')?>" alt="BillPin"></a>
+		<a onclick="mixpanel.track('Supporting | 12Geeks')" href="http://12Geeks.com/" target="_blank"><img class="supporting-company-images" src="<?php echo base_url('static/images/12geeks-logo.png')?>" alt="12Geeks"></a>
 	<h3 class="about">Media Partners</h3>
 		<a onclick="mixpanel.track('Media Partner | e27')" href="http://e27.sg" target="_blank"><img class="media-partner-images" src="<?php echo base_url('static/images/e27-logo.jpg')?>" alt="e27"></a>
 	<h3 class="about">Community Partners</h3>

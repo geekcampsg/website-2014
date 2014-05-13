@@ -32,9 +32,9 @@ mixpanel.init("adeb4cfee8bc300c7ab493ca2052c1b5");</script><!-- end Mixpanel -->
 				<div class="span6">
 					<a href="<?php echo base_url() ?>"><img src="<?php echo base_url('static/images/geekcampsg-logo-hori.png')?>"></a>
 				</div>
-				<div class="span6">
+				<div class="span6 social">
 					<div class="fb-like" data-href="https://www.facebook.com/geekcampsg" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
-					<a href="https://twitter.com/geekcamp" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @GeekcampSG</a>
+					<div><a href="https://twitter.com/geekcamp" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @GeekcampSG</a></div>
 					<?php if($this->user_lib->is_logged_in()){ ?>
 					| <a href="<?php echo site_url('admin/view_all_talks')?>">View all talks</a>
 					<a href="<?php echo site_url('user/logout')?>">Logout</a>
