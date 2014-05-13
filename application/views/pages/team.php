@@ -15,7 +15,7 @@
 				<h4>Sayanee Basu</h4>
 			</div>
 			<div class="span3">
-				<img class="teamMemPhoto" src="<?php echo base_url('static/images/team/placeholder.jpg')?>">
+				<img class="teamMemPhoto" src="<?php echo base_url('static/images/team/shruti.jpg')?>">
 				<h4>Shruti Suresh</h4>
 			</div>
 		</div>
