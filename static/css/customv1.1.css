@@ -70,3 +70,10 @@ div .fb_reset {
     float:left;
     padding-left: 10px;
 }
+
+.teamMemPhoto{
+    vertical-align:top;
+    max-width:180px;
+    max-height: 180px;
+    padding-bottom:5px;
+}
