@@ -22,7 +22,7 @@
 		<div class="span10">
 			<h3>Hack Booths</h3>
 			<div class="span3">
-				<img class="teamMemPhoto" src="<?php echo base_url('static/images/team/placeholder.jpg')?>">
+				<img class="teamMemPhoto" src="<?php echo base_url('static/images/team/shan.jpg')?>">
 				<h4>Shanmugam Mpl</h4>
 			</div>
 		</div>
