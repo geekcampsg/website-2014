@@ -60,8 +60,6 @@
 	<h2 class="about">Partners</h2>
 	<p class="sublabel">Interested to work with us?</p>
 	<p class="sublabel">Drop us an email <a href="<?php echo site_url('pages/email')?>">here</a>.</p>
-	<h3 class="about">Digital Media Partner</h3>
-		<a onclick="mixpanel.track('Media Partner | Tech65')" href="http://www.tech65.org/" target="_blank"><img class="platinum-sponsor-images" src="<?php echo base_url('static/images/tech65-logo.jpg')?>" alt="tech65"></a>
 	<h3 class="about">Supporting Companies</h3>
 		<a onclick="mixpanel.track('Supporting | 12Geeks')" href="http://12Geeks.com/" target="_blank"><img class="supporting-company-images" src="<?php echo base_url('static/images/12geeks-logo.png')?>" alt="12Geeks"></a>
 	<h3 class="about">Media Partners</h3>
@@ -74,7 +72,6 @@
 		<a onclick="mixpanel.track('Community Partner | Singapore Geek Girls')" href="http://www.sggeekgirls.com" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/sg-geek-girls-logo.jpg')?>" alt="SG Geek Girls"></a>
 		<a onclick="mixpanel.track('Community Partner | Devops Singapore')" href="http://www.meetup.com/devops-singapore" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/devops-logo.png')?>" alt="DevOps Singapore"></a>
 		<a onclick="mixpanel.track('Community Partner | iOS Dev Scout')" href="http://iosdevscout.com" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/ios-dev-scout-logo.png')?>" alt="IOS Dev Scout"></a>
-		<a onclick="mixpanel.track('Community Partner | Little Hackers')" href="https://www.facebook.com/groups/littlehackers/" target="_blank" title="parent-and-child bonding through creative and techie projects"><img class="community-partner-images" src="<?php echo base_url('static/images/little-hackers-logo.png')?>" alt="A place for creative and techie kids to showcase their projects"></a>
 		<a onclick="mixpanel.track('Community Partner | PythonSG')" href="https://www.facebook.com/groups/pythonsg/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/pugs-logo.jpg')?>" alt="PUGS"></a>
 		<a onclick="mixpanel.track('Community Partner | Front End Developer')" href="https://www.facebook.com/groups/frontendsingapore/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/front-end-developer.jpg')?>" alt="Front End Developer"></a>
 		<a onclick="mixpanel.track('Community Partner | We Build SG')" href="http://webuild.sg/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/we-build-sg.jpg')?>" alt="We Build SG"></a>
