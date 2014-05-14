@@ -56,7 +56,7 @@
 			</div>
 		</div>
 		<div class="span10">
-			<h3>Video Team</h3>
+			<h3>Video</h3>
 			<div class="span3">
 				<img class="teamMemPhoto" src="<?php echo base_url('static/images/team/chinmay.jpg')?>">
 				<h4>Chinmay</h4>
