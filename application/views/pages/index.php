@@ -49,6 +49,7 @@
 	<?php } ?>
 </div>
 <div class="span5">
+	<h3><a href="<?php echo site_url('pages/team')?>">The Team</a></h3>
 	<h3 class="about">Subscribe to our mailing list</h2>
 	<!-- Begin MailChimp Signup Form -->
 	<form action="http://geekcamp.us6.list-manage1.com/subscribe/post?u=174cbd8da574a4c003fc8b319&amp;id=b3607cf4d3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
