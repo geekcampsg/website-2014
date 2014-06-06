@@ -40,13 +40,6 @@
 				<h4>Laurence Putra</h4>
 			</div>
 		</div>
-		<div class="span3">
-			<h3>Social Media</h3>
-			<div class="span3">
-				<img class="teamMemPhoto" src="<?php echo base_url('static/images/team/elisha.jpg')?>">
-				<h4>Elisha Tan</h4>
-			</div>
-		</div>
 		<div class="span10">
 			<h3>Venue</h3>
 			<div class="span3">
