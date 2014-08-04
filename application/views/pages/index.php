@@ -61,6 +61,10 @@
 	<h2 class="about">Partners</h2>
 	<p class="sublabel">Interested to work with us?</p>
 	<p class="sublabel">Drop us an email <a href="<?php echo site_url('pages/email')?>">here</a>.</p>
+	<h3 class="about">Lunch Sponsor</h3>
+		<a onclick="mixpanel.track('Sponsor | PayPal')" href="http://paypal.com/" target="_blank"><img class="platinum-sponsor-images" src="<?php echo base_url('static/images/paypal-logo-new.png')?>" alt="12Geeks"></a>
+	<h3 class="about">Venue Sponsor</h3>
+		<a onclick="mixpanel.track('Sponsor | SoC')" href="http://www.comp.nus.edu.sg/" target="_blank"><img class="platinum-sponsor-images" src="<?php echo base_url('static/images/soc-logo.png')?>" alt="12Geeks"></a>
 	<h3 class="about">Supporting Companies</h3>
 		<a onclick="mixpanel.track('Supporting | 12Geeks')" href="http://12Geeks.com/" target="_blank"><img class="supporting-company-images" src="<?php echo base_url('static/images/12geeks-logo.png')?>" alt="12Geeks"></a>
 	<h3 class="about">Media Partners</h3>
