@@ -5,7 +5,7 @@
 	<p class="subtitle">Conference for the geeks.</p>
 	<p class="subtitle">No startup talks. No how to get rich talks. This is purely a tech conference.</p> 
 	<p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>18th October 2014</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>NUS School of Computing</b></p>
-	<p class="subtitle"><a href="<?php echo site_url('talk/submit_talk') ?>">Submit</a> your talk now!</b></p>
+	<p class="subtitle">Talk Submissions have closed. Voting will close on <b>Sept 15th</b></p>
 	<h2 class="about">Topics up for voting!</h2>
 	<a name="talks"></a>
 	<?php if($talks == NULL || $talks->count() == 0){ ?>
