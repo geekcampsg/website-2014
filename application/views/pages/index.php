@@ -7,6 +7,7 @@
 	<p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>18th October 2014</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>NUS School of Computing</b></p>
 	<p class="subtitle">Talk Submissions have closed. Voting will close on <b>Sept 15th</b></p>
 	<p class="subtitle">Shirt sales can be found over at <a href="https://www.slingprint.com/geekcampsg14" target="_blank">Slingprint</a></p>
+	<p class="subtitle">Ticket sales can be found over at <a href="http://geekcampsg14.peatix.com/" target="_blank">Peatix</a></p>
 	<h2 class="about">Topics up for voting!</h2>
 	<a name="talks"></a>
 	<?php if($talks == NULL || $talks->count() == 0){ ?>
