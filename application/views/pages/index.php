@@ -63,9 +63,7 @@
 	<h2 class="about">Partners</h2>
 	<p class="sublabel">Interested to work with us?</p>
 	<p class="sublabel">Drop us an email <a href="<?php echo site_url('pages/email')?>">here</a>.</p>
-	<h3 class="about">Lunch Sponsor</h3>
-		<a onclick="mixpanel.track('Sponsor | PayPal')" href="http://paypal.com/" target="_blank"><img class="platinum-sponsor-images" src="<?php echo base_url('static/images/paypal-logo-new.png')?>" alt="PayPal"></a>
-	<h3 class="about">Afterparty Sponsor</h3>
+	<h3 class="about">Lunch + Afterparty Sponsor</h3>
 		<a onclick="mixpanel.track('Sponsor | PayPal')" href="http://paypal.com/" target="_blank"><img class="platinum-sponsor-images" src="<?php echo base_url('static/images/paypal-logo-new.png')?>" alt="PayPal"></a>
 	<h3 class="about">Venue Sponsor</h3>
 		<a onclick="mixpanel.track('Sponsor | SoC')" href="http://www.comp.nus.edu.sg/" target="_blank"><img class="platinum-sponsor-images" src="<?php echo base_url('static/images/soc-logo.png')?>" alt="School Of Computing"></a>
