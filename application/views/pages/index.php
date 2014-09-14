@@ -8,19 +8,21 @@
 	<p class="subtitle">Talk Submissions have closed. Voting will close on <b>Sept 15th</b></p>
 	<p class="subtitle">Shirt sales can be found over at <a href="https://www.slingprint.com/geekcampsg14" target="_blank">Slingprint</a></p>
 	<p class="subtitle">Ticket sales can be found over at <a href="http://geekcampsg14.peatix.com/" target="_blank">Peatix</a></p>
-	<h2 class="about">Topics up for voting!</h2>
+	<iframe frameborder="0" width="500" height="500" src="http://peatix.com/event/49979/share/widget?z=1&t=1&a=1"></iframe>
 	<a name="talks"></a>
-	<?php if($talks == NULL || $talks->count() == 0){ ?>
-	<p class="subtitle">No talks submitted for this year yet. <b></p>
+	<?php if(true || $talks == NULL || $talks->count() == 0){ ?>
+	<!-- <h2 class="about">Topics up for voting!</h2> -->
+	<p class="subtitle">Voting is over!<b></p>
 	<?php }
 	else{?>
+	<h2 class="about">Topics up for voting!</h2>
 	<table class="table table-bordered table-striped">
 		<thead>
 			<tr>
 				<th>Topic</th>
 				<th>Speaker</th>
 			</tr>
-		</thead>
+		</thead>height="400"
 		<tbody>
 			<?php foreach ($talks as $talk) { ?>
 			<tr>
