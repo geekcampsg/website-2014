@@ -5,9 +5,13 @@
 	<p class="subtitle">Conference for the geeks.</p>
 	<p class="subtitle">No startup talks. No how to get rich talks. This is purely a tech conference.</p> 
 	<p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>18th October 2014</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>NUS School of Computing</b></p>
-	<p class="subtitle">Talk Submissions have closed. Voting will close on <b>Sept 15th</b></p>
-	<p class="subtitle">Shirt sales can be found over at <a href="https://www.slingprint.com/geekcampsg14" target="_blank">Slingprint</a></p>
-	<p class="subtitle">Ticket sales can be found over at <a href="http://geekcampsg14.peatix.com/" target="_blank">Peatix</a></p>
+	<p class="subtitle">Important!</p>
+	<ol>
+		<li>Please ignore the Standard and Student tickets. They have been replaced by the Conference tickets!</li>
+		<li>Conference only tickets includes the afterparty as PayPal has kindly decided to sponsor. We are however unable to change the name of the ticket :(</li>
+		<li>Please get only ONE ticket with every name/email address, We might have to delete duplicates when the event becomes full.</li>
+	</ol>
+	
 	<iframe frameborder="0" width="500" height="500" src="http://peatix.com/event/49979/share/widget?z=1&t=1&a=1"></iframe>
 	<a name="talks"></a>
 	<?php if(true || $talks == NULL || $talks->count() == 0){ ?>
