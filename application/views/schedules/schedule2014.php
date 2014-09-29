@@ -51,7 +51,7 @@
                 </tr>
                 <tr>
                     <td>3:45 - 4:30</td>
-                    <td>RaspyJuice and other hardware projects by <strong>Kenneth Lim</strong></td>
+                    <td>Making hardware come Alive by <strong>Kenneth Lim</strong></td>
                     <td>Ohai, Elixir! by <strong>Benjamin Tan</strong></td>
                 </tr>
                 <tr>
