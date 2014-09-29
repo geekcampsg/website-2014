@@ -56,7 +56,7 @@
                 </tr>
                 <tr>
                     <td>4:30 - 5:15</td>
-                    <td>RaspyJuice and other hardware projects by <strong>Adnan</strong></td>
+                    <td>Loco(motion) by <strong>Adnan</strong></td>
                     <td>Bluetooth Low Energy on iOS by <strong>Mugunth Kumar</strong></td>
                 </tr>
                 <tr>
