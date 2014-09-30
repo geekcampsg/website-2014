@@ -22,7 +22,7 @@
                 </tr>
                 <tr>
                     <td>11:00 - 11:45</td>
-                    <td>An adventure beyond Arduinos and RPi's by <strong>Michelle Lye</strong></td>
+                    <td>Free Wheatley - Breathing life into iconic figurines by <strong>Michelle Lye</strong></td>
                     <td></td>
                 </tr>
                 <tr>
