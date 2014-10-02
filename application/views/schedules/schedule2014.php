@@ -61,7 +61,7 @@
                 </tr>
                 <tr>
                     <td>5:15 - 6:00</td>
-                    <td>Game of Drones: Algorithms and hardware design for Quadcopters by <strong>Bill Hsu</strong></td>
+                    <td>Game of Drones: Algorithms and hardware design for Quadcopters by <strong>Shipeng Xu</strong></td>
                     <td>The internet of things (that make beer) by <strong>Markus Baden</strong></td>
                 </tr>
                 <tr>
