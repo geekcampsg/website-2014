@@ -36,7 +36,7 @@
                 </tr>
                 <tr>
                     <td>1:30 - 2:15</td>
-                    <td>TBC by <strong>Dr Vivian Balakrishnan</strong></td>
+                    <td>Tech adventures of a minister by <strong>Dr Vivian Balakrishnan</strong></td>
                     <td>AB testing framework (in Go) for more than just color/copy changes by <strong>Ishan Agrawal</strong></td>
                 </tr>
                 <tr>
