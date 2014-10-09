@@ -1,4 +1,5 @@
 <link href="<?php echo base_url('static/css/prettyPhoto.css')?>" rel="stylesheet">
+<p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>18th October 2014</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>NUS School of Computing</b></p>
 <div class="span11">
     <div class="padded-element">
         <table class="table">
@@ -56,7 +57,7 @@
                 </tr>
                 <tr>
                     <td>4:30 - 5:15</td>
-                    <td>Loco(motion) by <strong>Adnan</strong></td>
+                    <td>The Last Great Hardware Show by <strong>Dave Appleton</strong></td>
                     <td>Bluetooth Low Energy on iOS by <strong>Mugunth Kumar</strong></td>
                 </tr>
                 <tr>
