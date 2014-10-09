@@ -9,15 +9,15 @@
 		<meta property="og:type" content="website">
 		<meta property="og:title" content="<?php echo isset($meta_title)?$meta_title:'Geekcamp.SG'?>">
 		<meta property="og:description" content="<?php echo isset($meta_description)?$meta_description:'Vote for your favourite talks here!'; ?>">
-		<meta property="og:image" content="<?php echo base_url()?>static/images/geekcamp-logo-og.jpg" />
+		<meta property="og:image" content="/static/images/geekcamp-logo-og.jpg" />
 		<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
 		<!--[if lt IE 9]>
-			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="http://html5shim.googlecode.comb/svn/trunk/html5.js"></script>
 		<![endif]-->
 
 		<!-- Le styles -->
-		<link href="<?php echo base_url()?>static/css/bootstrap.css" rel="stylesheet">
-		<link href="<?php echo base_url()?>static/css/customv1.1.css" rel="stylesheet">
+		<link href="/static/css/bootstrap.css" rel="stylesheet">
+		<link href="/static/css/customv1.1.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
 		<!-- start Mixpanel --><script type="text/javascript">(function(c,a){window.mixpanel=a;var b,d,h,e;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src=("https:"===c.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.0.min.js';d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d);a._i=[];a.init=function(b,c,f){function d(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)))}}var g=a;"undefined"!==typeof f?
 g=a[f]=[]:f="mixpanel";g.people=g.people||[];h="disable track track_pageview track_links track_forms register register_once unregister identify name_tag set_config people.set people.increment".split(" ");for(e=0;e<h.length;e++)d(g,h[e]);a._i.push([b,c,f])};a.__SV=1.1})(document,window.mixpanel||[]);
