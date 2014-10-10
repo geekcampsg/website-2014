@@ -23,7 +23,7 @@
                 </tr>
                 <tr>
                     <td>11:00 - 11:45</td>
-                    <td>Free Wheatley - Breathing life into iconic figurines by <strong>Michelle Lye</strong></td>
+                    <td>Hack and Mod - The art of ripping out the guts of off-the-shelf iconic figurines and breathing life into them by <strong>Michelle Lye</strong></td>
                     <td></td>
                 </tr>
                 <tr>
