@@ -18,7 +18,7 @@
                 </tr>
                 <tr>
                     <td>10:15 - 11:00</td>
-                    <td>Keynote: Introduction to Distributed Systems by <strong>Raymond Tay</strong></td>
+                    <td>Distributed Computing for New Bloods by <strong>Raymond Tay</strong></td>
                     <td></td>
                 </tr>
                 <tr>
