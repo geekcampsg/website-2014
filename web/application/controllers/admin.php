@@ -23,7 +23,7 @@ class Admin extends CI_Controller {
 	 * Generally, $count is not used at all.
 	 * Requires: Logged in User
 	*******************/
-	public function view_all_talks($page = 0, $count = 50){
+	public function view_all_talks($page = 1, $count = 50){
 		if($this->user_lib->is_logged_in()){
 			$this->load->library('pagination');
 			$this->load->model('talk_model');
@@ -36,7 +36,7 @@ class Admin extends CI_Controller {
 			$config['use_page_numbers'] = TRUE;
 			$this->pagination->initialize($config);
 
-			$data['talks'] = $this->talk_model->get_all_talks($page, $count);
+			$data['talks'] = $this->talk_model->get_all_talks($page - 1, $count);
 			$data['content'] = $this->load->view('admin/view_all_talks', $data, TRUE);
 			$this->load->view('core', $data);
 		}

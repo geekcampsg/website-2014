@@ -18,7 +18,12 @@
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
+if ($_SERVER["ENVIRONMENT"]) {
+	define('ENVIRONMENT', $_SERVER["ENVIRONMENT"]);
+}
+else{
 	define('ENVIRONMENT', 'development');
+}
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING

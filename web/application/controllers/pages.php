@@ -74,7 +74,7 @@ class Pages extends CI_Controller {
 	 * Allows users to email the organisers
 	 * Shows email success page on success
 	*******************/
-	public function email(){
+	public function _email(){
 		$this->load->library('form_validation');
 
 		$this->form_validation->set_rules('name', 'Name', 'trim|required|stripcslashes');

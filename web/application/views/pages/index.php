@@ -5,7 +5,7 @@
 	<p class="subtitle">Conference for the geeks.</p>
 	<p class="subtitle">No startup talks. No how to get rich talks. This is purely a tech conference.</p> 
 	<p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>18th October 2014</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>NUS School of Computing</b></p>
-	<p class="subtitle"><b>Schedule</b> can now be found over <a href="http://geekcamp.sg/schedule/view_schedule/2014">here</a></p>
+	<p class="subtitle"><b>Schedule</b> can now be found over <a href="/schedule/view_schedule/2014">here</a></p>
 	<p class="subtitle">Important!</p>
 	<ol>
 		<li>Conference tickets includes the afterparty as PayPal has kindly decided to sponsor.</li>
@@ -67,8 +67,7 @@
 
 	<!--End mc_embed_signup-->
 	<h2 class="about">Partners</h2>
-	<p class="sublabel">Interested to work with us?</p>
-	<p class="sublabel">Drop us an email <a href="<?php echo site_url('pages/email')?>">here</a>.</p>
+	Interested in working with us? Contact us via the Zopim widget below!
 	<h3 class="about">Lunch + Afterparty Sponsor</h3>
 		<a onclick="mixpanel.track('Sponsor | PayPal')" href="http://paypal.com/" target="_blank"><img class="platinum-sponsor-images" src="<?php echo base_url('static/images/paypal-logo-new.png')?>" alt="PayPal"></a>
 	<h3 class="about">Venue Sponsor</h3>
