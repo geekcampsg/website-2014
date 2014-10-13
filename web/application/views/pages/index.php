@@ -3,7 +3,7 @@
 <div class="span7">
 	<h2>What is it?</h2>
 	<p class="subtitle">Conference for the geeks.</p>
-	<p class="subtitle">No startup talks. No how to get rich talks. This is purely a tech conference.</p> 
+	<p class="subtitle">No startup talks. No how to get rich talks. This is purely a tech conference.</p>
 	<p class="subtitle">Hashtag: <b>#geekcampsg</b> | Date: <b>18th October 2014</b> | Time: <b>9:30am to 6pm (Afterparty afterwards)</b> | Location: <b>NUS School of Computing</b></p>
 	<p class="subtitle"><b>Schedule</b> can now be found over <a href="/schedule/view_schedule/2014">here</a></p>
 	<p class="subtitle">Important!</p>
@@ -11,7 +11,7 @@
 		<li>Conference tickets includes the afterparty as PayPal has kindly decided to sponsor.</li>
 		<li>Please get only ONE ticket with every name/email address, We might have to delete duplicates when the event becomes full.</li>
 	</ol>
-	
+
 	<iframe frameborder="0" width="500" height="500" src="http://peatix.com/event/49979/share/widget?z=1&t=1&a=1"></iframe>
 	<a name="talks"></a>
 	<?php if(true || $talks == NULL || $talks->count() == 0){ ?>
@@ -32,7 +32,7 @@
 			<tr>
 				<td>
 					<a id="<?php echo $talk['_id'] ?>"></a>
-					<?php 
+					<?php
 					$url_share_normal = site_url('talk/view/'.$talk['_id']);
 					?>
 					<a href="<?php echo $url_share_normal ?>"><b><?php echo $talk['title']?></b></a><br />
@@ -42,7 +42,7 @@
 						<div style="width:90px;" class="fb-like" data-href="<?php echo $url_share_normal ?>" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
 						<div class="g-plusone" data-href="<?php echo $url_share_normal ?>" data-width="90" data-size="medium"></div>
 					</div>
-					
+
 				</td>
 				<td><?php echo $talk['speaker_name'] ?><br />
 					<?php if($talk['twitter_handle']){ ?>
@@ -87,7 +87,7 @@
 		<a onclick="mixpanel.track('Community Partner | PythonSG')" href="https://www.facebook.com/groups/pythonsg/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/pugs-logo.jpg')?>" alt="PUGS"></a>
 		<a onclick="mixpanel.track('Community Partner | Front End Developer')" href="https://www.facebook.com/groups/frontendsingapore/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/front-end-developer.jpg')?>" alt="Front End Developer"></a>
 		<a onclick="mixpanel.track('Community Partner | We Build SG')" href="http://webuild.sg/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/we-build-sg.jpg')?>" alt="We Build SG"></a>
-		<a onclick="mixpanel.track('Community Partner | Agile SG')" href="https://www.facebook.com/groups/agiledevopssg/" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/agile-sg.jpg')?>" alt="Agile SG"></a>
+		<a onclick="mixpanel.track('Community Partner | Agile SG')" href="http://meetup.com/Agile-Singapore" target="_blank"><img class="community-partner-images" src="<?php echo base_url('static/images/agile-sg.jpg')?>" alt="Agile SG"></a>
 </div>
 <script type="text/javascript" src="<?php echo base_url('static/js/jquery-1.7.2.min.js')?>"></script>
 <script type="text/javascript" src="<?php echo base_url('static/js/jquery.prettyPhoto.js')?>"></script>
