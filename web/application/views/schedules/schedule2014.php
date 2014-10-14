@@ -23,7 +23,7 @@
                 </tr>
                 <tr>
                     <td>11:00 - 11:45</td>
-                    <td>Free Wheatley - Breathing life into iconic figurines by <strong>Michelle Lye</strong></td>
+                    <td>Free Wheatley - Breathing Life into Iconic Figurines by <strong>Michelle Lye</strong></td>
                     <td></td>
                 </tr>
                 <tr>
@@ -37,22 +37,22 @@
                 </tr>
                 <tr>
                     <td>1:30 - 2:15</td>
-                    <td>Tech adventures of a minister by <strong>Dr Vivian Balakrishnan</strong></td>
-                    <td>AB testing framework (in Go) for more than just color/copy changes by <strong>Ishan Agrawal</strong></td>
+                    <td>Tech Adventures of a Minister by <strong>Dr Vivian Balakrishnan</strong></td>
+                    <td>AB Testing Framework (in Go) for More Than Just Color/Copy Changes by <strong>Ishan Agrawal</strong></td>
                 </tr>
                 <tr>
                     <td>2:15 - 3:00</td>
-                    <td>Building awesome user interfaces by <strong>Prof Zhao</strong></td>
-                    <td>So what about Ruby on Rails?... from a PHP Guy by <strong>Michael Cheng</strong></td>
+                    <td>Building Awesome User Interfaces by <strong>Prof Zhao</strong></td>
+                    <td>So What About Ruby on Rails?... from a PHP Guy by <strong>Michael Cheng</strong></td>
                 </tr>
                 <tr>
                     <td>3:00 - 3:45</td>
-                    <td>Why HTML5 doesn't work for Mobile Apps by <strong>Subhransu Behera</strong></td>
-                    <td>ES6 - The future of Javascript by <strong>Ryo Chikazawa</strong></td>
+                    <td>Why HTML5 Doesn't Work for Mobile Apps by <strong>Subhransu Behera</strong></td>
+                    <td>ES6 - The Future of Javascript by <strong>Ryo Chikazawa</strong></td>
                 </tr>
                 <tr>
                     <td>3:45 - 4:30</td>
-                    <td>Making hardware come Alive by <strong>Kenneth Lim</strong></td>
+                    <td>Making Hardware Come Alive by <strong>Kenneth Lim</strong></td>
                     <td>Ohai, Elixir! by <strong>Benjamin Tan</strong></td>
                 </tr>
                 <tr>
@@ -62,8 +62,8 @@
                 </tr>
                 <tr>
                     <td>5:15 - 6:00</td>
-                    <td>Game of Drones: Algorithms and hardware design for Quadcopters by <strong>Shipeng Xu</strong></td>
-                    <td>The internet of things (that make beer) by <strong>Markus Baden</strong></td>
+                    <td>Game of Drones: Algorithms and Hardware Design for Quadcopters by <strong>Shipeng Xu</strong></td>
+                    <td>The Internet of Things (That Make Beer) by <strong>Markus Baden</strong></td>
                 </tr>
                 <tr>
                     <td>6:00 - 6:15</td>
@@ -72,7 +72,7 @@
                 </tr>
                 <tr>
                     <td>6:15 till late</td>
-                    <td colspan="2">After party @ Sapore</td>
+                    <td colspan="2">Afterparty @ Sapore</td>
                 </tr>
             </tbody>
         </table>
