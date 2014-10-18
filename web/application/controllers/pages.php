@@ -112,6 +112,14 @@ Sending Script: $_SERVER[HTTP_HOST]$_SERVER[PHP_SELF]";
 		$data['content'] = $this->load->view('pages/team', '', TRUE);
 		$this->load->view('core', $data);
 	}
+	
+	/*******************
+	 * ctf page
+	*******************/
+	public function team(){
+		$data['content'] = $this->load->view('pages/ctf', '', TRUE);
+		$this->load->view('core', $data);
+	}
 
 	/*******************
 	 * 404 page
