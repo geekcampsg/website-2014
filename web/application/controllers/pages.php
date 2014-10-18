@@ -116,7 +116,7 @@ Sending Script: $_SERVER[HTTP_HOST]$_SERVER[PHP_SELF]";
 	/*******************
 	 * ctf page
 	*******************/
-	public function team(){
+	public function ctf(){
 		$data['content'] = $this->load->view('pages/ctf', '', TRUE);
 		$this->load->view('core', $data);
 	}
