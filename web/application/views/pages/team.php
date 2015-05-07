@@ -33,13 +33,6 @@
 				<h4>Vishnu Prem</h4>
 			</div>
 		</div>
-		<div class="span3">
-			<h3>Sponsorship</h3>
-			<div class="span3">
-				<img class="teamMemPhoto" src="<?php echo base_url('static/images/team/laurence.jpg')?>">
-				<h4>Laurence Putra</h4>
-			</div>
-		</div>
 		<div class="span10">
 			<h3>Venue</h3>
 			<div class="span3">
